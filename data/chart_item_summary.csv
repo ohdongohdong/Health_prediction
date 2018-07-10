@@ -1,0 +1,6464 @@
+,itemid,count,label
+0,3565,3825,Parent Info given
+1,2848,1,JP #1 R SITE/DRAINAG
+2,2026,2,High time
+3,6158,1,"Lytes,Trig,Bili"
+4,3028,1,p high
+5,2409,1,nitro mcg/kg/min
+6,225771,262,Sheath Zero/Calibrate
+7,4349,28,Chloral Hydrate
+8,4718,1,Broviac dsg Change
+9,3370,471,Cobedding
+10,4466,11,hep B
+11,223837,9216,ETT Size (ID)
+12,224890,1354,Impaired Skin Cleanse #4
+13,6873,1,low MV
+14,2961,1,leprudin
+15,496,1767,PCA Dose
+16,8394,6172,INV Line#3 [Site]
+17,2265,5,MVO2
+18,6122,1,PRE OP PREP
+19,4888,9,lasix
+20,1101,14,PROTONIX
+21,2311,7,VT
+22,6967,1,right arm elevated
+23,227597,6,Impaired Skin Depth #10
+24,599,27150,RUL Lung Sounds
+25,8533,16,"Seizure [Duration, seconds]"
+26,3323,1030,BP Right Leg [Systolic]
+27,3071,1,ACE WRAP B LEGS
+28,6810,1,APNEA sec
+29,2769,1,left radial ABP
+30,225118,13181,Difficulty swallowing
+31,224144,530,Blood Flow (ml/min)
+32,4321,4,Glycerine
+33,227366,4518,16 Gauge Dressing Occlusive
+34,6169,1,Diaper
+35,225099,14352,Judgement
+36,1820,2,alcohol bath
+37,4875,27,cyclopentolate
+38,224854,85,Reason for Restraint (Acute Medical/Surgical)_V1
+39,7477,1,hood
+40,3652,5508,Temp Axillary [F]
+41,228344,2372,"OCAT - Saliva secretions, Voice quality"
+42,227056,2,Thrombolytic therapy
+43,2627,1,RIGHT FEM ALINE
+44,5729,10,bair hugger
+45,5587,1,CYCLOSPORIN --MG/HR
+46,6466,1,P-Low
+47,359,863,ImpSkin Treatment #4
+48,1060,18,ammonia
+49,225003,20,Incision Closure #6
+50,3322,1030,BP Right Leg [Mean]
+51,26,1185,AaDO2
+52,8549,17384,HR Alarm [High]
+53,228307,3080,GI #1 Tube Place Check
+54,227837,287,Toileting
+55,1478,1,pericard drain irr.
+56,3367,331,Circumcision
+57,1543,1,chest tube drsg.
+58,7003,2,Broviac dressing sie
+59,227677,41,Reason for Restraint/Seclusion (Violent)
+60,1229,8,sling
+61,227346,21701,Mental status
+62,220739,21873,GCS - Eye Opening
+63,227021,7,Intubated_ApacheIV
+64,6312,6,Abdominal Binder
+65,3483,2361,Kangaroo Care [Time]
+66,2150,3,CHEST PT
+67,5565,3,Isuprel
+68,7981,1,G tube dsg
+69,4650,4,Umbilical Hernia
+70,220277,21904,O2 saturation pulseoxymetry
+71,224889,2223,Impaired Skin Cleanse #3
+72,3666,340,Transducer Calibrate
+73,224178,234,Small Volume Neb Dose #2
+74,2640,1,SJ PH
+75,1726,2,HIGH MIN VENT
+76,4722,1,Atropine eye oint
+77,224692,9954,Flow Pattern
+78,8519,67,Hernia [Left]
+79,1116,1,passey-muir valve
+80,224960,1201,Impaired Skin Wound Base #4
+81,1487,16,hi min vent
+82,786,24693,Calcium (8.4-10.2)
+83,220580,521,Ammonia
+84,4388,10,EYE EXAM
+85,226730,11811,Height (cm)
+86,8087,1,sigh rate
+87,227916,167,Rest HR -  Aerobic Activity Response
+88,5142,1,Butt Paste
+89,7245,1,CALCIUM GLUC ML/HR
+90,2755,2,XIGRIS CC/HR
+91,3142,3,high rr
+92,541,2,PetCO2/TcCO2
+93,7697,2,LEG ROLL
+94,1582,6,P high
+95,4198,1,Retic count (.0-1.5)
+96,226746,5,ApacheII chronic health
+97,7818,1,Chest Dressing
+98,5796,1,lochia
+99,227570,4008,Small Volume Neb Drug/Dose #1
+100,2452,1,LEG DSD CHANGE
+101,6960,4,teds
+102,6068,1,dtap-hepb-ipv comb.
+103,5605,8,Miconazole Powder
+104,5080,4,K phos
+105,537,173,Pericard Drain Site
+106,5099,1,NaCl Supps
+107,2300,1,L LEG WAFFLE BOOT
+108,224450,1,Traction/Immobile #3
+109,7214,1,prednisolone nosedrp
+110,8372,91,Brachial Pulse [Left]
+111,8178,1,Heated Aerosol Neb
+112,227782,1504,Impaired Skin  - Dressing Status #3
+113,4475,11,Insulin
+114,6680,1,trusopt
+115,227429,9678,Troponin-T
+116,6003,1,ph level
+117,325,21274,IV Site Appear #2
+118,223991,20777,Cough Effort
+119,223947,20507,PostTib. Pulses L
+120,142,492,Current Goal
+121,1999,1,Pronator Drift
+122,226753,13,DswfApacheScore
+123,227834,230,LE Bathing
+124,1333,1,perineum care
+125,6782,3,nephrostomy
+126,4986,14,Vi-Daylin
+127,3124,1,LEFT AXILLA PULSE
+128,5561,1,INEXSUFF
+129,5048,28,trivisol
+130,225958,121,Heparin Concentration (units/mL)
+131,3510,55,Molding
+132,7300,5,hairwashed
+133,7088,1,Right Fem site
+134,5329,1,Dopamine
+135,4910,13,glycerin supp.
+136,227683,48,Restraint/Seclusion Observer Sheet
+137,3335,4931,Boundaries
+138,6309,1,24hr Caregiver
+139,227808,37,Heliox
+140,228153,2,Dual Signal Screen
+141,6585,1,NPH units
+142,8399,33,INV Line#8 [Site]
+143,227537,1820,ART Blood Pressure Alarm - High
+144,226892,169,Re-admit < 48 hours
+145,3045,1,SPONT VT
+146,227752,2042,Cordis/Introducer Placement Confirmed by X-ray
+147,7027,3,vacuum
+148,227783,872,Impaired Skin - Dressing Status  #4
+149,1389,1,egg crate
+150,1364,2,ALCOHOL BATH
+151,224084,21843,Activity
+152,655,8478,Spontaneous Movement
+153,2019,1,High min vol.
+154,6465,1,P-High
+155,6987,1,bladder pse.
+156,167,17744,Education Learner
+157,224991,134,Undermining Present #7
+158,6163,1,Lumbar drain output
+159,5656,3,phenylephrine
+160,8446,219,Orthostatic BP lying [Diastolic]
+161,478,27155,Oral Cavity
+162,227000,7,BUN_ApacheIV
+163,8523,620,IV #3 [Location]
+164,226137,12711,18 Gauge placed in outside facility
+165,6170,1,Actual PEFR
+166,1982,5,HIGH MV ALARM
+167,224988,576,Undermining Present #4
+168,220587,11482,AST
+169,458,74,Nares [Right]
+170,4414,12,cyclopentolate 1%
+171,629,2944,Seizure Activity
+172,2572,1,V02I
+173,223782,20178,Pain Type
+174,8305,1,ICP  Right
+175,3564,2464,Parent Ed/Support
+176,71,8457,BSA - Metric
+177,1606,1,spinal precautions
+178,4355,20,circ care
+179,2761,1,passey-muir
+180,624,512,Return Pressure mmHg
+181,626,6187,SVR
+182,2693,1,LEPIRUDIN
+183,3242,1,NICARDIPINE MCQ/KG/M
+184,227240,20942,NBP Alarm Source
+185,823,5025,Mixed Venous O2% Sat
+186,1528,5857,Fibrinogen
+187,227929,100,Position - Recovery - Aerobic Activity Response
+188,8484,1967,Ventricular Pacemaker [Sensitivity]
+189,4360,1,Nystatin oral.
+190,8491,2389,Atrial Pacemaker Sense [mA]
+191,6210,1,PHENOBARB & DILANTIN
+192,1374,1,ICP Right
+193,6286,1,FLOW
+194,1981,1,HighMV Alarm
+195,2925,2,flow trigger
+196,3492,16,Lorazepam/Ativan
+197,5347,1,tobradex oint
+198,2363,1,CINA SCALE
+199,224633,3446,Undermining Present #1
+200,228099,7846,18 Gauge placed in the field
+201,1000,3,cisatricurium
+202,227474,957,Incision Site #3
+203,225070,7555,Unable to assess psychological
+204,228374,97,Stroke Volume (SV NICOM)
+205,2522,1,HFO-MAP
+206,227961,7869,Side  Rails
+207,2542,1,TOF TWICH MONITOR
+208,211,34902,Heart Rate
+209,7493,1,t-Hi
+210,7632,1,NO Tank Pressure
+211,1963,4,SITTER
+212,225112,4428,Unable to assess pain
+213,6964,1,Epidural ml/hr
+214,6118,1,NYSTATIN OINTMENT
+215,228448,2,Angio Dressing # 4
+216,5210,1,Atropine eye oint.
+217,77,25248,Behavior
+218,224953,552,Impaired Skin Width #4
+219,225743,54,Midline Discontinued
+220,140,1580,Cuff Leak
+221,228146,6,ABI Brachial BP R
+222,4976,3,prune juice po/pg
+223,226772,13,PotassiumApacheIIValue
+224,56,4157,Atrial Pacemaker [Sense]
+225,1966,1,HI MV Alarm
+226,8048,1,C.O.
+227,2373,8,APROTININ ML/HR
+228,6790,1,SSRI #units
+229,5865,1,APRV Pressure High
+230,6129,1,time Lo
+231,8466,14388,Pupil Response [Left]
+232,3384,2832,Dad held infant
+233,4291,2,Fosphenytoin
+234,224101,2408,Chest PT R/L
+235,228449,11,Angio Site # 3
+236,224054,21810,Braden Sensory Perception
+237,4449,5,Cardiac consult
+238,8301,2,Recruitment pressure
+239,5762,1,rectal tube care
+240,224674,139,Changes in Temperature
+241,227543,485,CO (Arterial)
+242,2112,1,continuous C.O
+243,7934,1,nystatin S&S
+244,224976,412,Surrounding Tissue #6
+245,227963,290,Restraints Ordered (Violent)
+246,224005,14473,Flatus
+247,223840,248,ETT Re-taped
+248,2339,7,APROTONIN
+249,712,12,VO2 (200-250)
+250,228446,1,Angio Appearance # 4
+251,3082,4,HIGH TIDAL VOL
+252,8362,142,ABI Ankle BP [Left]
+253,224935,393,Impaired Skin Site #7
+254,1910,19,BAth
+255,6657,2,DP
+256,8320,2,G-tube site
+257,4189,213,Sucrose
+258,977,6,TRACHE CARE
+259,7534,1,Intrinsic peep
+260,8433,1029,Inc #4 [Status]
+261,376,2020,Impaired Skin Site#3
+262,227872,173,Recovery RR - Aerobic Capacity
+263,227672,55,Violent Restraints Ordered
+264,224001,21635,Diet Type
+265,1427,19848,GI Prophylaxis [Drug #1]
+266,515,4922,Pacemaker Mode
+267,2992,1,Argatroban mcg/kg/m
+268,228303,1888,CAM-ICU Disorganized thinking
+269,2783,2,edv
+270,1542,21034,WBC
+271,6287,1,antibiotic ointmt.
+272,6298,1,foley d/c
+273,8517,1478,FIO2 Alarm [High]
+274,1551,26,high MV
+275,226980,7,AgeScore_ApacheIV
+276,6407,1,Warm compress
+277,2717,3,NITRIC OXIDE
+278,8011,3,chest binder
+279,5610,1,BP Q8H
+280,4435,6,Circ. Site
+281,165,16955,Education Barrier
+282,224367,212,Epidural Total Dose (mL)
+283,5803,1,Femoral Sheath Aline
+284,5838,1,jobst bra
+285,4312,3,hydrocortisone
+286,6247,1,caf load
+287,570,2341,PressSoreWoundBase#1
+288,2968,3,FEM ART BP
+289,7780,1,LASIX
+290,1049,1,AICD
+291,7353,1,P.high
+292,7947,1,"Splint off,skin chk"
+293,227448,66,Gentamicin (Peak)
+294,5770,1,dexamethasone eye ds
+295,6058,1,uric acid
+296,7779,1,Critic-aid oint
+297,6056,1,right fem sheath
+298,223765,154,Orthostatic HR sitting
+299,7327,1,Passimier valve
+300,609,2310,Remote Alarm
+301,228451,6,Compression device # 3
+302,429,15,LVAD Flow LPM
+303,224754,2234,Temporary Atrial Stim Threshold mA
+304,226113,5959,Multi Lumen placed in outside facility
+305,7397,1,Ace wrap on left fot
+306,3029,2,p low
+307,2480,1,CISATRACUR.MCG/KG/MI
+308,224907,334,Impaired Skin Drainage #7
+309,2687,6,AMMONIA
+310,6906,1,An GAP
+311,7650,1,Salicylate
+312,2692,1,URINE SODIUM
+313,3161,1,Hi Minute Volume
+314,6768,1,tank pressure
+315,226993,12,ApacheIV_LOS
+316,6337,1,PICC line site
+317,6643,1,Temp Rectal
+318,8230,1,sheepskin for heels
+319,8410,2586,ImpSkin #1 [Length]
+320,227853,52,Other (Activity); Specify
+321,530,3972,Peak Flow
+322,5821,1,TBILI
+323,653,55,Spont. Resp. Rate
+324,6031,2,PADS/NECK INCISION.
+325,1405,2,L AND R CALF DRSG
+326,3458,284,HiB Vaccine
+327,8377,944,Capillary Refill [Left]
+328,7219,1,skin laceration
+329,227643,5,Breast Feeding - L
+330,2351,1,GROIN BP
+331,108,32,CT #4 Crepitus
+332,223902,19158,Speech
+333,7646,1,Nailbed circulation
+334,228336,1874,CAM-ICU Inattention
+335,2362,1,STRENAL WOUND
+336,1089,17509,PainLevel Acceptable
+337,65,134,BIPAP - Est. Vt
+338,224684,9319,Tidal Volume (set)
+339,1475,1,Haptoglobin
+340,224675,137,Muscle Aches
+341,3034,4,left arm sling
+342,3249,25,BEDBATH
+343,8061,1,low NO
+344,5141,6,Erythromycin oint
+345,1978,1,high me alarm
+346,223763,790,Bladder Pressure
+347,6737,1,Mammary Binder On
+348,228163,2,Impella Catheter Repositioned
+349,3663,2522,Total Enteral/kg/day
+350,4487,1,Bilat Ing Hernias  s
+351,6409,4,PR interval
+352,3572,4927,Physioregulation
+353,226775,14,SodiumApacheIIScore
+354,941,8,urine culture
+355,603,1013,Radial Pulse [Right]
+356,2353,1,R FEM MAP
+357,227039,1,PO2_ApacheIV
+358,224332,1351,PCA inject
+359,6841,1,DOPPLER FLAP CHECK
+360,5558,1,HI/Minute/VOl
+361,223848,10100,Ventilator Type
+362,804,859,Ethanol
+363,7262,1,Urine PH
+364,5827,1,Nystatin Po suspensn
+365,803,5304,Direct Bili (0-0.3)
+366,7982,1,Bivona secured at 8
+367,224995,251,Incision Appearance #4
+368,4347,19,Hearing screen
+369,494,826,PCA Basal Rate
+370,68,651,BIPAP-Mode
+371,2856,1,Potassium phosphate
+372,3496,332,Lumbar Puncture
+373,1233,12,heliox
+374,6945,1,LOW VT
+375,7683,2,criticaid ointment
+376,1812,1,abg: glucose
+377,7951,1,gt site
+378,227456,9673,Albumin
+379,5920,1,passymuir valve
+380,6933,1,exh. vt
+381,4248,1,Hydrocele:
+382,3061,1,VCO2
+383,3759,6337,HGB  (10.8-15.8)
+384,223814,1520,Auditory Disturbance
+385,7985,1,Orapred
+386,6171,1,Pred PEFR
+387,2355,6,solumedrol mg/kg/hr
+388,6632,2,head circumference
+389,987,7,Clot to Blood Bank
+390,5921,5,ABDOMINAL BINDER
+391,2686,1,TPA MG/MIN
+392,224181,71,Small Volume Neb Drug #1
+393,226107,9349,Arterial Line placed in outside facility
+394,227679,52,Restraint Device (Violent)
+395,225022,17,Incision Drainage Amount #6
+396,226131,41,ICP Line Tip Cultured
+397,3135,1,ATG
+398,8205,2,isoproterenol
+399,224989,323,Undermining Present #5
+400,4648,14,chloral hydrate
+401,3839,1455,ph (other)
+402,3122,4,Apnea
+403,1432,1152,Paroxysmal Sweats
+404,2669,3,svo2
+405,227925,98,Activity RR - Aerobic Activity Response
+406,6299,5,sodium bicarb
+407,223796,15733,Untoward Effect
+408,7921,11,Brush Teeth
+409,5989,1,Right heel drsg chae
+410,470,23195,O2 Flow (lpm)
+411,2562,1,INTRA ABD PRESSURE
+412,1213,1,shoulder shrug r/l
+413,228196,10,Return Site Observed (Tandem Heart)
+414,227038,7,PHPaCO2Score_ApacheIV
+415,4813,13,nutrition labs
+416,224963,275,Impaired Skin Wound Base #7
+417,6651,1,ca gluc ml/hr
+418,2561,1,VASOPRESSIN U/HR
+419,99,1665,CT #2 Drainage
+420,225398,39,Triple Introducer Zero/Calibrate
+421,8233,1,multi drsg changes
+422,94,6066,CT #1 Drainage
+423,2423,1,DECUBITI CARE
+424,1884,2,Spont Resp rate
+425,2105,2,hi minute volume
+426,7119,1,metronizadole
+427,4241,32,polyvisol
+428,1322,1,rad. aline
+429,3681,1329,Ventilator Number
+430,2777,2,TLSO
+431,1588,1,min vol
+432,162,409,Ectopy Type 2
+433,6042,2,VIDALYN
+434,227368,14897,20 Gauge Dressing Occlusive
+435,224835,2461,Temporary Ventricular Capture
+436,5931,2,ECMO
+437,4788,11,aldactone
+438,62,796,BAEDP
+439,228192,7,Oxygenator Sweep Rate
+440,2445,3,Vasopressin
+441,5701,3,TriViSol
+442,1040,1,BIpap FIO2
+443,224941,592,Impaired Skin Treatment #6
+444,224446,93,GI #3 Tube Drainage
+445,390,237,Inc #5 [Closure]
+446,224064,148,Restraint Location_V1
+447,1624,570,PreSep Catheter SVO2
+448,4740,2,Keflex pg/po
+449,4887,3,flow rate
+450,6023,2,AV FISTULA
+451,4643,2,poly vi sol
+452,6280,2,flovent
+453,6947,2,mvo2
+454,228005,380,PBP (Prefilter) Replacement Rate
+455,220073,6030,Central Venous Pressure  Alarm - Low
+456,223932,394,Neuro Drain #1 Drainage
+457,2685,1,Cisat mcg/kg/min
+458,3292,3878,Abdominal Color
+459,5049,1,zantc
+460,6173,3,circumsision site
+461,2922,1,P-insp
+462,5943,2,sigh breath
+463,228414,2586,Speech
+464,2940,1,L rad art BP
+465,1937,1,6. Agitation
+466,2146,28,edvi
+467,1492,27,High MV Alarm
+468,1057,2,edema
+469,227032,2,Non-Operative Respiratory (RESPIRAT)
+470,223944,973,Brachial Pulse L
+471,5682,2,Neosynephrine gtts
+472,5981,1,L FEM ART BP
+473,6754,4,urine PH
+474,4390,9,Nystatin Cream
+475,1433,848,Seizure
+476,6381,42,Zosyn
+477,227905,106,Patient agrees with the above goals and is willing to participate in the rehabilitation program
+478,6670,1,APRV Plo
+479,3014,17,bath/shampoo
+480,3004,1,spontaneous VT
+481,3293,5379,Abdominal Exam
+482,4638,1,atropine eye drops
+483,225642,10193,Differential-Monos
+484,8397,260,INV Line#6 [Site]
+485,5620,5,Abd US
+486,811,27402,Glucose (70-105)
+487,224925,1208,Impaired Skin Odor #4
+488,5668,1,CUFF PRESSURE
+489,2313,1,ICE PACKS OU
+490,8516,485,Eye Drainage [Right]
+491,417,14105,Inspired Gas Temp
+492,4672,1,Head Circ.
+493,228332,5327,Delirium assessment
+494,6689,1,High NO2 alarm
+495,7318,1,Gent Eye
+496,605,15426,Reason For Restraint
+497,6175,1,Coag bld wk
+498,224062,110,Less Restrictive Measures (Acute Med/Surgical)
+499,3228,1,trch size
+500,3576,1964,Position at Breast
+501,6014,1,PHENYFREE (1.0-2.0)
+502,6316,1,vac canister change
+503,2593,1,PENTOBARB DRIP MG/HR
+504,1438,151,Ulnar Pulse [Right]
+505,639,13,Sigh Tidal Volume
+506,2756,1,KETAMINE
+507,1367,14,CCO
+508,4543,3,UMBI HERNIA
+509,225415,6,Home with services
+510,1669,10,tlow
+511,5766,1,High mv
+512,1504,1,High min. volume
+513,228212,9,Tandem Heart Access Line Pump Housing Checked
+514,8310,1,NO Tank PSI
+515,3557,235,PMI
+516,7362,2,oxacillin
+517,2013,1,Bupivacaine
+518,6240,1,CT scan
+519,1313,9,High Exhaled min vol
+520,5617,4,vitamin a
+521,3520,4943,Muscular Abnormality
+522,6752,1,Phenylepherine
+523,968,24,EKG
+524,224791,135,GI #3 Tube Type
+525,6010,8,P-Lo
+526,6121,7,Miconazole
+527,3726,31,ABG SODIUM
+528,226272,12,EF (CCO)
+529,225085,2874,Post menopausal
+530,5325,2,Hernia
+531,742,27228,calprevflg
+532,3437,1885,Flowrate (l/m)
+533,788,27225,Chloride (100-112)
+534,2880,1,A GAP
+535,228397,2602,Commands Response
+536,849,932,Total Protein(6.5-8)
+537,220061,2730,Pulmonary Artery Pressure mean
+538,5086,2,ceftazadime
+539,5675,4,High Mv.
+540,228158,2,Purge Pressure
+541,6391,1,rad a line
+542,3559,5033,Pain
+543,4266,1,abdomen dsg.
+544,6127,1,LO Press
+545,1165,1,Hgb
+546,226780,13,WBCApacheIIValue
+547,228396,2593,Orientation to Time
+548,224923,3626,Impaired Skin Odor #2
+549,7132,1,mucomyst mg/kg/hr
+550,3423,1227,Family Meeting held
+551,224010,6184,GI #1 Tube Place Check
+552,6069,1,Suprapubic cath site
+553,6168,1,hi VE
+554,5396,4,ferrous sulfate
+555,7638,1,Driving Pressure:
+556,227458,3,Procan
+557,2404,1,.45%ns
+558,1813,106,Morphine Sulfate
+559,3009,1,Insp.Time
+560,223820,1519,Headache
+561,5825,1,Nose Wound
+562,224906,547,Impaired Skin Drainage #6
+563,6820,2,SSI HumR #units
+564,3136,1,Tongue midline
+565,5941,1,Feeding Team Eval
+566,591,3295,RLE [Temperature]
+567,8550,303,ICP Alarm [High]
+568,5953,2,CRITICAID
+569,3630,2253,Stimulation
+570,227626,117,Seizure Pads
+571,4956,8,Umbi hernia
+572,521,4363,Pacer Wires Vent
+573,227053,7,SodiumScore_ApacheIV
+574,7737,1,Bivona positin 10
+575,6645,5,pmv
+576,715,49,Vd/Vt Ratio (40-60%)
+577,227775,35,Skeletal Traction #1 - Pounds
+578,2487,1,carioride cc/hr
+579,4286,1,NONNUTRITIVE SUCKING
+580,4823,2,PRILOSEC
+581,8183,1,trach mark location
+582,6000,1,HIGH MIN VOL.
+583,6944,1,LOW PRESSURE
+584,3424,294,Family Mtg. Planned
+585,6794,1,NITRIC OXIDE PPM
+586,7608,1,Transpul. End Exhal.
+587,4374,1,desetin
+588,225612,11303,Alkaline Phosphate
+589,1891,10,Heliox
+590,3222,1,logroll
+591,225230,4395,20 Gauge Reason Discontinued
+592,225017,20,Incision Drainage #6
+593,7246,1,Cuff pres.
+594,4732,11,Keflex
+595,794,5,Differential-Atyps
+596,224844,658,Permanent Pacemaker Mode
+597,224087,21159,Therapeutic Bed
+598,3412,6480,Erythromycin Oint.
+599,224004,21790,Bowel Sounds
+600,4824,1,triple abx oint.
+601,3599,316,Remote Alarm [S]
+602,6301,2,3X ABX ointment
+603,224435,41,CT #4 Fluctuate
+604,84,26919,Braden Mobility
+605,6639,1,Vit A injection
+606,227120,396,Motor Deficit
+607,3291,5401,Abdominal Appearance
+608,227753,687,Dialysis Catheter Placement Confirmed by X-ray
+609,3047,3,BEDBATH/SHAVED
+610,224900,40,Impaired Skin Depth #7
+611,7597,1,PRBC
+612,224003,21826,Abdominal Assessment
+613,5889,2,Bladder cath
+614,224315,21,ABI Brachial BP L
+615,3138,1,Visual field checkR)
+616,6763,1,passy-muir/cuff
+617,227787,121,Impaired Skin  - Dressing Status  #8
+618,228004,365,Citrate (ACD-A)
+619,8476,13061,Sputum Consistency
+620,5896,1,VEN0US O2 SAT
+621,2667,1,alteplase mg/hr
+622,223985,21806,Respiratory Pattern
+623,5856,1,icp
+624,1654,11,HIGH VE
+625,3829,448,Venous Base Excess
+626,4540,7,Simethicone
+627,6222,1,tank B
+628,5441,1,mupricin
+629,7111,1,papaperine
+630,680,19305,Therapeutic Bed
+631,4915,1,PRUNE JUICE
+632,2464,1,epidural ml/hr
+633,223995,3488,CT #1 Fluctuate
+634,1643,1,Brachial Site Appear
+635,8440,560,Manual BP [Diastolic]
+636,115,1004,Capillary Refill [Right]
+637,6690,5,phenylephrine gtts
+638,224564,7183,Impaired Skin Odor #1
+639,5831,1,Heparin Flush 10U/cc
+640,8019,1,cefixime
+641,1508,6,Hi/Minute/Vol/Alarm
+642,225977,528,Dialysate Fluid
+643,227546,449,SVV (Arterial)
+644,1035,1,WEDGE SAT
+645,1494,1,r nare-saline irrign
+646,174,504,Emesis [Appearance]
+647,1227,3,autopeep
+648,228156,2,Performance Level
+649,8371,3597,Atrial Pacemaker [Sensitivity]
+650,2829,1,fenoldopam mcg/kg/mn
+651,8247,2,ACE WRAP
+652,1675,3,TH
+653,225016,64,Incision Drainage #5
+654,1566,33,high min vol
+655,2563,2,abd girth
+656,5873,1,Vanco trough
+657,2604,1,CHEST WT ON/OFF
+658,227864,204,Activity HR - Aerobic Capacity
+659,5938,1,lvad svr
+660,222,18,I:E Ratio-Calculated
+661,92,548,CPP
+662,7123,1,Nares Care
+663,227932,91,Recovery RR - Aerobic Activity Response
+664,4448,1,Erythropoetin SQ
+665,224781,41,CT #4 Leak
+666,44,699,Angio Appearance #2 [Attribute 1]
+667,814,27142,Hemoglobin
+668,3774,441,Mix Venous PCO2
+669,226757,14,GCSMotorApacheIIValue
+670,1685,20,HI MV
+671,1196,1,HFO % I time
+672,5802,1,HYPEROXYIA TEST
+673,4508,1,Na supp
+674,7176,1,low insp. pressure
+675,1601,1,C.C.O
+676,227623,32,Tunneling Present #10
+677,619,14079,Respiratory Rate Set
+678,8503,1337,BP Left Arm [Diastolic]
+679,562,472,Pressure Sore #2 [Width]
+680,111,49,CT #4 [Fluctuate]
+681,220245,9,CO2 production
+682,3568,5881,Peripheral Pulses
+683,6231,1,Tank 1
+684,223924,8025,RLE Sensation
+685,6610,2,rifampin
+686,2131,4,Nitric oxide
+687,224913,456,Impaired Skin Drainage Amount #6
+688,1886,1,dextrose
+689,8383,1263,Edema #1 [Amount]
+690,7949,1,Calcium for CVVH
+691,224964,158,Impaired Skin Wound Base #8
+692,1617,1,peripad change
+693,8406,3516,ImpSkin #1 [Amount]
+694,226140,62,RIC placed in outside facility
+695,5753,3,Calcium Chloride
+696,981,1,dilaudid
+697,7081,1,InExsufflator
+698,224392,203,ETT Position Change
+699,224940,1018,Impaired Skin Treatment #5
+700,4187,4021,Length Calc Inches
+701,3584,235,Prevnar
+702,7263,1,Driving Press
+703,668,452,TCPCV Fixed I Time
+704,227586,476,GI pH
+705,227619,34,Pressure Ulcer Stage #10
+706,4326,65,Hep B Vaccine
+707,6238,1,propofol
+708,1521,9167,Albumin
+709,5045,14,Bili
+710,124,476,Chest Tube Site #3
+711,1121,36,HI/Minute/Vol/Alarm
+712,229,19919,INV Line#1 [Type]
+713,227364,63,RIC Dressing Occlusive
+714,8442,64,Nares [Left]
+715,415,265,Incision/Wound #5
+716,5834,1,Thoracentesis
+717,7359,1,nasal irrigation TID
+718,5898,2,urine na
+719,3442,19,Gastric Secretions
+720,224949,388,Impaired Skin Type #7
+721,8364,3,ABP [Diastolic]
+722,6364,1,EDM CO
+723,166,16475,Education Handout
+724,4240,13,glycerine
+725,4645,1,PRED FORTE DROPS
+726,1218,1,rotating bed
+727,224686,8758,Tidal Volume (spontaneous)
+728,2909,1,HI/Minute/Vol Alarm
+729,226760,14,HCO3Score
+730,223960,2311,Temporary Venticular Stim Threshold mA
+731,2309,1,FEM ALINE MAP
+732,388,3343,Inc #3 [Closure]
+733,3497,194,MAWP Alarm [Low]
+734,2820,1,STERNAL DRSG
+735,6073,3,MV HI
+736,224310,243,Augmented Diastole
+737,6174,1,PLT transfusion
+738,4755,1,zzzpH
+739,3765,3411,Indirect Bili(0-1.0)
+740,147,489,Dialysate Infusing
+741,7158,1,AMIODARONE CC/HR
+742,224961,683,Impaired Skin Wound Base #5
+743,3245,2,ileostomy
+744,2377,1,MULTIPODUS BOOT RT
+745,1849,1,PEG Care
+746,5413,2,Ativan
+747,1192,1,Pericardial Pressure
+748,716,21,Venous Pressure
+749,7462,1,Tl
+750,7924,2,Bacitracin oint.
+751,1436,1150,Tactile Disturbances
+752,225122,11454,Special diet
+753,5962,2,Spironolactone
+754,5455,4,Lactation Consult
+755,1360,1,face mask 02%
+756,4715,2,penicillin
+757,3469,80,IV #5 [Location]
+758,225357,1622,PA Catheter Waveform Appear
+759,2657,1,SOLUMEDROL CC/H
+760,5758,1,MV hi
+761,657,13831,Sputum Source
+762,6616,1,Pantoprazole   mg/hr
+763,6200,3,foley changed
+764,7581,1,pr
+765,3498,52,MRI
+766,592,1630,RLE [Sensation]
+767,228231,643,PAR-Consciousness
+768,448,11,Minute Volume
+769,2514,1,pigtail flush
+770,228096,13425,Richmond-RAS Scale
+771,3747,2788,Chloride  (100-112)
+772,224916,1676,Impaired Skin Length #2
+773,3238,1,CSF PRESSURE
+774,1027,9,abdominal binder
+775,225137,11812,Patient valuables
+776,224154,522,Dialysate Rate
+777,436,3013,Low Insp. Pressure
+778,4278,17,Caffeine Bolus
+779,224065,1824,Circulation/Skin Integrity
+780,420,1,LAP
+781,224057,21810,Braden Mobility
+782,7648,1,TF residual/G-tube
+783,227952,7955,Position Change
+784,224876,20957,Urine Appearance
+785,7966,1,pleural fluid pH
+786,183,13082,Eye Care
+787,711,48,VO2
+788,4889,45,Cyclopentolate
+789,2663,1,ACETYCYSTEINE
+790,7403,1,Volume/SIMV with PSV
+791,3548,12,Oral Abnormalities
+792,228294,40,IO Wristband in place
+793,130,5136,Communication
+794,283,15436,INV#1 WaveformAppear
+795,224375,117,Cont Neb - Med
+796,6671,1,APRV T hi
+797,3692,3804,Weight Change  (gms)
+798,6369,2,T LO
+799,548,15589,Position Change
+800,1195,1,HFI Bias Flow:
+801,224173,1459,MDI #2 Drug
+802,3751,3,Digoxin  (1-2ng/ml)
+803,1434,773,Slurred Speech
+804,1661,1,Bed alarms on
+805,224894,172,Impaired Skin Cleanse #8
+806,4247,1,KCL supps
+807,224747,162,Transpulmonary Pressure (Insp. Hold)
+808,6604,1,Fem sheath
+809,681,26,Tidal Volume
+810,7269,1,Bed Rotation Right _
+811,2334,1,vasopressin u/hr
+812,8025,1,Panpropazole mg/hr
+813,601,2231,RVSW
+814,647,270,Spare Trach Present
+815,228016,1915,22 G Infiltration Scale
+816,5842,1,Decadron drops
+817,3178,1,right femoral aline
+818,7919,1,Tdisconnect
+819,1046,26295,Pain Present
+820,6201,5,cephalexin
+821,6334,1,meropnem
+822,4807,1,RASH
+823,1191,5682,Glucometer
+824,2956,1,ventriculostomy icp
+825,2822,1,gt drsg
+826,5900,1,Xeroform Dsg
+827,228412,2609,Strength R Arm
+828,3207,1,High MMV
+829,6336,4,PCV driving pressure
+830,3304,5239,Anterior Fontanelle [Texture]
+831,4862,7,CIRC SITE
+832,4496,1,Hep. Flush
+833,227754,194,IABP Placement Confirmed by X-ray
+834,224420,172,Vital Cap
+835,224728,38,Peak Exp Flow Rate
+836,224914,269,Impaired Skin Drainage Amount #7
+837,1728,2,nebulizer
+838,225175,5380,See chart for initial patient assessment
+839,1676,3,TL
+840,6729,1,Act CPP
+841,224930,6329,Impaired Skin Site #2
+842,224696,8423,Plateau Pressure
+843,224709,274,T Low (APRV)
+844,226768,14,PhApacheIIScore
+845,224297,2517,Cordis/Introducer Site Appear
+846,225059,11720,Past medical history
+847,4364,3,CEFOTAXIME
+848,1539,712,Total Protein
+849,518,4667,Pacer Wire Condition
+850,1680,1,flush catheter
+851,5905,3056,Alarms Checked
+852,1845,1,fingerstick bs
+853,1659,36,high min vent
+854,8389,1255,GI Intub #2 [Site]
+855,6981,1,Bed exit alarm
+856,220644,11494,ALT
+857,3244,1,RT FEM A-LINE
+858,227375,13535,Daily Wake Up
+859,2437,1,Sod Bicarb/NS
+860,2750,1,NS w/20kcl
+861,137,5327,Cough Reflex
+862,1818,1,PECO2
+863,4810,18,Prilosec
+864,405,172,Inc/Wound Packing #2
+865,5189,2,Sodium supps
+866,6120,1,IV Lasix
+867,2950,1,PPM
+868,5957,7,Cyclopentolate 1%
+869,6191,1,Creamy Desitin
+870,4606,5,hernia
+871,5745,2,Hep flush 10units/cc
+872,227949,7813,Face to Face Eval (Non-violent)
+873,3803,2792,Sodium  (135-148)
+874,7272,1,Solu-Medrol Mg/Kg/Hr
+875,6311,1,heparin lock flush
+876,1546,107,high ve
+877,228299,7346,Goal Richmond-RAS Scale
+878,227287,3683,O2 Flow (additional cannula)
+879,6196,1,IRRIG FOLEY 50ML NS
+880,227665,1492,Immobilizer Evaluated
+881,1922,1,1.Nausea &vomitting
+882,2699,6,EF
+883,8206,1,Artic Sun
+884,4651,5,BABY BATH
+885,4630,3,cord care
+886,8435,2883,LLE [Color]
+887,8078,1,gentmycin eye oint
+888,225086,5379,Unable to assess cognitive / perceptual
+889,228007,145,14 G Phlebitis Scale
+890,227345,21711,Gait/Transferring
+891,3524,30,NGT Placement
+892,1502,1,bladder irrig. 60cc
+893,2666,1,alteplase
+894,382,1014,Inc Cleansing #3
+895,224704,82,ATC %
+896,5343,1,KPhosphate
+897,226499,739,Hemodialysis Output
+898,228377,66,SVI Change
+899,4228,12,circumcision site
+900,2229,1,PAW
+901,838,1080,SvO2
+902,6590,1,arterial mean #2
+903,228009,2052,16 G Phlebitis Scale
+904,3359,1,Chest Circum    (cm)
+905,4695,1,PredForte
+906,3350,39,Caput
+907,1388,1,decub drsg.
+908,833,27112,RBC
+909,224660,5,ECMO
+910,223818,1521,Tactile Disturbances
+911,6226,1,urine for AA
+912,2589,1,cariporide @ 21/ml
+913,3069,1,ART R Groin
+914,3693,989,Weight Kg
+915,223970,2580,Angio Dressing # 1
+916,4865,1,Clonus
+917,226544,23108,Language
+918,224845,319,Permanent Pacemaker Rate
+919,834,17698,SaO2
+920,227450,40,Tobramycin (Peak)
+921,7541,1,insp pressure      e
+922,224056,21808,Braden Activity
+923,8498,158,O2 sat [Post]
+924,5492,135,Vitamin A
+925,224413,1994,TOF Response
+926,8420,213,Inc #5 [Appearance]
+927,223679,2273,TCO2 (calc) Venous
+928,225636,542,D-Dimer
+929,5042,1,cc's/minute
+930,1222,3,VASOPRESSIN
+931,228368,119,Cardiac Index (CI NICOM)
+932,1125,24732,Service Type
+933,6363,1,EDM CI
+934,3569,1402,Phototherapy Blanket
+935,6402,1,TRAIN OF FOUR
+936,1896,1,MPB
+937,2534,1,tidal volume
+938,227776,1,Skeletal Traction #2 - Pounds
+939,563,162,Pressure Sore #3 [Width]
+940,224846,2664,Impaired Skin Width #1
+941,228167,2,Impella Dressing Occlusive
+942,5582,2,p-high
+943,479,27165,Orientation
+944,8537,5556,"Temp/Iso/Warmer [Temperature, degrees C]"
+945,284,11459,INV#2 WaveformAppear
+946,3147,1,TPA #2 mg/hr
+947,5588,1,cyclosporin 3mg/hr
+948,6319,1,bronched
+949,4428,1,Bronch
+950,5963,1,ceftaxime
+951,223962,2542,Temporary Pacemaker Wires Venticular
+952,442,625,Manual BP [Systolic]
+953,224896,290,Impaired Skin Depth #3
+954,8031,1,KETAMINE 200mgm/50ML
+955,8367,17868,Anti-Embolism [Status]
+956,31,33892,Activity
+957,3391,18,Direct Coombs
+958,1584,2,T hi
+959,2698,1,V02
+960,1887,1,Neo 120mg/250ml
+961,4652,1,Hernia Repair
+962,6272,1,right fem. a-line
+963,2118,2,I.T
+964,324,25733,IV Site Appear #1
+965,3241,1,LFEMABP
+966,8384,458,Edema #2 [Amount]
+967,5756,9,PINPS
+968,1437,1155,Tremor
+969,227130,1320,Trach Care
+970,1771,1,Cisatricurium
+971,1704,3480,PA line cm Mark
+972,5024,8,triple abx ointment
+973,2133,1,PCV-Delta P
+974,3330,10,Bicitra
+975,1479,10353,IV #1 Reason DC'D
+976,224291,9451,Arterial line Waveform Appear
+977,1919,1,Urine creat
+978,3019,1,CT #5 FLUCTUATE/LEAK
+979,7363,2,Bed Rotation Right
+980,7772,1,Predisolone
+981,2700,1,tslo brace
+982,224175,186,MDI #3 Puff
+983,2145,2,tpa
+984,3031,2,t high
+985,225760,63,RIC Site Appear
+986,6350,1,total PeeP
+987,224912,767,Impaired Skin Drainage Amount #5
+988,225422,19,Transportation
+989,177,616,Epidural Appearance
+990,224943,205,Impaired Skin Treatment #8
+991,8179,1,peak flow post rx
+992,1373,1,svr
+993,227630,232,Arctic Sun Temp #1 Location
+994,6012,8,T-Hi
+995,227355,234,IABP Dressing Occlusive
+996,7352,1,DRIVING  PRESSURE
+997,1451,1,L girth size
+998,7896,7,teeth brushed
+999,1394,8,Height Inches
+1000,8388,13285,GI Intub #1 [Site]
+1001,225739,1006,Cordis/Introducer Discontinued
+1002,228337,5173,CAM-ICU MS Change
+1003,7796,2,Scrotum
+1004,459,3287,Neg Insp Force(>-25)
+1005,3109,9,Sodium Bicarb
+1006,938,2,blood cultures
+1007,1063,3290,bath
+1008,444,14674,Mean Airway Pressure
+1009,8378,3179,Chest PT [Left]
+1010,274,34,INV Line#8SiteAppear
+1011,2568,1,SOLUMEDROL DRIP.
+1012,1842,1,IPPB
+1013,5782,1,High Minute Ventilan
+1014,6085,1,caffeine Bolus
+1015,3341,4554,CBC
+1016,5456,2,Chest Tube
+1017,3490,3,Liver
+1018,412,6384,Incision/Wound #2
+1019,224668,141,Sweating
+1020,7652,3,bath care
+1021,8342,1,rituximab
+1022,651,8371,Spon RR (Mech.)
+1023,227018,6,HR_ApacheIV
+1024,4556,31,Hearing Screen
+1025,224426,1952,CT #2 Fluctuate
+1026,8470,891,ROM [Value]
+1027,83,26915,Braden Frict/Shear
+1028,851,2249,Troponin
+1029,226997,2,ARF
+1030,224023,20378,Support Systems
+1031,223810,1539,Paroxysmal Sweats
+1032,1219,1,PASat
+1033,6188,1,Left Arm Massage
+1034,474,62,O2ER
+1035,5868,1,APRV Time low
+1036,227731,251,AVA Line Zero/Calibrate
+1037,227538,1824,ART Blood Pressure Alarm - Low
+1038,7354,1,P.low
+1039,631,14688,Sensitivity-Vent
+1040,7798,1,Helioox nrb flow
+1041,6044,1,Trn of 4
+1042,2401,2,inner cannula
+1043,228013,6527,20 G Phlebitis Scale
+1044,3503,1857,Mean PAW [Meas]
+1045,224975,686,Surrounding Tissue #5
+1046,8240,2,MICONAZOLE POWDER
+1047,3091,1,PILLOW AROUND R ARM
+1048,227967,152,Restraint/Seclusion Observer Sheet
+1049,227062,7,WBC_ApacheIV
+1050,227341,21684,History of falling (within 3 mnths)
+1051,2398,1,MIXED VENOUS SAT
+1052,227850,5,Commode
+1053,223976,16014,RUE Color
+1054,2953,1,ESMOLOL MCG/MIN
+1055,507,1235,PIP
+1056,220194,101,Temporary AV interval
+1057,596,7455,RU Strength/Movement
+1058,7663,1,ABDO BINDER
+1059,8483,847,Ventricular Pacemaker Threshold [Value]
+1060,4769,4,rash
+1061,7045,1,DTO
+1062,2012,1,lo MV
+1063,226755,14,GcsApacheIIScore
+1064,1955,2,Xygris
+1065,2101,2,nicardipine mg/hr
+1066,2140,2,Glucagon
+1067,224701,8822,PSV Level
+1068,6411,2,Dressing  Change
+1069,227487,232,GU Irrigant Type
+1070,2815,4,INCENTIVE SPIROMETRY
+1071,224842,1335,Cardiac Output (CCO)
+1072,7161,7,P-Hi
+1073,225026,63,Incision Dressing #5
+1074,7021,1,P-LO (APRV)
+1075,220507,418,Activated Clotting Time
+1076,2967,1,APROTININ.
+1077,543,13511,Plateau Pressure
+1078,8461,304,Pressure Sore #2 [Amount]
+1079,1450,1,level one
+1080,1449,1,Arterial BP(Rad)
+1081,7585,3,inexsufflator
+1082,224259,9628,Impaired Skin Drainage #1
+1083,226771,14,PotassiumApacheIIScore
+1084,8454,12106,Pain Management [Route/Status #2]
+1085,8502,7397,BP Cuff [Diastolic]
+1086,1705,2566,Vent Sens Thresh mV
+1087,224716,519,SBT Stopped
+1088,6688,1,High NO alarm
+1089,6150,2,GT care
+1090,837,27357,Sodium (135-148)
+1091,227645,3,Breast Feed - L (Minutes)
+1092,2631,1,DRAIN FLUSH
+1093,227926,101,Activity O2 sat - Aerobic Activity Response
+1094,7372,1,PANTOPRAZOLE
+1095,224833,1299,SBT Deferred
+1096,3525,1541,NICU Procedures
+1097,7328,1,ostomy bag
+1098,3112,1,epinephrine mcg/min
+1099,719,2870,Ventricular Pacemaker [mA]
+1100,5683,388,Hourly PFR
+1101,5575,1,Tank pressure
+1102,5,276,ABI Brachial BP [Right]
+1103,6515,1,Multi podus boot
+1104,2695,1,D02-1
+1105,8200,1,L arm Fistula
+1106,6454,10,Thigh
+1107,1944,1,Coccyx w->d drsg chg
+1108,340,1434,Imp Skin Cleanse #3
+1109,226744,14,APACHE II PDR - Adjusted
+1110,220224,13135,Arterial O2 pressure
+1111,2000,1234,Inspiratory Time
+1112,3376,27,Combivent
+1113,4870,1,tooth buds
+1114,6969,1,APROTININ  ML/HR
+1115,7076,24,Prong Type
+1116,8026,1,Ilex oint
+1117,2715,1,VO2 INDEX
+1118,227759,2829,PICC Line Placement Confirmed by X-ray
+1119,8285,1,TPA            mg/hr
+1120,224063,84,Restraint Type
+1121,223990,21751,Respiratory Effort
+1122,2507,1,ITRATHECAL
+1123,519,4375,Pacer Wires Atrial
+1124,432,27196,Level of Conscious
+1125,846,89,Tobramycin/Random
+1126,225217,294,Trauma Line Site Appear
+1127,656,13186,Sputum [Color]
+1128,625,5763,SVI
+1129,254,565,INV Line#5 Zero/Cal
+1130,224289,9474,Arterial line Site Appear
+1131,7044,1,tof
+1132,5665,1,CHOLEY TUBE DRAINAGE
+1133,1203,6,fleets enema
+1134,4251,12,glycerine supp
+1135,5387,1,chesttube site
+1136,224901,18,Impaired Skin Depth #8
+1137,228224,9,Tandem Heart Return Cannula Repositioned
+1138,581,19409,Previous WeightF
+1139,5977,2,labs drawn
+1140,220545,24034,Hematocrit (serum)
+1141,396,258,Inc #5 [Drainage]
+1142,8441,26411,NBP [Diastolic]
+1143,6049,22,pediarix
+1144,935,27205,Allergy 3
+1145,3126,5,SLOPE
+1146,225671,1365,LDL calculated
+1147,2920,1,cyclosporin mg/h
+1148,1816,1,QUINIDINE
+1149,226136,4471,16 Gauge placed in outside facility
+1150,2546,1,CISATRACURIUMMG/KG/H
+1151,6806,1,Mucomyst mg/hr
+1152,5763,1,NGT NS FLUSH Q/4HR
+1153,1370,1,Demerol
+1154,7252,2,omeprazole
+1155,5025,3,Bacitracin oint
+1156,227984,25,Neuro Drain #2 Level
+1157,226228,24549,Gender
+1158,227615,28,Impaired Skin Width #10
+1159,1549,1,liperudin
+1160,421,5656,LCW
+1161,1653,21,Bed Alarm
+1162,5152,1,Abcess/ Location
+1163,3546,205,O2 Tubing Present
+1164,8472,1552,LUE [Sensation]
+1165,6255,1,VAsopressin 0.04   s
+1166,6017,1,metabolic labs
+1167,2661,1,ALCOHOL 5% DRIP G/HR
+1168,1328,2300,Cartridge/Bag Change
+1169,227965,255,Restraint Device (Violent)
+1170,3260,1,high minnute volume
+1171,3388,26,Decadron
+1172,133,163,Cont.Nebulizer(Drug)
+1173,2080,2,high NO
+1174,226815,187,Airway problems
+1175,492,6575,PAP [Systolic]
+1176,5194,1,Metoclopromide
+1177,5600,1,L fem art bp
+1178,6843,1,FLAP WARM GOOD COLOR
+1179,6105,1,High PIP
+1180,2093,1,Nicardipine mcg/k/mn
+1181,227113,1333,PCA 1 hour limit units
+1182,8460,981,Pressure Sore #1 [Amount]
+1183,225180,473,PT Splint Status #1
+1184,223958,2394,Temporary Venticular Sens Threshold mV
+1185,8457,2063,Pressure Sore #1 [Heal]
+1186,8053,1,SIGH PEEP LEVEL
+1187,227089,1051,Discharge to
+1188,227991,19,Intra Cranial Pressure #2 Alarm - Low
+1189,353,3173,ImpSkin #2 [Drain]
+1190,8128,1,permanent pacer
+1191,7720,1,FBS
+1192,5634,1,Vidalin
+1193,7910,1,Post Ductal Sat
+1194,225625,22631,Calcium non-ionized
+1195,646,27216,SpO2
+1196,227451,135,Tobramycin (Random)
+1197,195,1088,Flow-by Sensitivity
+1198,7722,1,criticaid oint.
+1199,6097,1,suprapubic cath
+1200,223806,1537,Tremor (CIWA)
+1201,707,27114,Urine Source
+1202,224161,21864,Resp Alarm - High
+1203,7745,5,Omeprazole
+1204,225987,223,IABP Power Source
+1205,224957,72,Impaired Skin Width #8
+1206,1572,1,low me
+1207,4919,1,pectus
+1208,1332,1,pulse
+1209,2850,1,T TUBE SITE/DRAINAGE
+1210,4303,2,CT dsg
+1211,228098,2774,16 Gauge placed in the field
+1212,8379,1107,Cooling [Status]
+1213,4539,38,Nystatin
+1214,226990,7,Apache IV PaFiRatio
+1215,4289,4,Baptism
+1216,227016,7,GlucoseScore_ApacheIV
+1217,4565,1,miconazole cream
+1218,3097,1,lf flap pulse
+1219,1099,1,tegretol
+1220,4948,10,Bilirubin
+1221,8382,13445,ETT [Location]
+1222,5805,1,DOPAMINE MICS/KG/MIN
+1223,224859,61,Status and Comfort (Behavioral)
+1224,8107,1,Mammary Support Bra
+1225,3746,890,Calcium   (8.8-10.8)
+1226,95,6103,CT #1 Dressing
+1227,1908,1,GROIN DRESSING
+1228,3444,60,Genitalia
+1229,2432,8,insulin
+1230,6375,9,Trache care
+1231,828,27241,Platelets
+1232,4953,4,sucrose pacifier
+1233,4430,1,NS eye drops
+1234,454,27182,Motor Response
+1235,7209,1,COUGH/DEEP BREATHING
+1236,5952,5,nitric oxide
+1237,227599,70,Impaired Skin Drainage #10
+1238,7086,1,CIRCUMCISION SITE
+1239,6259,1,Tank Pressure (NO)
+1240,1529,21147,Glucose
+1241,8478,7070,Stool [Consistency]
+1242,4597,7,Abdominal US
+1243,1133,3,Multi-podis boots
+1244,2622,2,CA GLUC GM/HR
+1245,225677,22617,Phosphorous
+1246,8499,5237,Anterior Fontanelle [Shape]
+1247,2275,1,FEM LINE BP
+1248,1612,2,Pres. High
+1249,6635,1,Aprotinin ml/hr
+1250,6037,1,ilex
+1251,224330,1395,PCA 1 hour limit
+1252,669,473,TCPCV I:E Ratio
+1253,7070,1,P2
+1254,5833,1,"Lytes.Tbili,ABG"
+1255,5625,9,Pinps
+1256,5916,1,zz tubing present
+1257,224444,71,GI #3 Tube Place Check
+1258,2998,1,Vt
+1259,5754,4,APNEA TIME
+1260,7179,1,right leg drsg
+1261,8418,3054,Inc #3 [Appearance]
+1262,708,18,VAD Beat Rate [Right]
+1263,1737,4,HI/Minute/vol
+1264,5857,1,aterial line
+1265,7832,1,QUAD cough
+1266,2173,1,EYE CARE
+1267,227015,7,Glucose_ApacheIV
+1268,2947,3,approtinin cc/hr
+1269,224040,7461,Incision Closure #1
+1270,225313,14230,Bed Bath
+1271,6304,1,urine cath
+1272,6510,2,VIT A
+1273,225984,217,IABP Trigger
+1274,223938,1724,Ulnar Pulse R
+1275,3453,362,Head of Bed
+1276,6008,2,SPUTUM INDUCTION
+1277,8134,1,Tank press
+1278,341,660,Imp Skin Cleanse #4
+1279,226096,123,Orthostatic BPd standing
+1280,2330,1,CISATRACUR MCG/K/MIN
+1281,225424,20,Patient/family/team understand & agree with plan
+1282,227688,20200,Smoking Cessation Info Offered through BIDMC Inpatient Guide
+1283,409,9,Inc/Wound Packing #6
+1284,7116,1,Rt ICP
+1285,986,175,ABG Hct
+1286,3011,1,ICE PACKS TO R EYE
+1287,2107,4,pinsp
+1288,224114,487,PT Splint Location #1
+1289,3627,5272,State
+1290,691,1595,Tracheostomy Cuff
+1291,226739,14,AgeApacheIIValue
+1292,6060,1,Bipap mask
+1293,1949,1,famotidine mg/hr
+1294,224965,1807,Pressure Ulcer Stage #2
+1295,223876,10130,Apnea Interval
+1296,389,929,Inc #4 [Closure]
+1297,4705,1,Skin tags
+1298,1557,1,automatic tube comp.
+1299,702,115,Transcut Pad Place
+1300,6009,1,pictures taken
+1301,205,1255,GI#2 Tube [Status]
+1302,2797,1,"3,4,5 finger doppler"
+1303,197,9945,Follows Commands
+1304,220063,2606,Pulmonary Artery Pressure Alarm - High
+1305,114,9862,CaO2
+1306,3615,4188,Sheepskin
+1307,8551,15895,NBP Alarm [High]
+1308,2284,1,Cisatra  mcg/kg/min
+1309,558,1873,Pressure Sore #1 [Drainage]
+1310,227664,1519,Immobilizer Device
+1311,5759,1,gentics consult
+1312,7528,1,TRACH MARK
+1313,1385,1,NO tank
+1314,2127,4,high exhale mv
+1315,534,40,Peak Flow (actual)
+1316,223800,434,Epidural Appearance
+1317,835,655,Sed Rate
+1318,844,131,Thrombin (16-21)
+1319,6124,1,R fem art line
+1320,3396,803,ECG
+1321,6487,1,ART. SHEATH
+1322,688,1536,Trach [Cuff]
+1323,2063,2,NO tank psi
+1324,6749,1,total RR
+1325,8270,1,Heparin lock Flush
+1326,5595,1,factor ten
+1327,5908,1122,Feeding Label Match
+1328,228171,2,Impella Placement Confirmed
+1329,2089,2,highmv
+1330,3816,328,Urine Glucose
+1331,6322,1,Face Droop
+1332,227019,7,HrScore_ApacheIV
+1333,8528,4,Nares Patent [Right]
+1334,457,392,NMB Medication
+1335,67,604,BIPAP - O2 lpm
+1336,6230,6,Bath Care
+1337,2347,1,BLADDER PRESSURE.
+1338,7402,1,fi02 set
+1339,3101,1,High Minute volume
+1340,2776,1,SV
+1341,224562,2801,Impaired Skin Length #1
+1342,5923,1,GI #2 guiac
+1343,3386,5034,Day of Life
+1344,4674,1,Metocloprimide
+1345,2100,1,cardene mcg/kg/min
+1346,2195,1,precedex
+1347,8084,1,PDA surg site
+1348,5975,1,O2% on INOvent
+1349,6702,476,Arterial BP Mean #2
+1350,4708,6,umbi hernia
+1351,5861,1,TED STOCKINGS BILAT
+1352,2610,1,L ARM SLING
+1353,1686,1,Hi insp. pressure
+1354,3131,5,Shampoo
+1355,3390,12,Diamox
+1356,227579,485,BiPap EPAP
+1357,5936,1,R Hand Grasp
+1358,2907,3,R groin sheath
+1359,7460,1,Pl
+1360,2860,1,LEG VAC DRSGS
+1361,7075,389,NeoBlue Mini
+1362,1655,3,Insp. Time
+1363,8424,1611,Inc #3 [Amount]
+1364,227609,76,Impaired Skin Treatment #10
+1365,225124,11060,Unintentional weight loss >10 lbs.
+1366,385,30,Inc Cleansing #6
+1367,6778,6,Tri-vi-sol
+1368,81,102,Brachial Pulse [Right]
+1369,227060,7,Use A-aDO2
+1370,2429,1,VENOUS/DOPPLER/BFM
+1371,223946,951,Popliteal Pulse L
+1372,2807,1,facial droop
+1373,4271,7,Prune juice
+1374,3346,867,Caffeine
+1375,1197,1,HFO Amplitude
+1376,2798,1,arm 90 degrees
+1377,1472,1,Bivaliruden
+1378,225027,20,Incision Dressing #6
+1379,6762,1,Incision sites
+1380,224067,1756,Range of Motion
+1381,228178,75,CO (PiCCO)
+1382,1700,137,GI#3 Intub Site
+1383,621,23045,Restraint Location
+1384,227772,20,Traction/Immobile #2
+1385,6022,1,Critic Aide
+1386,734,1177,Working Pressure
+1387,8133,1,R ear
+1388,6774,2,RSSI #units
+1389,6096,1,MV-HI
+1390,2367,1,HI LOW NEB
+1391,116,6345,Cardiac Index
+1392,226762,13,HematocritApacheIIValue
+1393,6211,1,BILI & LYTES
+1394,2674,2,WAFFLE BOOT
+1395,228200,10,Vibration in Line
+1396,3735,3593,BASOs
+1397,227418,401,Midline Dressing Occlusive
+1398,501,63,PCV Exh Vt (Obser)
+1399,1637,12,pneumo boots
+1400,227986,25,Neuro Drain #2 Landmark
+1401,224121,1306,22 Gauge Reason Discontinued
+1402,4599,63,Hepatitis B Vaccine
+1403,2948,1,femoral ART Line
+1404,6417,3,low pressure
+1405,223907,18315,Pupil Size Right
+1406,3098,7,hi mv
+1407,6108,1,u/s of left arm/neck
+1408,5945,1,Continuous Neb
+1409,224905,898,Impaired Skin Drainage #5
+1410,226765,14,MapApacheIIScore
+1411,228372,68,Leg Raise Result (NICOM)
+1412,354,725,ImpSkin #4 [Drain]
+1413,5809,1,foely
+1414,7925,1,thumb pulse checks
+1415,7915,4462,Pt./Family Informed
+1416,4236,7,DESITIN
+1417,223955,2680,Temporary Pacemaker Type
+1418,402,72,Inc #6 [Dressing]
+1419,380,2663,Inc Cleansing #1
+1420,225747,293,PICC Line Discontinued
+1421,4797,6,Nystatin Oint
+1422,3438,2563,Fluid In for Calc.
+1423,347,879,ImpSkin Character #4
+1424,410,6658,Incentive Spirometry
+1425,3336,2176,Breast Assessment
+1426,223952,162,Pericardial Drain Status
+1427,227600,101,Impaired Skin Drainage Amount #9
+1428,2340,3,HIGH EXHALED MIN.VOL
+1429,4217,49,Hep Flush
+1430,224904,1547,Impaired Skin Drainage #4
+1431,225358,1555,PA Catheter Zero/Calibrate
+1432,3616,4957,Skeletal Abnormality
+1433,4716,17,acyclovir
+1434,1028,8,Cisatracurium
+1435,224810,463,CT #3 Suction Type
+1436,223925,458,Seizure Duration
+1437,220292,10129,Minute Volume Alarm - Low
+1438,3111,2,cpap level
+1439,323,255,IV Site #4
+1440,6182,1,jt flush 20cc q 8 hs
+1441,4623,8,Circumcision site
+1442,4420,7,Narcan
+1443,368,3153,ImpSkin #1 [Width]
+1444,8209,1,Preductal O2 Sat
+1445,1038,1,Hi/minute/vols alarm
+1446,6267,6,NO2
+1447,407,47,Inc/Wound Packing #4
+1448,6896,1,Rapamycin
+1449,227585,1987,GI Guaiac
+1450,228293,45,IO Site Appearance
+1451,6106,1,High RR
+1452,8450,601,PT Splint #1 [Status]
+1453,227751,862,CCO PAC Placement Confirmed by X-ray
+1454,8074,1,pantoprazole80/250
+1455,2166,2,PRECEDEX MCG/KG/HR
+1456,226139,4666,22 Gauge placed in outside facility
+1457,8387,1018,GI [pH]
+1458,5959,1,scalp
+1459,5204,1,CEFAZOLIN
+1460,226541,4,ScvO2 Central Venous O2% Sat
+1461,2226,3,URINE OSMO
+1462,8186,1,svo2 RIJ
+1463,726,94,Vision - Mode
+1464,8279,1,Prednisolone Drops
+1465,228306,7612,Assistance Device
+1466,7954,1,CSM of left toes
+1467,677,26659,Temperature C (calc)
+1468,3137,1,Visual Field CheckL)
+1469,6528,1,Warm hand pack
+1470,7258,1,RLE ELEVATED
+1471,223819,1519,Visual Disturbances
+1472,6978,1,iced gauze to eyes
+1473,227870,206,Recovery HR - Aerobic Capacity
+1474,1976,3,hi min vent.
+1475,4969,1,CSM R LE
+1476,682,14076,Tidal Volume (Obser)
+1477,7058,2,Vapotherm
+1478,225196,6,PT Splint Status #4
+1479,372,146,ImpSkin #5 [Width]
+1480,1580,4,HI/Minute/Volume
+1481,1363,3,Bivalirudin
+1482,3074,1,TRF   200-400
+1483,2945,1,BLOWDRY RT THIGH
+1484,45,3814,Angio Dressing #1
+1485,220624,1447,HDL
+1486,199,1628,GI [Guaiac]
+1487,5942,1,HIGH VT
+1488,3643,10,Swallow Study
+1489,2861,1,TPA mg/HR
+1490,224892,482,Impaired Skin Cleanse #6
+1491,3100,2,LOW MV
+1492,6294,1,FETAL HR BY L&D RN
+1493,6481,1,p lo
+1494,2106,1,study drug/24mcg/k/h
+1495,2094,2,Spont VT
+1496,671,516,TCPCV Insp. Time
+1497,224069,235,Side Rails_V1
+1498,2046,1,hi minute vol
+1499,422,5605,LCWI
+1500,3467,639,IV #3 [Location]
+1501,4407,11,Polivisol
+1502,7051,1,rash axilla
+1503,3213,1,RT FEM ART LINE
+1504,224059,21807,Braden Friction/Shear
+1505,3049,1,spont Ve
+1506,6016,2,Neo Bili
+1507,7002,1,LUE fistula thrill
+1508,3216,1,NS FLUSH FOLEY
+1509,3013,1,shaved/bedbath
+1510,1870,5,multipodis boots
+1511,4444,1,Water bed
+1512,6682,1,INO PRESS
+1513,259,273,INV Line#6 [Type]
+1514,3223,104,Bedbath
+1515,8374,1630,CT #2 [Leak]
+1516,1015,26,PASSY MUIR VALVE
+1517,4545,16,CPR
+1518,8317,1,percusion
+1519,6859,1,Insp press mius PEEP
+1520,573,1667,Pressure Sore Odor#1
+1521,220050,9564,Arterial Blood Pressure systolic
+1522,1710,12,zzz Stim Thresh mA [Unit]
+1523,2029,10,Xigris
+1524,2639,1,JPO2
+1525,223936,13217,Radial Pulse R
+1526,227605,50,Impaired Skin Odor #10
+1527,224998,1723,Incision Cleansing #2
+1528,228302,423,CAM-ICU RASS LOC
+1529,6573,1,MgSO4          mg/hr
+1530,228006,348,Post Filter Replacement Rate
+1531,2002,3,fistula
+1532,61,77,AvDO2
+1533,797,10263,Differential-Eos
+1534,227607,79,Impaired Skin Site #10
+1535,2290,1,nimbex mcg/kg/m
+1536,4693,1,Bacitracin Eye Oint
+1537,4950,5,Dexamethasone drops
+1538,6428,1,L fem art line
+1539,7260,1,venous 02sat
+1540,2679,1,PENTOBARBITAL MG/HR
+1541,8408,442,ImpSkin #4 [Amount]
+1542,1206,1,HFO FIO2:
+1543,1562,1,High Minute Ventil.
+1544,225806,75,Volume In (PD)
+1545,223775,2,VAD Beat Rate R
+1546,5859,1,left eye
+1547,1384,1,MultiPodus Splints
+1548,8147,1,broviac
+1549,7854,1,R leg(cast)cap refil
+1550,224442,132,GI #3 Intub Site
+1551,7747,1,stoma adhesive powd
+1552,7032,1,OR pillow
+1553,1837,3,Flolan
+1554,6083,1,OGT Placement
+1555,2588,2,AV FISTULA BRUIT
+1556,224788,1131,GI #2 Tube Type
+1557,4377,20,circumcision
+1558,5955,1,Analyzed INOV FiO2
+1559,223875,9936,Fspn High
+1560,6875,1,CPAP AMT
+1561,5361,2,Combivent Puffs
+1562,4220,12,ceftazidime
+1563,225228,963,CCO PAC Zero/Calibrate
+1564,8506,1007,BP Right Arm [Diastolic]
+1565,2042,3,TLOW
+1566,6970,1,Right inguinal herni
+1567,1411,661,Bladder Pressure
+1568,226983,2,Apache IV A-aDO2
+1569,3052,2,waffle boot
+1570,490,1219,PAO2
+1571,224151,529,Effluent Pressure
+1572,223954,166,Pericardial Drain Site
+1573,1547,1,fundus
+1574,5810,1,urine calcium
+1575,227002,7,CABG Patient
+1576,1695,2586,Atr Sens Thresh mV
+1577,6172,1,cpr class
+1578,223972,525,Angio Appearance # 2
+1579,224112,23,Traction/Immobile #1
+1580,224667,139,Goose Flesh
+1581,1324,5,nif
+1582,3455,70,Hernia [Left]
+1583,5110,1,folate
+1584,88,26915,Braden SensoryPercep
+1585,228236,8004,Insulin pump
+1586,7902,1,OPIUM SOL'N.
+1587,1497,1,High Vent Alarm
+1588,6313,1,catherization
+1589,227344,21711,IV/Saline lock
+1590,7141,1,Chest tube site
+1591,6185,1,Hi Min vent
+1592,1199,2,HFO MAP
+1593,228008,142,14 G Infiltration Scale
+1594,225050,4992,Warming Device Status
+1595,4914,6,tub
+1596,7464,1,Discon
+1597,227059,7,UrineScore_ApacheIV
+1598,3385,4486,Dad in to visit
+1599,8093,1,Neonatal opium sol.
+1600,226183,473,Estimated Energy Needs/Kg
+1601,227801,3159,Stool Guaiac QC
+1602,2918,1,BINDER
+1603,224026,21820,Skin Integrity
+1604,227784,558,Impaired Skin  - Dressing Status #5
+1605,226185,5715,ICU Consent Signed
+1606,3401,1470,ETT Sx Color
+1607,802,1985,Dilantin
+1608,7748,1,Hydroceles
+1609,220603,1497,Cholesterol
+1610,1513,13,Hi Min Vol
+1611,227757,1376,PA Catheter Placement Confirmed by X-ray
+1612,226134,250,ICP Line Zero/Calibrate
+1613,3356,41,Cephalohematoma
+1614,3041,2,lt arm sling
+1615,3611,975,Sedation
+1616,6235,1,Circumsion
+1617,1532,20669,Magnesium
+1618,225052,1297,Cooling Device Status
+1619,209,176,Graft/Flap Pulse
+1620,224806,3528,CT #1 Suction Type
+1621,606,504,Rec. Breath Pressure
+1622,225740,192,Dialysis Catheter Discontinued
+1623,801,1085,Digoxin
+1624,6963,5,breast binder
+1625,8365,3155,Angio Appearance #1 [Attribute 2]
+1626,227452,97,Tobramycin (Trough)
+1627,856,1359,Vancomycin/Trough
+1628,3095,1,(R) FEM ART
+1629,4858,4,AZT
+1630,4849,1,umbi care
+1631,228379,6,TFCd0 (NICOM)
+1632,2091,2,dexmedetomidine
+1633,1124,1,NESIRITIDE
+1634,227617,51,Impaired Skin Wound Base #10
+1635,1231,1,side rails padded
+1636,228345,2373,OCAT - Swallow
+1637,7337,1,Insp. time
+1638,224654,243,PAEDP
+1639,3195,1,P insp
+1640,253,836,INV Line#5 [Type]
+1641,7958,1,Amiodorone mg/hr
+1642,119,2153,Cervical Collar Type
+1643,225690,11452,Total Bilirubin
+1644,7210,1,Phenylephrine nose s
+1645,5829,1,"ABG, Io CA"
+1646,7185,1,lt av fistula bruit
+1647,2870,1,ICP-ventriculostomuy
+1648,3828,159,Vancomycin Pre
+1649,101,1652,CT #2 [Fluctuate]
+1650,339,2973,Imp Skin Cleanse #2
+1651,6644,2,QVar
+1652,224327,1411,PCA medication
+1653,224153,526,Replacement Rate
+1654,4472,5,Hep B immunization
+1655,82,26918,Braden Activity
+1656,224643,480,Manual Blood Pressure Diastolic Left
+1657,2672,1,fentanyl mg/hr
+1658,1043,11407,Less Restrict Meas.
+1659,1048,35,zzzn Management
+1660,2308,2,FEM ALINE
+1661,225323,1071,Dialysis Catheter Site Appear
+1662,5940,1,Ileostomy care
+1663,213,176,Heart Sounds
+1664,3079,1,high volume
+1665,4679,2,KPHOS
+1666,227845,157,Rolling
+1667,7332,1,pressure support
+1668,5015,13,vidaylin
+1669,6224,1,Tank-b
+1670,5772,1,FLAP TEMP/COLOR
+1671,4208,12,Bath + Shampoo
+1672,4192,27,zzzzth in Centimeter
+1673,226063,2271,Venous O2 Pressure
+1674,4201,1422,pCO2 (cap)
+1675,223771,181,PCWP
+1676,4298,3,umbi site
+1677,224000,17661,Nares R
+1678,373,40,ImpSkin #6 [Width]
+1679,8157,2,3x antibiotic oint
+1680,227604,93,Impaired Skin Odor #9
+1681,1864,1,HFO-Max mean airway
+1682,1945,1,LLcalf w->d drsg chg
+1683,223838,9201,ETT Location
+1684,8469,1603,LLE [Sensation]
+1685,1587,3,xigris mg/hr
+1686,227127,103,Indwelling (PortaCath) Port #1
+1687,1578,49,HI/Minute/Vol
+1688,3509,1897,Mode
+1689,1920,1,GT Care
+1690,220072,6013,Central Venous Pressure Alarm - High
+1691,3351,1072,Car Safety Seat Screen [Remark]
+1692,225019,650,Incision Drainage Amount #3
+1693,226707,11811,Height
+1694,220051,9562,Arterial Blood Pressure diastolic
+1695,2050,2,Low MV
+1696,227867,187,Activity O2 Sat - Aerobic Capacity
+1697,224753,2288,Temporary Atrial Sens Setting mV
+1698,3380,65,Cry
+1699,2479,1,INTRATHECAL CATHL2-3
+1700,2877,2,trach collar trial
+1701,7193,1,NEPHRO TUBE
+1702,5703,2,FEM ART S/D
+1703,2902,1,T4  (NML 4.6- 12.0)
+1704,1335,1,Tacrolimus
+1705,6862,1,bed rotation on/off
+1706,5470,5,Pneumogram
+1707,3452,793,Head US
+1708,220180,21685,Non Invasive Blood Pressure diastolic
+1709,523,182,Pain Level (Movemnt)
+1710,3810,3118,Total CO2
+1711,1742,13,QTC
+1712,1871,1,versed 400mg/100ml
+1713,1829,1,autosigh
+1714,1984,1,abd/bldr press
+1715,526,19820,Pain Management [Route/Status #1]
+1716,5503,1,L nare
+1717,559,556,Pressure Sore #2 [Drainage]
+1718,1914,2,Cpap
+1719,3553,11,Ostomy Bag Change
+1720,5557,2,peri pad
+1721,227968,14713,All Medications Tolerated without Adverse Side Effects
+1722,2673,2,aprotanin
+1723,178,416,Epidural Bolus
+1724,225770,302,Sheath Waveform Appear
+1725,225409,2,VNA / home infusion
+1726,227187,675,Pinsp (Draeger only)
+1727,812,27,HCO3
+1728,1926,1,5.Paroxysmal sweats
+1729,227947,7975,Reason for Restraint (Non-violent)
+1730,5974,1,Nitric Dioxide
+1731,227469,99,Thrombin
+1732,3326,373,Babygram
+1733,1768,1,nasal cannula
+1734,5115,4,bactroban
+1735,224150,529,Filter Pressure
+1736,8375,333,CT #3 [Leak]
+1737,6607,1,Vitamin A IM
+1738,6948,1,Multipodos
+1739,6130,1,Hi min vent
+1740,3402,139,ETT Sx Quality
+1741,4625,40,Nystatin ointment
+1742,228311,46,GI #3 Tube Place Check
+1743,4607,5,tylenol
+1744,224834,2506,Temporary Ventricular Sens
+1745,1927,1,6.visual Disturbanc
+1746,6443,1,AMONIA
+1747,223999,21789,Oral Cavity
+1748,227681,638,Less Restrictive Measures_V1
+1749,227655,1,Reflexes UE
+1750,2396,1,MIVED VENOUS O2 SAT
+1751,763,19413,Daily Weight
+1752,3450,5307,HR Alarm [Low]
+1753,6919,1,index
+1754,686,998,Total PEEP Level
+1755,3463,46,Hydrocortisone
+1756,5795,1,URETERAL STENT.
+1757,226764,14,HrApacheIIValue
+1758,223834,17644,O2 Flow
+1759,1847,3,CIWA scale
+1760,4297,2,Na bicarb
+1761,146,495,Dialysate Flow ml/hr
+1762,4622,24,miconazole powder
+1763,224775,3490,CT #1 Leak
+1764,193,819,Flatus
+1765,5960,1,vitamin A
+1766,8554,17330,SpO2 Alarm [High]
+1767,2049,1,HI TIDAL VOLUME
+1768,7225,2,PLow
+1769,853,1433,Uric Acid (2.7-7.0)
+1770,2021,1,Seizure Precautions
+1771,5113,3,Calciferol
+1772,8287,2,trach press
+1773,4936,2,Nystatin Oint.
+1774,8146,1,R VAC/L VAC
+1775,5777,1,Cyclomydril eye drop
+1776,227466,20645,PTT
+1777,226745,15,APACHE II Predecited Death Rate
+1778,5280,1,flowrate cc's
+1779,223873,10132,Paw High
+1780,2462,1,cisatacurium mcg/k/m
+1781,1736,1,hi/min/vent
+1782,2092,1,T deconnect
+1783,3608,2,Root Reflex
+1784,5973,1,R hand infiltrate
+1785,104,342,CT #3 Drainage
+1786,1858,7,cisatracurium
+1787,3070,1,Nicardipine (mg/h)
+1788,226112,375,Midline placed in outside facility
+1789,533,9,Peak Flow (Pred)
+1790,4678,2,Atropine Oint.
+1791,5669,2,gent oint.
+1792,1317,2,DEMEROL
+1793,2910,1,R drain flush
+1794,4212,7,HEPARIN FLUSH
+1795,7074,625,NeoBlue Bank
+1796,3475,20,Infant ABO/Rh
+1797,6540,1,IntraABd pressure
+1798,228018,17,RIC Infiltration Scale
+1799,1527,1443,Direct Bili
+1800,5248,7,glycerine suppos.
+1801,5968,1,AF fistula T/B
+1802,297,21536,IV #2 [Site]
+1803,6830,1,Ostomy dsg change
+1804,228017,19,RIC Phlebitis Scale
+1805,7928,1,glucagon mg/hr
+1806,400,4369,Inc #3 [Dressing]
+1807,5218,1,Heparin/PIC flush
+1808,473,3775,O2AVI
+1809,8452,30,PT Splint #3 [Status]
+1810,8477,13742,Sputum [Amount]
+1811,5969,1,IV infiltrate
+1812,819,5,Lidocaine
+1813,6021,1,(R) nephrostomy
+1814,7085,1,driving pr
+1815,1723,3,HIGH EXHALE MV
+1816,6303,1,Pigtail dressing
+1817,228376,105,Stroke Volume Variation (SVV NICOM)
+1818,813,27410,Hematocrit
+1819,223966,258,Transcutaneous Pacer Placement
+1820,3581,4533,Present Weight  (lb)
+1821,227441,136,LDL measured
+1822,6538,2,tpn
+1823,227835,303,UE Dressing
+1824,5961,1,PT Eval
+1825,228343,2385,OCAT - Lips Tongue Gums Palate
+1826,227983,26,Neuro Drain #2 Drainage
+1827,970,67,TRACH CARE
+1828,224176,217,MDI #3 Drug
+1829,6852,2,nausea
+1830,225664,16937,Glucose finger stick
+1831,224917,944,Impaired Skin Length #3
+1832,7620,1,BP Rt. Arm Mean
+1833,6451,15,Phigh
+1834,1632,64,PMV
+1835,2747,1,CHECK L ARM BRUIT
+1836,1903,2,OOB TO CHAIR
+1837,806,6907,Fibrinogen (150-400)
+1838,6503,1,moves legs well
+1839,6415,1,Tri-Visol
+1840,4264,1,Shunt Site
+1841,6577,2,Myconizol Powder
+1842,590,7469,RL Strength/Movement
+1843,5954,1,ileostomy appearance
+1844,579,1877,PressureReduceDevice
+1845,1734,12,TOF
+1846,1628,1,Percussive vest
+1847,3393,830,Disease State
+1848,123,4114,Chest Tube Site #2
+1849,1463,2,pad count
+1850,6444,1,Fissure
+1851,1917,1,Urine Na+
+1852,6149,2,PeCO2
+1853,3118,1,THORACIC EXTENSION
+1854,8489,141,Ulnar Pulse [Left]
+1855,5391,1,ligation incision
+1856,8409,213,ImpSkin #5 [Amount]
+1857,2789,7,MAMMARY SUPPORT
+1858,800,10260,Differential-Polys
+1859,8360,1,Trans pul exp.
+1860,1530,18821,INR
+1861,3796,178,Ptt
+1862,1429,810,Insomnia
+1863,224646,166,Orthostatic BPs sitting
+1864,1865,1,HFO-Min mean airway
+1865,6246,1,SAFETY OFFICER
+1866,6932,1,exh. ve
+1867,228233,463,PAR-Remain sedated
+1868,8522,1153,IV #2 [Location]
+1869,4685,1,Zantac(Ranitidine)
+1870,2988,1,ORAL AIRWAY
+1871,404,604,Inc/Wound Packing #1
+1872,4925,3,Amoxicillan
+1873,6011,1,P Hi
+1874,227951,8011,Circulation/Skin Integrity
+1875,224328,1403,PCA dose
+1876,2079,2,Nitric tank psi
+1877,224992,85,Undermining Present #8
+1878,6032,1,TRACH CUFF TAKENDOWN
+1879,547,26456,Position
+1880,4175,7864,Admit Reason
+1881,2863,1,DEEP BREATH&COUGH
+1882,224058,21806,Braden Nutrition
+1883,227944,17799,Side Rails
+1884,578,14043,Pressure Support
+1885,224329,1397,PCA lockout (min)
+1886,1892,23,BED BATH
+1887,7338,1,Domeboro soak
+1888,1699,848,GI Tube #2 [Site]
+1889,6305,1,freeform alarm
+1890,224373,10262,Sputum Amount
+1891,556,320,PressSore Depth #2
+1892,1123,1,dsg change to coccyx
+1893,3226,1,%cool mist
+1894,7731,1,Femoral site
+1895,5035,146,Glycerin Suppository
+1896,2858,1,RT ABD GRAFT PULSE
+1897,3838,1457,pO2 (other)
+1898,227636,42,Knee Location - CPM
+1899,7802,1,high peep
+1900,2114,1,Assess Peak Flow
+1901,566,191,PressSoreCleansing#3
+1902,225133,6645,Discharge needs
+1903,5705,1,j-tube flush
+1904,695,9,Tract/Imm Location#3
+1905,228393,2364,Bath
+1906,4513,15,sponge bath
+1907,3594,15,Racemic Epi MiniNeb
+1908,2078,1,Nitric Oxide ppm
+1909,6293,1,APRV LOW
+1910,6330,10,Bed rotation
+1911,3209,7,P LOW
+1912,224968,351,Pressure Ulcer Stage #5
+1913,220650,694,Total Protein
+1914,224090,597,Knee Immobilizer Status
+1915,7449,1,ECMO flow
+1916,1698,9062,GI Tube #1 [Site]
+1917,8449,1650,Patient controlled analgesia (PCA) [Attempt]
+1918,224769,16165,LUE Temp
+1919,6285,1,right nephrost irrig
+1920,2372,1,FICK CO
+1921,4478,4,triple antibiotic
+1922,5292,2,Propranolol
+1923,227121,18276,Pupil Response Right
+1924,4753,2184,pH (Art)
+1925,5309,4,180 degree turn
+1926,2338,2,finger stick glucose
+1927,610,15138,Removed x 5 Mins
+1928,782,7,Bleeding Time
+1929,6110,1,xygris
+1930,287,578,INV#5 WaveformAppear
+1931,224662,1784,Current Used/mA
+1932,226979,7,Admission location
+1933,2800,1,ACE WRAP RIGHT LEG
+1934,2730,3,CAMINO
+1935,227964,202,Reason for Restraint (Violent)
+1936,5793,1,DTR
+1937,5003,1,prednisolone
+1938,1630,4,podis boots
+1939,5012,13,glycerin suppository
+1940,3454,397,Heptavax
+1941,1056,8,chest pt
+1942,1607,1,Disconnect alarm
+1943,2656,2,SOLUMEDROL MG/KG/HR
+1944,5901,2,"Lytes,Bili"
+1945,1672,1,MEAN AIRWAY PRESS
+1946,5346,1,atropine drops
+1947,6114,2,LUMBAR DRAIN
+1948,224920,199,Impaired Skin Length #6
+1949,2349,2,APROTONIN U/HR
+1950,2983,1,solumedrol mg/hr
+1951,181,431,Epidural Total Dose
+1952,224429,42,CT #4 Crepitus
+1953,224372,9826,Sputum Source
+1954,228204,4,Tandem Heart Access Line Catheter Length
+1955,5848,1,disconnect
+1956,1412,1,fentanyl iv
+1957,8527,188,MAWP Alarm [High]
+1958,2535,1,flap check
+1959,367,98,ImpSkin Wound Base#6
+1960,1701,129,GI Tube #3 [Status]
+1961,4579,4,Hydralazine
+1962,220045,21924,Heart Rate
+1963,5835,2,Hep B vac
+1964,5698,1,Vi-Day-Lin
+1965,3400,1528,ETT Size
+1966,4353,46,hep flush
+1967,983,2,LEECH THERAPY
+1968,3364,10,Chest Tube Site 2
+1969,4340,67,Hep B vaccine
+1970,4647,3,normal saline bolus
+1971,3556,1140,PIP Alarm
+1972,8197,2,Triple AB ointment
+1973,7339,1,leech therapy
+1974,3042,1,LEFT FEM ABP
+1975,4311,20,glycerin
+1976,690,1636,Trach Size
+1977,2305,12,aprotinin
+1978,3793,179,ProTime
+1979,4268,1,left head dsg.
+1980,112,47,CT #4 Suction Amount
+1981,8474,6752,Responds to Stimuli [Value]
+1982,1499,20,high min. vol
+1983,4750,10,Hyperoxia test
+1984,3201,1,Methylhemaglobin
+1985,223910,5692,Follows Commands
+1986,5934,1,R arm sensation
+1987,224942,358,Impaired Skin Treatment #7
+1988,227671,975,Non-Violent Restraints
+1989,224457,16,PT Splint Location #3
+1990,3669,5289,Turgor
+1991,7052,1,Vit. A
+1992,7531,2,baby vitamins
+1993,7018,1,ecmo fio2
+1994,1484,18441,Risk for Falls
+1995,1211,202,Insp Time %
+1996,2098,1,BariAir Auto Turn
+1997,1460,1,D5W 100meq NaHC03
+1998,224453,3,Traction/Immobile Location #3
+1999,7243,1,R ax fem bpg pulse
+2000,1706,1871,Ventricular Pacemaker Sense [mV]
+2001,4371,3,Criticaid cream
+2002,1491,5,apnea time
+2003,227350,2519,Cordis/Introducer Dressing Occlusive
+2004,226130,254,ICP Line Site Appear
+2005,227988,6443,Pronator drift present
+2006,224169,2707,MDI #1 Puff
+2007,227847,133,Sit to Stand
+2008,5563,1,HIGH MINUTE VOLUMER
+2009,225331,171,Tunneled (Hickman) Site Appear
+2010,600,11,RVAD Flow LPM
+2011,1561,2,APRV T LOW
+2012,1930,1,9.agitation
+2013,5057,1,NEONATAL MORPHINE
+2014,227037,4,PH_ApacheIV
+2015,225413,5,Skilled nursing facility
+2016,435,135,Low Exhaled Vt
+2017,3067,3,FEM MAP
+2018,2626,1,wound gel to coccyx
+2019,3200,1,High Minute Volume m
+2020,6070,1,Full Skeletal X-Ray
+2021,7672,1,Foley
+2022,6596,1,Acety42gm/1L-mg/kg/h
+2023,5128,1,Zantac pg
+2024,227582,509,BiPap O2 Flow
+2025,589,2184,RCWI
+2026,6793,1,02 ANALYZED
+2027,3285,1,ROTATION ON/OFF
+2028,6018,2,PIC line placed
+2029,3517,36,Murmur Description
+2030,6119,7,caffeine load
+2031,3072,1,IRON  45-160
+2032,223830,13211,PH (Arterial)
+2033,7654,1,mucomyst mg/hr
+2034,1941,1,Total CIWA
+2035,3120,1,L AVF-BRUIT/THRILL
+2036,2989,1,APOTININ CC/HR
+2037,3340,5060,Bruising [Existence]
+2038,52,17018,Arterial BP Mean
+2039,3471,80,IV Site #5
+2040,366,339,ImpSkin Wound Base#5
+2041,2585,2,chest PT
+2042,2981,2,FiO2
+2043,224895,560,Impaired Skin Depth #2
+2044,5723,1,Caffiene Bolus
+2045,2476,1,rectal tube deflate
+2046,440,2682,MDI #2 [Puff]
+2047,8455,178,Popliteal Pulse [Left]
+2048,4761,8,ORL consult
+2049,6672,1,APRV T lo
+2050,2027,2,Low pressure
+2051,225768,32,Sheath Line Tip Cultured
+2052,2045,1,icp left
+2053,2775,1,sjph
+2054,85,26917,Braden Moisture
+2055,5032,19,bili
+2056,8204,1,triple antibx
+2057,5839,1,eye movements
+2058,3277,1,NICARDIPINE--MG/HR
+2059,3339,5603,Breath Sounds [R]
+2060,4739,20,prune juice
+2061,6556,7,Prednisolone drops
+2062,4315,3,Gent
+2063,32,26838,Activity Tolerance
+2064,227950,8301,Restraint Location
+2065,1382,75,bedbath
+2066,5333,2,saline flush
+2067,1381,1,ARGATROBAN
+2068,1452,1,#1 chest tube irrig.
+2069,546,200,Popliteal Pulse [Right]
+2070,6537,4,Ketamine
+2071,3686,5224,Void
+2072,227290,518,CRRT mode
+2073,1537,98,Thrombin
+2074,3218,1,TCPCV Driving Press.
+2075,227378,24547,Patient Location
+2076,6931,1,ECMO Flow L/min
+2077,226748,15,APACHEII-Renal failure
+2078,1505,1,Palmer Pulses R/L
+2079,8170,1,trach postion/stoma
+2080,224423,1804,CT #2 Crepitus
+2081,225239,135,14 Gauge Reason Discontinued
+2082,6145,1,Fem Art BP
+2083,227948,8138,Restraint Device (Non-violent)
+2084,5732,1,FEMORAL ABP S/D
+2085,2406,1,mouth flap pulse
+2086,7771,1,AUTO-ROTATION
+2087,4400,1,cefotoxime
+2088,637,26124,Side Rails
+2089,5401,1,Gentamycin gtts OU
+2090,5694,3,Abdominal ultrasound
+2091,1602,7,hepa filter
+2092,4518,2,Tent
+2093,2762,1,R SHEATH
+2094,225638,4135,Differential-Bands
+2095,225090,5725,Interpreter
+2096,443,586,Manual BP Mean(calc)
+2097,4568,84,circ site
+2098,416,75,Incision/Wound #6
+2099,4833,1,SaO2 (post)
+2100,7232,2,Peakflow
+2101,6033,4,wound care
+2102,427,1462,LUE [Temp]
+2103,1658,60,driving pressure
+2104,5983,1,Fungal Blood cx
+2105,3373,6861,Color (Overall)
+2106,4256,85,Cefotaxime
+2107,3192,2,BUMEX MG/HR
+2108,8289,2,Mucomyst       mg/hr
+2109,377,900,Impaired Skin Site#4
+2110,5626,7,Vidalyn
+2111,2527,1,HFO-Bias Flow (lpm)
+2112,1517,9639,Readmit <48 hrs
+2113,184,27188,Eye Opening
+2114,24,77,ART Lumen Volume
+2115,7988,1,Inhaled Nitric Oxide
+2116,1639,230,High MV
+2117,224712,262,Recruitment Mode
+2118,7887,1,Hand perfusion
+2119,4551,1,Triple ABX cream
+2120,227666,1516,Immobilizer Location
+2121,8465,153,Pressure Sore #3 [Length]
+2122,6522,3,T-high
+2123,3502,208,Mean PAW
+2124,456,26428,NBP Mean
+2125,728,81,Vision Mask
+2126,4362,33,Prune Juice
+2127,7349,6,Dexamethasone
+2128,7454,7,Driving P
+2129,8444,242,Orthostat BP sitting [Diastolic]
+2130,2074,9,AV Fistula
+2131,2731,1,Femoral ABP
+2132,5792,1,left  lower leg cast
+2133,6612,1,flowvent MDI
+2134,3637,25,Suck
+2135,3776,1,Mix Venous Sat
+2136,1052,1,rocuronium
+2137,7717,1,peripheral sat
+2138,6584,1,HumR SSI
+2139,224436,456,CT #3 Suction Amount
+2140,224933,1141,Impaired Skin Site #5
+2141,256,807,INV Line#5SiteAppear
+2142,216,2397,Height of Bed
+2143,3078,1,alarm/high minute vl
+2144,8373,5987,CT #1 [Leak]
+2145,228177,84,CI (PiCCO)
+2146,3036,6,P HIGH
+2147,2714,1,DO2 INDEX
+2148,6587,1,Heliox total flow
+2149,8518,5307,HR Alarm [High]
+2150,8307,1,Left neprhrostomy
+2151,225117,6666,Unable to assess nutrition / education
+2152,809,472,Gentamycin/Random
+2153,7114,2,Ostomy bag
+2154,228445,11,Angio Appearance # 3
+2155,7814,1,PROTONIX 80MG/250
+2156,483,141,OrthostatHR standing
+2157,5892,2,tpa mg/hr
+2158,1869,1,CIWA Scale
+2159,224959,1990,Impaired Skin Wound Base #3
+2160,5743,2,NT suction
+2161,5944,1,I-Time
+2162,1839,1,Multi podis boot
+2163,224689,10022,Respiratory Rate (spontaneous)
+2164,228234,647,PAR-Respiration
+2165,2651,1,Abd Cmprtmnt Pressur
+2166,225176,1868,Range of Motion Status
+2167,227547,353,SV (Arterial)
+2168,1501,2,FOLEY CLAMPED
+2169,2757,3,KETAMINE MG/HR
+2170,225210,9342,Arterial Line Zero/Calibrate
+2171,3532,23,Nasal Congestion
+2172,4821,1,IV Zantac
+2173,2395,1,PPN/TPN
+2174,7516,1,t discon
+2175,228300,1486,CAM-ICU MS change
+2176,542,150,Pin Care
+2177,1341,1,PULSE
+2178,1525,21114,Creatinine
+2179,1738,28,high/min/vent
+2180,2764,2,Aprotinin cc/hr
+2181,8436,1444,LUE [Color]
+2182,3102,1,NICARDIPINE MCQ/KG/'
+2183,223760,4761,Health Care Proxy
+2184,227459,3,Procan Napa
+2185,6578,1,IR SHEATH ABP
+2186,4483,1,Splint
+2187,7655,1,security
+2188,2990,1,High Tidal Vol
+2189,110,49,CT #4 Dressing
+2190,3522,42,NG Feedings
+2191,5958,1,R) LE
+2192,1342,8,fentanyl
+2193,1860,1,HFO Delta P (amplt)
+2194,6054,1,Neonatal bili
+2195,225684,1621,Serum Osmolality
+2196,227616,98,Impaired Skin Wound Base #9
+2197,5704,1,g-tube flush
+2198,228400,1669,Visual Field Cut
+2199,4894,1,left hydrocele
+2200,28,35,Abdominal Girth
+2201,5576,1,Ti
+2202,7882,1,L leg perfusion
+2203,224639,11496,Daily Weight
+2204,262,266,INV Line#6SiteAppear
+2205,5871,1,SIZURE PADS
+2206,2570,4,valproic acid
+2207,3058,5,shaved
+2208,8423,2521,Inc #2 [Amount]
+2209,2053,3,high VE
+2210,223901,21867,GCS - Motor Response
+2211,3504,57,Midazolam/Versed
+2212,1312,1,abductor pillow
+2213,227242,409,Manual Blood Pressure Diastolic Right
+2214,1591,21,waffle boots
+2215,585,14663,Pupil Size [Right]
+2216,3596,80,Reglan
+2217,1684,18,APNEA
+2218,6542,1,edi
+2219,1862,1,HFO-Bias Flow
+2220,1050,1,left thigh hematoma
+2221,122,6003,Chest Tube Site #1
+2222,5885,1,"Lytes,ABG,Bili"
+2223,1942,1,INO Tank Press
+2224,6265,1,high NO2 alarm
+2225,5922,1,bleedig at meatus
+2226,762,27205,Admit Wt
+2227,227953,7839,Range of Motion
+2228,3678,11,Vanceril MDI
+2229,531,5,Peak Flow % (pred)
+2230,227367,12804,18 Gauge Dressing Occlusive
+2231,3449,19,Grasp
+2232,224847,7466,Impaired Skin Drainage Amount #1
+2233,1581,4,APRV
+2234,3661,40,Tone
+2235,5891,2,SSE
+2236,2655,1,ALCOHOL 10%DRIP G/HR
+2237,6420,1,PERICARE
+2238,3742,5235,Basos
+2239,8501,403,BP Alarm [High]
+2240,2590,1,HI/Minute/vol/Alarm
+2241,628,1707,Sedation Score
+2242,8071,1,mist tent
+2243,4523,2,PDA incision site
+2244,227360,508,Indwelling Port (PortaCath) Dressing Occlusive
+2245,5483,10,bili level
+2246,3365,59,Chest Tube Suction
+2247,8042,1,Immodium
+2248,3399,1131,ETT Changed
+2249,6482,1,t hi
+2250,225695,590,Uric Acid
+2251,7485,1,Maintainence IVF
+2252,5621,2,DSD
+2253,5727,22,Hi MV
+2254,227453,10,Vancomycin (Peak)
+2255,5710,2,inital bath
+2256,6043,1,surface cultures
+2257,7423,1,Flovent Puffs
+2258,5528,4,Dexamethasone nasal
+2259,1310,3,FINGERSTICK GLUCOSE.
+2260,7120,1,OGT Sugar level
+2261,2664,1,INO alarms
+2262,3425,1583,FeSO4
+2263,185,1876,FIO2 Alarm-High
+2264,226774,14,RRApacheIIValue
+2265,228312,38,GI #3 Tube Place Method
+2266,225280,7635,Called Out
+2267,5906,701,Analgesic
+2268,5063,2,Tobramycin
+2269,545,7763,Plateau-Off
+2270,6237,1,Cap gas
+2271,4795,13,nystatin
+2272,487,628,Ostomy [Type]
+2273,7845,1,I time set
+2274,1510,18,high Ve
+2275,6641,1,Heliox flow
+2276,224994,928,Incision Appearance #3
+2277,7631,2,Gent ointment
+2278,227357,1060,Dialysis Catheter Dressing Occlusive
+2279,4901,2,SKIN
+2280,3476,5205,Infant Position
+2281,1730,1,RIBAVIRIN RX
+2282,1696,2561,Atr Stim Thresh mA
+2283,2280,4,1:1 sitter
+2284,7565,1,Cont EEG
+2285,2984,1,Camino Bolt
+2286,4806,6,Gentamycin
+2287,227119,427,Epidural Location
+2288,227989,12,Intra Cranial Pressure #2
+2289,224032,12188,Impaired Skin Site #1
+2290,4385,4,metoclopramide
+2291,831,45,Procan
+2292,2450,6,CLOT IN BLOOD BANK
+2293,6637,1,VIT A INJ
+2294,228298,7111,Daily Wake Up
+2295,8059,1,TANK PRES NO
+2296,3551,1757,Oral Sx Quantity
+2297,8555,473,Arterial BP #2 [Diastolic]
+2298,1198,1,HFO Frq. (Hz)
+2299,446,5451,Micro-Neb Treatment
+2300,155,37,Doppler BP
+2301,2935,7,P Low
+2302,4249,9,IPV
+2303,223934,21478,Dorsal PedPulse R
+2304,434,14725,Low Exhaled Min Vol
+2305,5263,1,STOMA
+2306,6525,1,TOF level
+2307,227356,505,Sheath Line Dressing Occlusive
+2308,1115,24,passey muir valve
+2309,227022,7,LOS pre-ICU admission
+2310,6197,2,cap gas
+2311,6898,1,TRACHEA DSG
+2312,225725,267,Dialysis Catheter Tip Cultured
+2313,587,2,Qs/Qt
+2314,1327,2,vasopressin unit/min
+2315,6137,1,PEG site
+2316,604,17046,Radiologic Study
+2317,3348,5922,Capillary Refill
+2318,1646,2,RLE drsg change
+2319,2086,1,R groin angio site
+2320,842,61,Theophylline
+2321,3349,4,Captopril
+2322,6507,1,Radial a-line
+2323,6164,1,Lumbar open/clamped
+2324,6410,1,Auto Rotation
+2325,4855,6,Urine culture
+2326,7599,3,nasal septum
+2327,225023,3239,Incision Dressing #2
+2328,3577,5220,Posterior Fontanelle [Texture]
+2329,97,6048,CT #1 Suction Amount
+2330,3325,333,BP UAC [Systolic]
+2331,227812,129,Medication Infusion Rate - Adjunctive Pain Management
+2332,224924,2026,Impaired Skin Odor #3
+2333,2025,1,High pressure
+2334,224561,11720,Impaired Skin Type #1
+2335,6276,1,Critic-Aid Skin Pst
+2336,3321,1023,BP Right Arm [Systolic]
+2337,4972,3,erythromycin
+2338,225131,9653,Teaching directed toward
+2339,4457,1,Chest tube fluc
+2340,5404,3,CAFFEINE LOAD
+2341,220615,24063,Creatinine
+2342,351,92,ImpSkin #6 [Drain]
+2343,5145,1,tremors
+2344,5453,1,mitrazol powder
+2345,2969,1,R GROIN A LINE
+2346,227727,297,AVA Line placed in outside facility
+2347,5260,1,BROVIAC DSG
+2348,6248,1,d51/2NSc 20meq kcl
+2349,225024,895,Incision Dressing #3
+2350,226995,7,ApacheIV_Natural antilog
+2351,7645,1,Central line SVO2
+2352,3734,5304,BANDS
+2353,5055,2,gel pillow
+2354,2374,1,RAD ART BP
+2355,8448,6520,PAP [Diastolic]
+2356,3474,341,Indomethacin/Indocin
+2357,386,8309,Inc #1 [Closure]
+2358,228447,11,Angio Dressing # 3
+2359,8067,1,HIGH NO2
+2360,224283,4621,Multi Lumen Waveform Appear
+2361,224659,2,Vacuum Assist
+2362,1615,3,Time Low
+2363,225185,17472,Skin Care
+2364,3460,1898,Humidity Temp [Meas]
+2365,2095,4,Octreotide
+2366,3788,10,Phenytoin  (10-20)
+2367,506,14777,PEEP Set
+2368,224666,137,Nasal Congestion
+2369,1483,5311,RSBI Not Completed
+2370,6469,1,nephostomy
+2371,6112,1,left vent drain
+2372,227634,208,Arctic Sun/Alsius Temp #2 C
+2373,5521,3,Hyperoxia
+2374,369,1543,ImpSkin #2 [Width]
+2375,225342,233,IABP Zero/Calibrate
+2376,5654,1,rt art line
+2377,228406,1174,Motor R Arm
+2378,224919,340,Impaired Skin Length #5
+2379,724,93,Vision - EPAP
+2380,8208,1,Postductal O2 Sat
+2381,5562,1,Breath Sounds
+2382,226152,28,Required documentation
+2383,1413,1,midazolin iv
+2384,5800,1,mushroom catheter
+2385,2744,1,"ALINE, RIGHT RADIAL"
+2386,4417,1,Erythro eye oint
+2387,4219,19,Lasix
+2388,826,171,Phenobarbital
+2389,1642,1,Brachial Site
+2390,1055,1,Hi/Minute/vol/alarm
+2391,6134,1,esoph balloon
+2392,227589,527,GI #2 Tube Place Method
+2393,1652,1,MP boots
+2394,1406,1,L AND R HEEL DRSG
+2395,228405,1170,Motor L Leg
+2396,464,619,Neuro Drain Type
+2397,5849,2,Hep B vaccination
+2398,7486,1,CUFF P.
+2399,3578,128,Potassium Chloride
+2400,1745,3,Passey Muir valve
+2401,1353,2,multi podus
+2402,2400,2,tidal volumes
+2403,4186,7864,10 min
+2404,8262,1,ketamine mg/hr
+2405,3334,1,Blood Out
+2406,7062,1,Mucomyst mcg/kg/min
+2407,2289,1,HEPARIN
+2408,7443,1,Bed Rotation.
+2409,225078,10874,Social work consult
+2410,228411,2608,Strength R Leg
+2411,8258,1,Ursodeoxycholic Acid
+2412,2964,1,left AV thrill/bruit
+2413,1565,111,High MV Limit
+2414,845,21,Tobramycin/Peak
+2415,1323,1,high exhaled min.vol
+2416,1852,2,ETT rotation
+2417,2855,1,coccyx drsg
+2418,224730,10852,Corneal Reflex Right
+2419,4299,20,Glycerin
+2420,224937,5380,Impaired Skin Treatment #2
+2421,8386,259,Femoral Pulse [Left]
+2422,4415,20,Ceftazidime
+2423,6333,12,bed rotation
+2424,6579,1,IR Sheath MAP
+2425,224751,2561,Temporary Pacemaker Rate
+2426,7815,1,L Leg Wound
+2427,225237,4469,16 Gauge Site Appear
+2428,76,4197,Bath
+2429,224982,349,Tunneling Present #5
+2430,227519,7,Urine output_ApacheIV
+2431,406,60,Inc/Wound Packing #3
+2432,225231,14704,20 Gauge Site Appear
+2433,7778,1,Ptp Insp.
+2434,228373,98,Passive Leg Raise Performed
+2435,3646,289,Synagis
+2436,8035,1,MultiPodus Boot
+2437,2402,1,sp tidal volumes
+2438,1960,2,High Min. Vol.
+2439,227785,337,Impaired Skin  - Dressing Status #6
+2440,552,665,Pressure Sore #2 [Stage]
+2441,219,13782,High Resp. Rate
+2442,3617,842,Skin Integrity [Attribute #1]
+2443,5783,1,aprotinen cc/hr
+2444,7356,1,T. low
+2445,4840,2,desitin cream
+2446,7544,1,evd
+2447,225236,1547,16 Gauge Reason Discontinued
+2448,79,509,Blood Flow ml/min
+2449,450,14752,Minute Volume(Obser)
+2450,4654,57,Hepatitis B vaccine
+2451,224743,38,Vd/Vt Ratio
+2452,220056,9895,Arterial Blood Pressure Alarm - Low
+2453,4204,5,CIRC CARE
+2454,6817,1,mixed venous
+2455,1711,8,zzzt Stim Thresh mA [Unit]
+2456,7108,10,surgical bra
+2457,225639,10193,Differential-Basos
+2458,2898,1,AMBUED Q4 AND PRN
+2459,4534,20,Circ Site
+2460,3175,2,BEAR HUGGER
+2461,3655,4952,Temp Skin [C]
+2462,192,512,Filter Pressure mmHg
+2463,6178,5,Pediatrix
+2464,7875,1,umbi hrenia
+2465,338,6012,Imp Skin Cleanse #1
+2466,3539,13,Neonatal Opium Solut
+2467,228378,5,TFCd (NICOM)
+2468,1851,1,DSG CHANGE
+2469,7853,1,Triple Antibiotic
+2470,271,35,INV Line#8 [Type]
+2471,1221,1,RAD. ALINE
+2472,2577,1,CARIIPORIDE ML/HR
+2473,224389,82,Heart Sounds
+2474,3256,1,L ulnar ABP
+2475,4363,1,Gel Pillow:
+2476,6113,1,sacral ultrasound
+2477,6035,1,Urinalysis sent
+2478,225043,613,Incision Packing #2
+2479,5984,1,TSH NML(0.27-4.2)
+2480,5965,1,Vitamin A injections
+2481,4646,1,Knee Abrasions
+2482,2919,1,ABDOMINAL GIRTH
+2483,6050,1,Pediarix Vaccination
+2484,3591,1425,Prong Size
+2485,1716,1,hand mitts
+2486,7601,1,rotation on
+2487,6835,1,rotation on/off
+2488,6453,16,Plow
+2489,3211,4,time high
+2490,5579,1,Nitric [PSIG]
+2491,1459,1,gluteral drsg change
+2492,224796,595,Ostomy
+2493,3757,527,Gentamicin Pre (0-2)
+2494,607,506,Rec.Breath Time(sec)
+2495,4419,65,Hep B
+2496,235,13891,INV Line#2 [Type]
+2497,387,3940,Inc #2 [Closure]
+2498,1610,1,THERA VEST 15 MIN.
+2499,225985,232,IABP Helium Tubing
+2500,6220,1,"Lytes, Phenobarb"
+2501,226752,12,CreatinineApacheIIValue
+2502,225006,233,Incision Closure #4
+2503,6257,1,Heated Humid
+2504,1641,2,high min. volume
+2505,220602,24062,Chloride (serum)
+2506,224973,2028,Surrounding Tissue #3
+2507,1560,2,APRV T HIGH
+2508,8272,1,Seizure pads
+2509,4195,27,ABG Sodium
+2510,3684,723,Vitamin E
+2511,2378,1,epidural
+2512,223751,20982,Non-Invasive Blood Pressure Alarm - High
+2513,2644,20,pericare
+2514,2473,1,COCCYX GEL/ALLEVYN
+2515,29,510,Access mmHg
+2516,7611,1,Lumbar Drain
+2517,6262,1,Hep Flush 10UNITS/CC
+2518,8529,5215,Posterior Fontanelle [Shape]
+2519,4322,1,Circumsion Site:
+2520,227608,131,Impaired Skin Treatment #9
+2521,3183,1,APRV T-LOW
+2522,1041,1,flap doppler
+2523,225194,17,PT Splint Status #3
+2524,1714,1,Nicardipine HCl
+2525,6536,3,Erythromycin
+2526,227966,234,Face to Face Eval (Violent)
+2527,7293,1,VENOUS O2 SAT
+2528,226109,2396,Cordis/Introducer placed in outside facility
+2529,1126,16944,Art.pH
+2530,171,17866,Education Topic #1
+2531,8487,827,Med Wasted [Amount]
+2532,4872,1,TRI VI SOL
+2533,3296,19,Abnormalities
+2534,1579,1,CORNEAL REFLEXES
+2535,8548,6563,CVP Alarm [High]
+2536,4684,9,Synthroid
+2537,1975,1,apnea time interval
+2538,223758,14305,Code Status
+2539,225990,72,Pericardial Drain Flush
+2540,223772,1405,SvO2
+2541,5631,1,High MV alarm.
+2542,3015,1,CHEST TUBE #5
+2543,8028,1,PROTONIX MG/H
+2544,6339,1,PRESSURE SUPPORT
+2545,224910,2125,Impaired Skin Drainage Amount #3
+2546,858,4794,Venous PvCO2
+2547,2869,1,PORK INSULIN U/HR
+2548,5421,3,Abdominal xray
+2549,3174,1,Labetalol mcg/kg/min
+2550,2774,1,sjo2
+2551,7379,4,TLSO brace
+2552,54,26890,Assistance Device
+2553,3212,4,time low
+2554,227614,53,Impaired Skin Width #9
+2555,2393,2,VISUAL FIELDS
+2556,4502,1,ADEK vitamins
+2557,224993,3365,Incision Appearance #2
+2558,993,58,bladder pressure
+2559,8380,2565,Corneal Reflex [Left]
+2560,3119,1,HI MINUTE VOL
+2561,2609,2,TED STOCKINGS
+2562,225120,12408,Appetite
+2563,225643,10193,Differential-Neuts
+2564,225101,11602,Use of assistive devices
+2565,5281,4,oral nystatin
+2566,6189,1,phosphenytoin
+2567,3580,4533,Present Weight  (kg)
+2568,4729,20,Miconazole powder
+2569,103,167,CT #3 Crepitus
+2570,2307,9,WAFFLE BOOTS
+2571,2985,1,ICP ventricle
+2572,525,25748,Pain Location
+2573,228229,649,PAR-Activity
+2574,227854,7,Weight Bearing Status
+2575,5374,1,position rotated 180
+2576,2913,3,R FEM ART LINE
+2577,1724,2,High exhaled MV
+2578,1636,1,Lavage
+2579,8514,969,Edema [Location]
+2580,4467,18,hep b
+2581,3736,1140,BE
+2582,4842,1,Nystatin (PO)
+2583,227359,169,Tunneled (Hickman) Dressing Occlusive
+2584,810,228,Gentamycin/Trough
+2585,4639,2,tobradex
+2586,223780,13347,Daily Wake Up Deferred
+2587,223872,3338,Inspired Gas Temp.
+2588,2062,3,NO ppm
+2589,224740,4343,RSBI Deferred
+2590,6621,6,ROTATION
+2591,7871,1,elemental calcium
+2592,6084,1,TRACH SITE
+2593,1668,11,thigh
+2594,224449,4,Traction/Immobile #2
+2595,1311,5,XIGRIS
+2596,8353,1,CSM to toes
+2597,1398,1,RVEDV
+2598,857,3995,Venous CO2(Calc)
+2599,5628,1,head circ.
+2600,1205,1,HFO Amplitude deta P
+2601,36,59,Additional Gas(Mask)
+2602,224068,84,Restraints Evaluated_V1
+2603,8453,9,PT Splint #4 [Status]
+2604,5613,1,Neonatal Morphine PO
+2605,1559,2,APRV P LOW
+2606,4497,1,PENICILLIN G
+2607,1890,1,Right Groin Check
+2608,8027,1,ted stocking
+2609,224950,225,Impaired Skin Type #8
+2610,4548,14,nystatin ointment
+2611,7551,1,L.ARM ELEVATION
+2612,223992,18391,Cough Type
+2613,8400,25406,IV #1 [Size]
+2614,7303,1,gentamycin eye oint
+2615,226751,14,CreatinineApacheIIScore
+2616,5548,3,Dressing change
+2617,224430,411,CT #3 Drainage
+2618,7029,2,Trip Antibiotic Oint
+2619,224331,833,PCA basal rate (mL/hour)
+2620,1743,45,bed alarm
+2621,7908,3,T-disconnect
+2622,53,17,Arterial Pressure
+2623,2600,1,Ca Gluc 20Gm/D5W
+2624,1336,32,Protonix
+2625,3634,5032,Stress
+2626,7253,1,mycostatin powder
+2627,1679,3,high min. vent.
+2628,3397,67,EEG
+2629,227129,42,Pheresis Catheter Type
+2630,5812,1,Urine lytes
+2631,3113,3,high min.vol
+2632,228157,2,Placement Monitoring Screen
+2633,7649,1,TF residual/J-Tube
+2634,2519,1,HFO-% I Time
+2635,1286,18799,PT
+2636,228444,18,BIS Index Range
+2637,3188,1,neo mcq/kg/min
+2638,5822,1,Auqafor
+2639,4484,1,Toes
+2640,7431,5,Goldline Baby Vits
+2641,8431,234,Inc #5 [Status]
+2642,6308,4,TEDS
+2643,224009,8299,GI #1 Tube Drainage
+2644,225025,245,Incision Dressing #4
+2645,228191,9,Infusion Pressure of Line
+2646,791,27361,Creatinine (0-1.3)
+2647,223874,10062,Vti High
+2648,227446,1003,Brain Natiuretic Peptide (BNP)
+2649,5273,1,Erythropoetin
+2650,5096,1,PDA ligation site
+2651,7642,1,RV DIAST
+2652,1586,5,Xigris mcg/kg/hr
+2653,5950,5,NO PPM
+2654,8058,2,bed percussion
+2655,290,21,INV#8 WaveformAppear
+2656,4944,2,hearing
+2657,6750,1,Bed alarm
+2658,7026,1,PTPinsp
+2659,224831,1001,Trach Tube Size (I.D.)
+2660,793,1495,D-Dimer (0-500)
+2661,225634,10160,CK (CPK)
+2662,228211,6,Tandem Heart Access Line Postion Confirmed
+2663,4183,7864,Birthweight (kg)
+2664,5869,2,ATC on
+2665,2052,3,Nicardipine
+2666,7424,1,Neonatal Morphine
+2667,223986,21847,RUL Lung Sounds
+2668,226536,5924,Chloride (whole blood)
+2669,223827,1311,Ataxia
+2670,7948,1,30mmol NAPHOS
+2671,2638,1,CEREBRAL LACTATE
+2672,225074,11066,Any fear in relationships
+2673,86,26917,Braden Nutrition
+2674,3563,3580,Parent Called
+2675,2697,1,EF %
+2676,7885,1,Glucagon infusion
+2677,7535,1,Umb. Hernia
+2678,2619,2,3% NS
+2679,225004,3160,Incision Closure #2
+2680,3265,3,ecmo flow
+2681,3030,3,slop
+2682,3037,1,THAM
+2683,5501,1,O2 sat probe change
+2684,2461,1,APROTANIN ML/HR
+2685,227024,7,MapScore_ApacheIV
+2686,6133,1,Magnesium Sulfate
+2687,4744,2,NYSTATIN
+2688,8417,3618,Inc #2 [Appearance]
+2689,1404,12,Bladder pressure
+2690,3468,259,IV #4 [Location]
+2691,7488,1,Rotation On
+2692,226871,9156,Expiratory Ratio
+2693,6773,2,DRIVING PRESS.
+2694,225728,73,Midline Tip Cultured
+2695,1904,4,Qtc
+2696,3064,1,DISCONNECT ALARM
+2697,3105,1,HIGH MIN.VOL.
+2698,3727,254,Albumin  (3.9-4.8)
+2699,6486,1,SvO2 MVG
+2700,1485,1,Bivalirudin mg/kg/hr
+2701,1583,1,P lo
+2702,495,788,PCA Bolus
+2703,5212,1,tobra dex eye ointmt
+2704,224856,159,Restraints Ordered
+2705,2321,1,PEJ SITE CARE
+2706,3791,5235,Polys
+2707,3618,42,Sleep
+2708,4789,4,hyperoxia
+2709,6868,2,Fistula
+2710,2370,1,R arm sling
+2711,1719,1,NRB
+2712,224939,1723,Impaired Skin Treatment #4
+2713,3414,21,Excoriated
+2714,3050,5,spont tidal volumes
+2715,3208,1,ATC % (size 7)
+2716,618,27231,Respiratory Rate
+2717,3601,114,Replogle Irrigation
+2718,2198,1,EPIDURAL
+2719,223997,3521,CT #1 Dressing
+2720,6396,6,Prednisolone gtts
+2721,6653,1,femoral abp mean
+2722,225092,15074,Self ADL
+2723,5999,2,prone/supine
+2724,5205,1,op site
+2725,1393,7,F-Ideal Body Wgt Kg
+2726,7414,5,Triple abx ointment
+2727,7953,1,Right groin
+2728,2273,1,vanco level
+2729,7823,2,GT site
+2730,2547,1,Precedex mcg/kg/hr
+2731,5301,2,180 degree rotation
+2732,3583,3808,Previous Weight (kg)
+2733,227680,727,Restraint Location_V2
+2734,6153,1,PERCUSSION VIA BED
+2735,8510,3043,Bruising [Location]
+2736,4557,10,cefazolin
+2737,1094,2,PODUS BOOT
+2738,225741,10,Tunneled (Hickman) Line Discontinued
+2739,3665,2552,Total Fluids/kg/day
+2740,7790,1,combivent puffs
+2741,5890,1,dulc.supp andenema
+2742,425,27151,LLL Lung Sounds
+2743,1390,3164,DO2
+2744,3134,1,solumed mg/kg/hr
+2745,43,3873,Angio Appearance #1 [Attribute 1]
+2746,4661,1,Bactoban
+2747,224379,1266,PCA cleared
+2748,223824,1519,Seizure
+2749,1077,3,HAIR WASHED
+2750,6215,3,TANK B
+2751,6261,3,Vanco level
+2752,482,148,OrthostatBP standing [Systolic]
+2753,6101,3,T-HI
+2754,5713,1,incision sites
+2755,5808,1,Zygris
+2756,4410,9,umbilical hernia
+2757,6283,1,Nitric Tank Pressure
+2758,3206,1,40GmCaGluc/1000ccNS
+2759,227598,113,Impaired Skin Drainage #9
+2760,1931,1,Total CIWA scale
+2761,924,27205,Readmission
+2762,227055,7,TempScore_ApacheIV
+2763,225759,18,RIC Reason Discontinued
+2764,5410,1,Post ductal sat
+2765,5987,1,Abd drsg change
+2766,5903,1,abdomenal incision
+2767,731,5825,Warming [Device]
+2768,6249,1,leg retraints
+2769,4867,49,Trivisol
+2770,1713,1,Dexmedetomine HCl
+2771,1558,2,APRV P HIGH
+2772,227292,9459,Arterial Line Dressing Occlusive
+2773,3246,1,MULTPODIS SPLINT
+2774,1471,1,left leg measurement
+2775,227717,277,Cerebral Perfusion Pressure Alarm - Low
+2776,4641,52,desitin
+2777,225961,11,Medication Added Units #1 (Peritoneal Dialysis)
+2778,223905,19270,Cough Reflex
+2779,226531,18645,Admission Weight (lbs.)
+2780,645,4612,Skin [Temperature]
+2781,1585,1,T lo
+2782,597,1013,RUE [Temperature]
+2783,7765,1,bladder scanner
+2784,225312,1708,ART BP mean
+2785,2382,3,Protonix gtt
+2786,6296,2,spironolactone
+2787,227023,6,MAP_ApacheIV
+2788,7041,1,vapotherm fio2
+2789,6263,1,J tube port
+2790,220120,52,Intra Aortic Ballon Pump Setting
+2791,4262,8,Neuro consult
+2792,5751,1,PRBCs
+2793,87,26908,Braden Score
+2794,4527,4,heparin
+2795,3670,79,UAC Tubing Change
+2796,2946,2,APPROTININ CC/HR
+2797,7234,1,t-low
+2798,2039,3,PHIGH
+2799,224767,16202,RUE Temp
+2800,169,17585,Education Readiness
+2801,6975,4,Unasyn
+2802,224061,36,Reason for Restraint (Behavioral)_V1
+2803,1515,3,decub drsg change
+2804,5071,1,Criticaid Paste
+2805,226747,9,APACHEII-Chronic health points
+2806,7862,1,Nephrostomy Tube LLQ
+2807,344,8264,ImpSkin Character #1
+2808,3748,6,Cholesterol (0-199)
+2809,4354,9,Bili level
+2810,824,23989,PT(11-13.5)
+2811,776,17307,Arterial Base Excess
+2812,3609,5034,SaO2 Alarm [Low]
+2813,8366,572,Angio Appearance #2 [Attribute 2]
+2814,227651,31,Lochia Character
+2815,227726,71,AVA Line Tip Cultured
+2816,225206,4552,Multi Lumen Zero/Calibrate
+2817,224948,633,Impaired Skin Type #6
+2818,1193,3,L. ARM SLING
+2819,5507,2,laceration
+2820,224794,9356,Stool Color
+2821,226777,14,TempApacheIIScore
+2822,649,1829,Spiritual Support
+2823,1616,37,High MV.
+2824,5706,7,T HIGH
+2825,7573,2,actigal
+2826,8552,3537,PAP Alarm [High]
+2827,4437,15,Bathed
+2828,6943,1,LOW PEEP
+2829,121,3245,Chest PT [Right]
+2830,223920,17607,LL Strength/Movement
+2831,1189,1,finger stick
+2832,8492,9005,GI Tube #1 [Site]
+2833,5513,1,hydrocyle
+2834,8139,1,Trach Sx Quantity
+2835,787,27218,Carbon Dioxide
+2836,944,9,Chest PT
+2837,1334,1,MDI # 4 (drug/puffs)
+2838,1036,1,protonics
+2839,2660,1,ICP Camino
+2840,7364,1,I/S
+2841,154,23541,Diet Type
+2842,5750,1,24hr Lytes&Bili
+2843,224945,3385,Impaired Skin Type #3
+2844,226170,13,Head of Bead Measurement
+2845,7803,1,low peep
+2846,225738,516,CCO PAC Discontinued
+2847,225989,77,Pericardial Drain Aspiration
+2848,35,52,Additional Gas (lpm)
+2849,602,2179,RVSWI
+2850,224314,15,ABI Brachial BP R (Impella)
+2851,1722,7,Waffle boots
+2852,2971,2,LR
+2853,1609,1,Isuprel 1mcg/min
+2854,4595,45,Criticaid
+2855,6640,1,35 QVar
+2856,1315,1,T-pice
+2857,2628,1,bivalirudin mg/hr
+2858,3671,113,UVC Tubing Change
+2859,228194,7,Peripheral Pulses (Tandem Heart)
+2860,1455,3,fingerstick glucose
+2861,1687,5,high minute vol
+2862,2394,1,IVF
+2863,1037,2,O2 %
+2864,227805,520,SvO2 SQI
+2865,375,4156,Impaired Skin Site#2
+2866,188,302,Femoral Pulse [Right]
+2867,7118,3,Trache
+2868,3281,1,Xigres mg/hr
+2869,227622,57,Tunneling Present #9
+2870,1395,8,M-Ideal Body Wgt Kg
+2871,5133,1,Actigall (Ursodiol)
+2872,6912,1,tpa mg/hour
+2873,3090,1,ELEVATE R LEG 2 PIL
+2874,6785,1,Rotation L/R
+2875,225355,1625,PA Catheter Site Appear
+2876,1540,2431,Triglyceride
+2877,1212,1,EOMs
+2878,220632,8789,LDH
+2879,6740,1,solumedrol drip
+2880,527,22007,Pain Type
+2881,773,11965,Alk. Phosphate
+2882,783,8394,Blood Products
+2883,1503,22,Bed Bath
+2884,1608,1,air mattress
+2885,1570,6,HI TIDAL VOL
+2886,6093,1,enema
+2887,2826,6,Incentive spirometry
+2888,228151,2,Aortic Pressure Signal - Diastolic
+2889,227802,985,GI Guaiac QC
+2890,2788,2,ABD GIRTH
+2891,224697,10131,Mean Airway Pressure
+2892,308,88,IV Drip Dose #1
+2893,227840,145,Money Management
+2894,226732,21687,O2 Delivery Device(s)
+2895,1456,1,popliteal pulse r/l
+2896,6151,2,TRACHEOSTOMY CARE
+2897,3595,850,Recombivax
+2898,7439,1,walking hr
+2899,224669,140,Restlessness
+2900,227603,29,Impaired Skin Length #10
+2901,224855,87,Patient/Family Informed_V1
+2902,5855,1,t diconnect
+2903,224422,5464,Spont RR
+2904,7060,1,Cont. EEG
+2905,5726,20,Hi Ve
+2906,1482,1258,IV #4 Reason DC'D
+2907,3114,3,PCV Driving Pressure
+2908,224146,531,System Integrity
+2909,1208,1,HFO max pres. alarm
+2910,225735,68,Trauma Line Tip Cultured
+2911,1991,2,pronator drift
+2912,4588,6,trach aspirate
+2913,224445,631,GI #2 Tube Drainage
+2914,63,253,BIPAP - BPM
+2915,6424,1,IABP BP
+2916,5880,1,low rr
+2917,7133,1,abd pressure
+2918,260,176,INV Line#6 Zero/Cal
+2919,5556,7,TPA mg/hr
+2920,6885,1,R chest dsg
+2921,5258,1,calcium glubionate
+2922,8521,3976,IV #1 [Location]
+2923,3299,14,Albuterol MiniNeb
+2924,7808,1,art #3
+2925,5186,1,Kphos
+2926,5485,10,Vit A
+2927,1589,1,RA
+2928,6288,2,tri-vi-sol
+2929,8403,3363,IV #4 [Size]
+2930,3480,2136,InterventionAssess
+2931,4576,2,pre ductal sat
+2932,1900,2,MULTIPODIS BOOTS
+2933,223769,21866,O2 Saturation Pulseoxymetry Alarm - High
+2934,223801,978,NMB Medication
+2935,118,2159,Cerv Collar Status
+2936,2875,1,VAC MACHINE
+2937,3514,23,Mottles
+2938,272,19,INV Line#8 Zero/Cal
+2939,223,19,I:E Ratio-TCPCV
+2940,5166,2,Vitamin D
+2941,3168,7,HIGH MIN. VOL
+2942,8536,6,TcCO2 [Value]
+2943,6128,1,time High
+2944,2412,1,lipase
+2945,224076,20753,Education Barrier
+2946,2467,1,DEXTROSE GM/HR
+2947,6281,1,LEFT LEG DRSG
+2948,1424,1130,CIWA Sum Total
+2949,3366,1715,Chest X-Ray
+2950,5642,1,bupivacaine.1%-axila
+2951,2341,3,CLOT IN BLOODBANK
+2952,1454,1,r hips drsg change
+2953,227472,8274,Incision Site #1
+2954,8459,208,Pressure Sore #3 [Heal]
+2955,3538,1085,Nasal Sx Quantity
+2956,2281,1,VENT DRAIN
+2957,223941,983,Popliteal Pulse R
+2958,1791,1,multi-podis boot
+2959,1538,12348,Total Bili
+2960,225187,17495,Back Care
+2961,6029,1,uac/uvc placement
+2962,6232,1,reg insulin
+2963,7694,1,fliud bolus
+2964,7355,1,T. high
+2965,1331,6,Protonix mg/hr
+2966,5162,1,PROPRANOLOL
+2967,6630,1,left arm laceration
+2968,226253,21733,SpO2 Desat Limit
+2969,6166,1,left flap check
+2970,228230,635,PAR-Circulation
+2971,2862,2,PEG DSG/CARE QD
+2972,227644,5,Breast Feeding - R
+2973,227419,117,Presep Catheter Dressing Occlusive
+2974,6123,1,Mag sulfate
+2975,6051,84,Pediarix
+2976,7615,1,seizure pads on bed
+2977,227517,9362,Humidification
+2978,664,3571,Swan SVO2
+2979,3485,137,Length   Calc   (cm)
+2980,7380,1,Nystatin oral suspen
+2981,3830,451,Venous CO2
+2982,224663,1348,PCA attempt
+2983,224978,163,Surrounding Tissue #8
+2984,8538,36,Testes [Right]
+2985,3320,1018,BP Right Arm [Mean]
+2986,7667,1,L chest incision
+2987,1674,3,PL
+2988,4990,1,wrist slpints
+2989,2932,2,aprotinine
+2990,8265,1,Turtle Shell Brace
+2991,228290,45,IO Dressing
+2992,1042,1,acetomenophen
+2993,1495,4,urine ph
+2994,5781,1,Lab results
+2995,8298,1,L ICP
+2996,227601,54,Impaired Skin Drainage Amount #10
+2997,4193,41,ABG Chloride
+2998,4676,3,Critic-aid
+2999,3732,2759,Anion Gap   (8-20)
+3000,227667,1468,Reason for Immobilizer
+3001,5742,1,Colostomy Stoma
+3002,5947,1,NEBS
+3003,225126,12486,Dialysis patient
+3004,665,506,System Integrity
+3005,7680,1,IoCa
+3006,3688,980,Vt [Spontaneous]
+3007,1848,2,D5W
+3008,2510,1,DEXTRAN LML 10%
+3009,5646,1,trach ties
+3010,225240,420,14 Gauge Site Appear
+3011,226135,419,14 Gauge placed in outside facility
+3012,227675,53,Face to Face Eval (Violent)
+3013,1439,1152,Visual Disturbances
+3014,6212,2,VBG
+3015,5876,1,bun
+3016,6239,1,mitrazole pwd
+3017,8149,1,pedi ngt
+3018,807,19098,Fingerstick Glucose
+3019,3638,2440,Suck Reflex
+3020,1929,1,"8.headach,fullness"
+3021,223963,356,Temporary Pacemaker Wires Ground
+3022,2056,6,Nitric Oxide
+3023,5650,1,WASH ABD--HIBICLENS
+3024,5912,3194,Sx Equip Functioning
+3025,7033,4,octreotide
+3026,6192,1,Vidalgn
+3027,6202,1,Pediatrix Combi
+3028,3125,1,NICARDIPINE 5-15MG/H
+3029,1692,10,T low
+3030,2316,3,Passy-Muir valve
+3031,6353,1,rt groin sheath
+3032,1946,1,fsbs
+3033,2582,1,uvp
+3034,399,6370,Inc #2 [Dressing]
+3035,227761,212,Sheath Placement Confirmed by X-ray
+3036,226094,165,Orthostatic BPd sitting
+3037,2551,1,study drug
+3038,2135,1,CCO CI
+3039,852,1769,Tylenol
+3040,227475,265,Incision Site #4
+3041,6535,1,splints removed
+3042,7914,4313,Insulin Guideline
+3043,3354,18,Cardiac Rhythm
+3044,4604,2,poly-vi-sol
+3045,2773,1,sjlactate
+3046,224167,503,Manual Blood Pressure Systolic Left
+3047,1545,1,hand drsg change
+3048,223979,16281,RLE Color
+3049,225007,58,Incision Closure #5
+3050,2203,4,SOLUMEDROL
+3051,549,25754,PostTib. Pulses [Right]
+3052,8427,53,Inc #6 [Amount]
+3053,268,95,INV Line#7SiteAppear
+3054,1512,1,bbaaath
+3055,3771,5362,MONOs
+3056,310,89,IV Drip Medication#1
+3057,224997,20,Incision Appearance #6
+3058,4735,2,BACITRACIN OINTMENT
+3059,3179,1,1:1 Sitter
+3060,227471,9994,Specific Gravity (urine)
+3061,225135,6002,Consults
+3062,1614,3,Time High
+3063,223931,421,Neuro Drain #1 Status
+3064,3817,328,Urine Heme
+3065,8509,1,Blink Reflex [Right]
+3066,1369,1,COMPLETE BATH
+3067,8109,1,broviac dsg
+3068,5213,3,NaCl supp
+3069,1627,1,Muco lavg
+3070,836,1820,Serum Osmolality
+3071,223835,12143,Inspired O2 Fraction
+3072,225732,654,PICC Line Tip Cultured
+3073,1490,1,oob to chair
+3074,1746,17,hi MV
+3075,5662,1,lt. lat. decub
+3076,7407,1,Incentive spir
+3077,227846,181,Supine / Side-lying to Sit
+3078,4721,1,Hernias
+3079,227990,15,Intra Cranial Pressure #2 Alarm - High
+3080,227363,251,ICP Line Dressing Occlusive
+3081,5214,1,Prednisone drops
+3082,2366,1,RUE-sling/swath
+3083,225724,716,Cordis/Introducer Line Tip Cultured
+3084,8497,7,zzzt Stim Thresh mA [Value]
+3085,224188,3481,PICC Line Site Appear
+3086,1419,2,FLOLAN
+3087,5609,1,hydroactive gel
+3088,225113,12476,Currently experiencing pain
+3089,225188,8346,Cough/Deep Breath
+3090,226998,6,Bilirubin_ApacheIV
+3091,2301,1,CIS/CURIUM MG/KG/HR
+3092,3640,305,Surgical Procedures
+3093,8140,1,Trach Sx Quality
+3094,8268,1,Disconnect Alarm
+3095,4562,1,non nutritive suck
+3096,227115,353,PCA bolus units
+3097,226769,10,PHApacheIIValue
+3098,5060,2,meropenem
+3099,8190,1,epicardial pacemaker
+3100,1162,21108,BUN
+3101,227933,106,Recovery O2 sat - Aerobic Activity Response
+3102,996,41,BLADDER PRESSURE
+3103,265,97,INV Line#7 [Type]
+3104,4272,9,Ranitidine
+3105,3570,1991,Phototherapy Light
+3106,379,111,Impaired Skin Site#6
+3107,5293,5,Aquafor
+3108,227848,98,Transfer
+3109,6184,1,remote alarm
+3110,3257,1,XIGRIS @ 1.66 MG/HR
+3111,168,17426,Education Method
+3112,2109,2,High MV alarm
+3113,228226,9,Tandem Heart Return Cannula Site Appear
+3114,223811,1535,Anxiety
+3115,3622,33,Sneezing
+3116,2616,3,PASSY-MUIR VALVE
+3117,4681,2,triple abx oint
+3118,2765,1,VASOPRESSIN   UNIT/R
+3119,228175,63,Calibrated (PiCCO)
+3120,220228,23983,Hemoglobin
+3121,3457,202,Hertz
+3122,2901,1,T3   (NML 80-200)
+3123,1707,2520,Vent Stim Thresh mA
+3124,7746,1,valproate Level
+3125,3032,2,t low
+3126,238,13725,INV Line#2SiteAppear
+3127,3307,295,Appearance
+3128,8426,166,Inc #5 [Amount]
+3129,4445,10,Bath and Shampoo
+3130,2543,1,FEM ART
+3131,7890,3,nystatin oint.
+3132,4736,1,COSOPT DROPS
+3133,7259,5,Triple Abx Ointment
+3134,3426,23,Feeding
+3135,220125,3,Left Ventricular Assit Device Flow
+3136,1936,1,5. Auditory Disturb.
+3137,3459,1800,High Pressure Relief
+3138,228179,52,ELWI (PiCCO)
+3139,2185,3,CALCIUM GLUCONATE
+3140,6277,1,PICC line attempt
+3141,227631,226,Arctic Sun Temp #2 Location
+3142,227351,1623,PA Catheter Dressing Occlusive
+3143,2691,1,URINE POTASSIUM
+3144,7909,1,VAP mouth
+3145,6344,7,CUFF PRESS.
+3146,7861,1,EEG/Cont
+3147,3283,1,warm pack to lt arm
+3148,220179,21685,Non Invasive Blood Pressure systolic
+3149,3600,92,Renal US
+3150,8413,267,ImpSkin #4 [Length]
+3151,2130,1,NO tank PSI
+3152,733,14246,Weight Change
+3153,225020,200,Incision Drainage Amount #4
+3154,3274,2,domeboro soaks
+3155,7241,1,spinal pse.
+3156,226537,8456,Glucose (whole blood)
+3157,4929,6,Prednisolone
+3158,825,23990,PTT(22-35)
+3159,6205,1,qt
+3160,8120,1,JP DRAIN
+3161,3562,11,Palate
+3162,1898,9,pantoprazole
+3163,1835,1,Heparin level
+3164,555,1036,PressSore Depth #1
+3165,554,706,Press Sore Site #2
+3166,224019,319,Bladder Irrigation
+3167,225953,53,Solution (Peritoneal Dialysis)
+3168,225108,378,Tobacco use
+3169,2704,1,ABDOMINAL PRESSURE
+3170,2694,1,LEPIRUDIN MG/HR
+3171,191,3,FiO2/O2 Delivered
+3172,224363,1,VAD Beat Rate L
+3173,2972,1,LOW MIN VOL
+3174,4426,18,Cefazolin
+3175,227462,407,FK506
+3176,8464,430,Pressure Sore #2 [Length]
+3177,227647,14,Clot Size (cm)
+3178,224456,126,PT Splint Location #2
+3179,223836,109,Airway Type
+3180,8315,2,hernia repair sites
+3181,6513,1,Prednsolone gtt
+3182,1980,1,cast /splint r leg
+3183,2090,1,HI/minute/Vol
+3184,6078,1,MV
+3185,227612,136,Impaired Skin Type #9
+3186,2248,1,VASOPRESSIN UNIT/MIN
+3187,5004,1,vidalin
+3188,223762,2219,Temperature Celsius
+3189,135,2613,Corneal Reflex [Right]
+3190,227013,7,GcsScore_ApacheIV
+3191,228137,5041,CHG Bath
+3192,39,14205,Airway Size
+3193,227923,112,Activity HR - Aerobic Activity Response
+3194,1047,14863,Range of Motion
+3195,228190,10,Infusate Drops/Minute
+3196,2555,1,THAM-trisaminomethan
+3197,1821,3,potassium phosphate
+3198,2834,3,ICS
+3199,7222,1,CT sites
+3200,3010,1,Integrellin cc/hr
+3201,8471,1000,RUE [Color]
+3202,228442,16,BIS - EMG
+3203,4790,3,simethicone
+3204,662,5845,Stroke Volume
+3205,224838,1649,Temporary Ventricular Stim Setting mA
+3206,6025,1,Mineral oil
+3207,8391,848,GI#2 Tube [Drain]
+3208,6593,1,Multipodis Boots
+3209,3363,60,Chest Tube Site 1
+3210,2196,3,PRECEDEX
+3211,1811,446,Mouth Care
+3212,8451,330,PT Splint #2 [Status]
+3213,1019,2,THIGH HI TEDS
+3214,7582,1,Bed rotation.
+3215,6046,3,Gentamicin ointment
+3216,2474,1,L HEEL W-D
+3217,8001,1,Flolan ng/kg/min
+3218,3088,1,DEXTRAN 40%
+3219,2132,2,flolan
+3220,5695,1,CORTISOL LEVEL 30 MN
+3221,66,574,BIPAP - IPAP
+3222,225045,55,Incision Packing #4
+3223,1377,2,bivalirudin
+3224,827,24840,Phosphorous(2.7-4.5)
+3225,640,19179,Significant Events
+3226,89,4087,C.O. (fick)
+3227,160,399,Ectopy Frequency 2
+3228,2005,1,right groin pressure
+3229,6104,1,Chromosomal study
+3230,4902,5,neuro consult
+3231,224752,2324,Temporary Atrial Sens Threshold mV
+3232,6006,1,peripad
+3233,7767,1,LUE elevated
+3234,224700,6322,Total PEEP Level
+3235,1899,2,passe muir valve
+3236,220088,1310,Cardiac Output (thermodilution)
+3237,1104,4,HI/Minute/vol/alarm
+3238,3465,4146,IV #1 [Location]
+3239,220581,3754,Amylase
+3240,1556,1,High min. vol
+3241,2748,1,D02
+3242,779,17912,Arterial PaO2
+3243,225021,55,Incision Drainage Amount #5
+3244,227001,7,BunScore_ApacheIV
+3245,6957,2,Bed Alarms
+3246,220235,13135,Arterial CO2 Pressure
+3247,5640,1,r popliteal bupivace
+3248,223918,17616,RL Strength/Movement
+3249,223926,920,Neuro Drain #1 Type
+3250,4225,161,Heparin flush
+3251,2949,1,HIGH MIN.VOLUME
+3252,223943,21476,Dorsal PedPulse L
+3253,288,180,INV#6 WaveformAppear
+3254,227723,321,AVA Dressing Occlusive
+3255,226767,14,OxygenApacheIIScore
+3256,7213,1,carbamazepine
+3257,3579,576,Precordium
+3258,1375,64,bed bath
+3259,227602,54,Impaired Skin Length #9
+3260,6921,1,isuprel
+3261,6934,1,inhaled ve
+3262,7093,1,av fistula
+3263,817,9093,LDH
+3264,223949,1240,Ulnar Pulse L
+3265,225072,16336,Living situation
+3266,224702,126,PCV Level (Avea)
+3267,7961,1,T-DISCONNECT
+3268,5853,1,Elevate L leg
+3269,5392,1,D10W bolus
+3270,505,1877,PEEP
+3271,34,5,Add Gas Flow (Vent)
+3272,5991,1,CVL
+3273,4816,3,heprin flush
+3274,5725,1,umbilical
+3275,228193,10,Oxygenator/ECMO
+3276,1469,1,LLE circumference
+3277,321,1171,IV Site #2
+3278,6039,2,Bath.
+3279,684,12567,Tidal Volume (Spont)
+3280,7394,1,disconnect time
+3281,1337,23929,Riker-SAS Scale
+3282,5321,3,ns bolus
+3283,4669,11,Cardiology consult
+3284,4680,1,co-bedding
+3285,5500,4,vit a
+3286,139,7719,Cough/Deep Breathe
+3287,614,14059,Resp Rate (Spont)
+3288,848,11385,Total Bili (0-1.5)
+3289,2705,1,TPA - left   mg/hr
+3290,143,159,CvO2
+3291,8530,11,Pupil Reactivity [Right]
+3292,6439,2,Nitric tank pressure
+3293,6562,1,diuril
+3294,8100,1,dPes
+3295,594,6052,ROM [Type]
+3296,8103,1,surgical incision
+3297,7112,1,PAPAVERINE MG/HR
+3298,381,1453,Inc Cleansing #2
+3299,6306,1,Sclera
+3300,7542,1,DSG SITE
+3301,927,27205,Allergy 2
+3302,1656,1,Press Low
+3303,2296,1,Precedex (mcg/kg/hr)
+3304,466,5335,Nursing Consultation
+3305,5919,35,zzg and Mask Present
+3306,5739,1,NAS assessment
+3307,223784,17189,Pain Cause
+3308,250,2365,INV Line#4SiteAppear
+3309,3809,1452,TCO2 (other)
+3310,228189,6,CO-Tandem Heart Flow
+3311,4561,3,bacitracin oint
+3312,2201,4,Precedex
+3313,2567,2,K Phosphate
+3314,5740,1,Active ROM RUE/LUE
+3315,224888,3899,Impaired Skin Cleanse #2
+3316,6701,476,Arterial BP #2 [Systolic]
+3317,5435,2,mupirocin ointment
+3318,4532,3,Indomethacin
+3319,224452,26,Traction/Immobile Location #2
+3320,5632,1,R BREAST TEMP/COLOR
+3321,227353,298,Trauma Line Dressing Occlusive
+3322,7837,1,Femoral Compartment
+3323,226750,7,Chronic Dilaysis
+3324,226133,250,ICP Line Waveform Appear
+3325,224749,43,Nitric Oxide
+3326,225979,225,IABP Size
+3327,8513,59,[Color]
+3328,582,20691,Procedures
+3329,777,17866,Arterial CO2(Calc)
+3330,6275,1,GI tube #3
+3331,7671,1,foley size
+3332,227354,63,Triple Introducer Dressing Occlusive
+3333,6681,2,Oral nystatin
+3334,7757,1,NARCAN MG/HR
+3335,7470,1,Startle Reflex
+3336,7547,1,Ostomy appliance
+3337,227010,5,FiO2_ApacheIV
+3338,4199,1417,TCO2 (cap)
+3339,227613,80,Impaired Skin Type #10
+3340,1826,1,lepirudin  mg/hr
+3341,225749,24,Presep Catheter Discontinued
+3342,2955,1,JVO2 SAT
+3343,102,1643,CT #2 Suction Amount
+3344,225347,402,Midline Site Appear
+3345,4194,65,ABG Potassium
+3346,1998,1,Facial Droop
+3347,1554,2,nephr. tubes irrig.
+3348,7325,1,aspirin level
+3349,225748,16,Indwelling Port (PortaCath) Discontinued
+3350,6167,1,right flap check
+3351,4784,1,desitin ointment
+3352,6968,2,urostomy
+3353,796,10262,Differential-Basos
+3354,2,273,ABI (L)
+3355,1498,1,High Minute Vo;ume
+3356,72,20679,Back Care
+3357,224404,443,ART Lumen Volume
+3358,5761,1,Chromosomal analysis
+3359,6433,1,SIGH BREATH
+3360,226986,3,APACHE IV diagnosis choice 2
+3361,224079,20730,Education Response
+3362,3536,1058,Nasal Sx Color
+3363,225389,111,Presep Catheter Zero/Calibrate
+3364,5926,1,right arm sling
+3365,224717,2113,SBT Successfully Completed
+3366,224091,50,Continuous Pressure Machine Status
+3367,4702,3,Vit D
+3368,6302,2,low press
+3369,7286,2,trache
+3370,6156,1,R fem art BP
+3371,5925,2,Abdominal Hernia
+3372,3768,5362,LYMPHS
+3373,4585,54,circ
+3374,3819,306,Urine Leukocytes
+3375,6845,1,Other cooling
+3376,225981,226,IABP Alarms Activated
+3377,6245,1,Surgury
+3378,696,2,Tract/Imm Location#4
+3379,6095,5,INO
+3380,227343,21710,Ambulatory aid
+3381,3337,1235,Breath Rate
+3382,228407,1172,Motor R Leg
+3383,3236,1,HI MINUTE VOLUME
+3384,224954,328,Impaired Skin Width #5
+3385,627,5963,SVRI
+3386,3394,107,Diuril
+3387,3603,7672,Resp Rate
+3388,227131,52,Cont. Neb Med Dose
+3389,391,69,Inc #6 [Closure]
+3390,1531,11162,Lactic Acid
+3391,1702,84,GI#3 tube PlaceCheck
+3392,1023,1,cisatra mcg/kg/min
+3393,3807,15,T. Protein (5-7.5)
+3394,6430,1,Multipodis Boot
+3395,223753,8161,Riker-SAS Scale
+3396,320,4141,IV Site #1
+3397,224857,46,Less Restrictive Measures (Behavioral)
+3398,3158,1,CK/VAGINAL BLEEDING
+3399,7973,1,adductor pillow
+3400,3689,997,Vt [Ventilator]
+3401,426,7448,LU Strength/Movement
+3402,1840,2,IRRIGATE PIGTAIL
+3403,7107,2,Acetylcysteine mg/hr
+3404,223917,17627,RU Strength/Movement
+3405,1571,15,ABG
+3406,2754,1,PITRESSIN U/MIN
+3407,4476,12,PICC line placement
+3408,3544,1736,O2 Analyzer Cal
+3409,227981,36,Neuro Drain #2 Type
+3410,7022,1,T-HI (APRV)
+3411,3658,46,Testes [Left]
+3412,227035,7,OxygenScore_ApacheIV
+3413,741,75,avDO2
+3414,228188,10,Change in Blood Color
+3415,4505,2,Polyvisol po
+3416,2966,1,OFFICERS/HANDCUFFED
+3417,224797,579,Ostomy Appearance
+3418,3005,1,Aprotiinin ml/hr
+3419,7025,1,PTPEXP
+3420,1428,1152,Headache
+3421,8429,6115,Inc #2 [Status]
+3422,1758,5,HI MIN VOL
+3423,224640,15751,Service
+3424,46,680,Angio Dressing #2
+3425,7884,1,RR
+3426,3060,1,RQ
+3427,919,27205,Service
+3428,4603,746,Trach/Size
+3429,6292,1,APRV HIGH
+3430,7550,3,PR
+3431,5870,1,HOME VENT
+3432,227369,4725,22 Gauge Dressing Occlusive
+3433,361,110,ImpSkin Treatment #6
+3434,1681,3,high MV.
+3435,224690,9815,Respiratory Rate (Total)
+3436,1386,1,nitric
+3437,7825,1,teds stockings
+3438,226168,19339,Oral Care
+3439,225672,4401,Lipase
+3440,1924,1,3.Tremor
+3441,6861,1,RAP
+3442,8392,19761,INV Line#1 [Site]
+3443,40,14726,Airway Type
+3444,355,323,ImpSkin #5 [Drain]
+3445,224431,42,CT #4 Drainage
+3446,4389,20,Nystatin powder
+3447,3258,1,d10w
+3448,228181,1,ITBVI (PiCCO)
+3449,7242,1,fem/fem bpg
+3450,1748,1,sse's and fleets
+3451,225227,1001,CCO PAC Waveform Appear
+3452,5722,1,AV fistula T/B
+3453,2569,1,cath site
+3454,6131,1,CHEST PERCUSSOR T
+3455,4613,3,circ. site
+3456,2641,3,SJO2
+3457,225076,9761,Emotional / physical / sexual harm by partner or close relation
+3458,348,396,ImpSkin Character #5
+3459,4783,6,picc placement
+3460,2732,1,Femoral ABP (Mean)
+3461,224958,3560,Impaired Skin Wound Base #2
+3462,3235,2,DRIVING PRESS
+3463,3593,11,Pupil Reactivity [Left]
+3464,6842,1,FLAP BRISK CAP REFIL
+3465,224921,133,Impaired Skin Length #7
+3466,4202,1420,pH (cap)
+3467,1215,1,swallow
+3468,2842,1,JV O2 Sat
+3469,7409,1,Atropine Gtts
+3470,2618,1,Cistracurium
+3471,7000,1,ideal body weight
+3472,4320,27,hearing screen
+3473,7277,3,Isoproterenol
+3474,226184,444,Estimated Protein Needs/Kg
+3475,2424,1,2ND RA ALINE
+3476,227066,352,Cerebral Perfusion Pressure
+3477,730,2977,Vital Cap (>1.0)L
+3478,1223,16,HIGH EXHALED MIN VOL
+3479,3269,2,XIGRIS MG/HR
+3480,224642,21837,Temperature Site
+3481,3087,1,DEXTRAN 40  10%
+3482,6079,1,Mitrazole powder
+3483,1500,1,HI MV ALARM
+3484,1232,1,RLE Aspiration Site
+3485,484,234,Orthostatic BP lying [Systolic]
+3486,6926,1,Arterial BP #3
+3487,4852,2,Tobradex ointment
+3488,2959,1,Solumedrolmg/kg/hr
+3489,3056,1,APNEA INTERVAL TIME
+3490,1358,1,ciwa
+3491,2030,2,automatic tube comp
+3492,569,243,PressSoreTreatment#3
+3493,5927,1,NAS score
+3494,1673,211,PH
+3495,3220,1,tbili
+3496,8428,10053,Inc #1 [Status]
+3497,225191,99,Ostomy Care
+3498,2224,1,URINE CREAT
+3499,8482,3554,Ventricular Pacemaker [Capture]
+3500,2359,4,thrill/bruit
+3501,5863,1,Opthamology consult
+3502,4490,2,NAS Score
+3503,6165,2,LYTES AND BILI
+3504,225731,14,Pheresis Catheter Line Tip Cultured
+3505,224735,9904,Flow Rate (variable/fixed)
+3506,485,220,Orthostatic HR lying
+3507,6057,1,Triple Antbx Oint
+3508,7015,1,ECMO FLOW RATE
+3509,224166,29,Doppler BP
+3510,7625,1,Lt. arm BP S/D
+3511,2498,4,CARIPORIDE CC/HR
+3512,1863,1,HFO-FiO2
+3513,4511,24,Amoxicillin
+3514,2637,1,RT FEMORAL ART BP
+3515,228154,2,Impella 2.5 Flow Rate
+3516,3416,6,Eye Abnormalities
+3517,4188,4022,Length in cm
+3518,2449,1,LT. AVF BRUIT/THRILL
+3519,3202,3,pin care
+3520,5791,1,RIGHT FEMORAL A-LINE
+3521,5789,1,RT. AVF BRUIT/THRILL
+3522,226,566,ICP
+3523,4900,3,Oral Nystatin
+3524,4571,7,skin
+3525,5897,1,Baptize
+3526,4805,1,DIAZOXIDE
+3527,500,1626,PCA Total Dose
+3528,225956,70,Reason for CRRT Filter Change
+3529,3639,31,Sucking
+3530,8419,845,Inc #4 [Appearance]
+3531,2937,5,T Low
+3532,227445,8273,CK-MB
+3533,3338,5603,Breath Sounds [L]
+3534,3679,370,Vancomycin
+3535,225388,105,Presep Catheter Waveform Appear
+3536,1226,6,Pantoprazole mg/hr
+3537,228399,2110,Facial Droop
+3538,4970,6,NS bolus
+3539,5807,2,color of toes
+3540,226543,24546,Religion
+3541,91,60,CPM
+3542,3107,1,INS time
+3543,2058,2,Hi VE
+3544,224409,17523,Pain Level Response
+3545,7816,1,R Leg Wound
+3546,6030,1,Face
+3547,228187,10,Cannulas Visible
+3548,1605,1,METHYLPRED 450MG/HR
+3549,7287,1,pigtail dsg change
+3550,5596,1,INTRATHECAL
+3551,228216,9,Tandem Heart Access Line Type
+3552,6471,2,Edema
+3553,8152,1,T.disconnect
+3554,224043,3986,Incision Cleansing #1
+3555,227687,11891,Tobacco Use History
+3556,224713,257,Circuit Changed
+3557,4860,2,Myconizole powder
+3558,6074,2,NEONATAL BILI
+3559,7276,1,Loperamide
+3560,2770,1,left radial MAP
+3561,6784,1,Vitamin A injection
+3562,227836,335,LE Dressing
+3563,365,770,ImpSkin Wound Base#4
+3564,532,1099,Peak Flow (Calc)
+3565,7903,1,Exercises
+3566,8412,560,ImpSkin #3 [Length]
+3567,2256,2,FEM A LINE
+3568,1524,1712,Cholesterol
+3569,1691,7,T high
+3570,5283,3,glycerin sliver
+3571,224706,277,P Low (APRV)
+3572,5994,1,Hi min vol
+3573,226846,2556,Feeding Weight
+3574,6498,2,Miconazole Pdr.
+3575,225103,18081,Intravenous  / IV access prior to admission
+3576,1522,19668,Calcium
+3577,6190,1,Normal saline
+3578,6132,1,Calcium  gluconate
+3579,3297,18,Airleak
+3580,6437,1,EPIDURAL RATE
+3581,1599,48,HIGH MINUTE VENT.
+3582,5648,3,multi-podis boots
+3583,4720,1,K Phos
+3584,226779,14,WbcApacheIIScore
+3585,1935,1,4. Anxiety
+3586,461,545,Neuro Drain Drainage
+3587,4386,5,ranitidine
+3588,5997,1,HEPA FILTER
+3589,7571,1,QTC measurement
+3590,499,1761,PCA Medication
+3591,4169,7864,EDC
+3592,3148,1,TPA#1 mg/hr
+3593,223792,19560,Pain Management
+3594,224092,1902,Range of Motion Location
+3595,3362,57,Chest Tube Assessm't
+3596,6826,1,mixed venous 02
+3597,5730,1,hernia repair
+3598,1874,1,methadone
+3599,3531,6,Nares Patent [Left]
+3600,498,1759,PCA Lockout (Min)
+3601,3176,1,Nicardip.mcg/kg/min
+3602,2882,1,FLAP COLOR/TEMP
+3603,223956,2642,Temporary Pacemaker Mode
+3604,4898,3,MVI
+3605,228011,5534,18 G Phlebitis Scale
+3606,223968,2586,Angio Appearance # 1
+3607,392,10581,Inc #1 [Drainage]
+3608,225018,2282,Incision Drainage Amount #2
+3609,226504,79,Phenytoin (Free)
+3610,6186,1,Paw
+3611,5450,3,Nystatin oint
+3612,1011,1,urine osmolarity
+3613,6146,1,sodium bicarbonate
+3614,1435,742,Sustained Nystamus
+3615,227468,5784,Fibrinogen
+3616,224670,139,Lacrimation
+3617,8313,1,Nystatin solution
+3618,8525,75,IV #5 [Location]
+3619,1387,1,Multipodus Splints
+3620,228346,2381,OCAT - Teeth
+3621,673,472,TOF Response/Twitch
+3622,226985,5,APACHE IV diagnosis choice 1
+3623,2806,1,ALCOHOL GTT ML/HR
+3624,226115,3378,PICC Line placed in outside facility
+3625,6183,1,aorta axillary graft
+3626,227760,65,Presep Catheter Placement Confirmed by X-ray
+3627,227855,4,Assistive Device
+3628,226742,2,APACHE II Diagnosistic weight factors - Surgical
+3629,5774,2,nipple shield used
+3630,227288,18260,Pupil Response Left
+3631,225225,1011,CCO PAC Site Appear
+3632,224105,5347,Warming Device
+3633,3566,1221,Parents in to visit
+3634,96,6048,CT #1 [Fluctuate]
+3635,4977,1,circcare
+3636,7254,1,Neosporin to GT site
+3637,224075,20692,Education Readiness
+3638,6720,1,Trip antibiotic oint
+3639,220048,21828,Heart Rhythm
+3640,679,6174,Temperature F (calc)
+3641,107,336,CT #3 Suction Amount
+3642,820,68,Lipase
+3643,2337,1,peric. drain flushed
+3644,493,1747,PCA 1 Hr Limit (mg)
+3645,225005,861,Incision Closure #3
+3646,8500,438,Apnea [Duration]
+3647,223849,10222,Ventilator Mode
+3648,224672,138,Yawning
+3649,6764,1,pupil deviation
+3650,5904,3,02 Tubing Present
+3651,4723,3,Metoclopramide
+3652,1506,12,high min. vol.
+3653,2524,1,multipodis splints
+3654,775,7686,Amylase
+3655,5911,3305,L&D bands(s) on
+3656,3106,1,alcohol gtt
+3657,5776,1,"FEM, ABP"
+3658,1378,1,Continuous CI
+3659,3382,648,Cyclomydril
+3660,5257,1,ALDACTONE
+3661,654,36,Spont. Tidal Volume
+3662,1536,21115,Sodium
+3663,223961,2592,Temporary Pacemaker Wire Condition
+3664,224411,280,Epidural Bolus (mL)
+3665,576,2421,Pressure Sore Site#1
+3666,3779,5235,Monos
+3667,227017,7,Hematocrit_ApacheIV
+3668,1001,11,rotation
+3669,6157,1,Hep Flush 10u/cc
+3670,3020,1,CT #5 SUCTION AMOUNT
+3671,4230,44,Eye exam
+3672,220059,2604,Pulmonary Artery Pressure systolic
+3673,6307,1,Scleral jaundice
+3674,398,10743,Inc #1 [Dressing]
+3675,5971,2,"LYTES,BILI"
+3676,224390,2452,Temporary Atrial Sens
+3677,6082,1,Spinal Scan
+3678,3084,1,photosensitive prec
+3679,224441,1112,GI #2 Intub Site
+3680,227789,43,Impaired Skin  - Dressing Status #10
+3681,225001,49,Incision Cleansing #5
+3682,223898,19214,Orientation
+3683,3430,2425,Feeding Tube Type
+3684,5262,16,Lytes
+3685,1735,8,Multipodus boots
+3686,7688,1,Nasal irrigant
+3687,8257,1,thick and easy to bm
+3688,1678,2,Time disconnect
+3689,6099,3,P-HI
+3690,227618,55,Pressure Ulcer Stage #9
+3691,3002,1,pad changed torso
+3692,5114,2,Calcium glubionate
+3693,1552,1,d5w 10gm ca+ glucon
+3694,1533,18942,PTT
+3695,3792,2787,Potassium  (3.5-5.3)
+3696,5850,1,Home Bipap Unit
+3697,5852,1,Multi-Podus
+3698,3409,1724,Environmental Interv
+3699,5502,1,R ankle
+3700,228159,2,Purge Solution Flow Rate
+3701,224012,5870,Stool Management
+3702,226984,7,Apache IV Age
+3703,6274,1,Triple Antibx
+3704,223904,19294,Gag Reflex
+3705,7375,1,other
+3706,1817,2,ETCO2
+3707,1062,5,PMV on/off
+3708,5951,1,NO tank pr
+3709,2772,1,SJ CO2
+3710,1447,1,Transpulmonary Pres
+3711,7151,2356,HOB Measurement
+3712,2380,1,"APROTONIN 250,000U/"
+3713,1626,1,CPT/VEST
+3714,164,495,Edema #2 [Location]
+3715,4524,7,Acetominophen
+3716,227915,157,Position - Rest - Aerobic Activity Response
+3717,1448,1,Vd/Vt:
+3718,704,27068,Turn
+3719,4937,3,circumcision care
+3720,78,127,Bladder Irrigation
+3721,5696,1,p Hi
+3722,5854,2,fem aline
+3723,227642,12,Breast Feeding
+3724,8101,1,esoph press
+3725,227809,2466,ETT Position Change
+3726,6930,1,STUDY DRUG CC/HR
+3727,225106,13136,ETOH
+3728,2287,17,APROTININ CC/HR
+3729,227648,27,Clots
+3730,7351,2,residual
+3731,2413,1,CISATRICURI MCG/K/MI
+3732,228172,2,Impella Postion Confirmed
+3733,1644,1,Brachial Site Dressi
+3734,4566,1,oral thrush
+3735,7425,1,Solu-medrol mg/hr
+3736,225030,228,Dressing Status #4
+3737,100,1643,CT #2 Dressing
+3738,1107,1,DEMEROL DRIP
+3739,223919,17622,LU Strength/Movement
+3740,224632,3973,Tunneling Present #1
+3741,1739,2,Passey Muir Valve
+3742,638,15,Sigh Rate
+3743,6111,1,prednisone
+3744,5996,1,T discon
+3745,224731,10663,Corneal Reflex Left
+3746,5814,7208,CVP Alarm [Low]
+3747,224972,3638,Surrounding Tissue #2
+3748,4244,1,tobradex ointment
+3749,158,6906,ETT Position Change
+3750,6783,2,Peri care
+3751,224773,16444,LLE Temp
+3752,5645,1,ct dressing
+3753,225015,253,Incision Drainage #4
+3754,2368,2,fem abp
+3755,6636,1,R FEM
+3756,2451,6,Passy-Muir Valve
+3757,223948,13016,Radial Pulse L
+3758,403,1126,Inc #4 [Dressing]
+3759,7773,1,D50 amp bolus
+3760,5828,5,Multipodus Boots
+3761,3523,2448,NG Tube Taped at:
+3762,5775,1,Decadron nose drops
+3763,244,6148,INV Line#3SiteAppear
+3764,5612,13,Dexamethasone gtts
+3765,2040,2,PLOW
+3766,1361,1,mcgs Fentanyl IV
+3767,1657,1,Pressw High
+3768,6217,1,phenylephrine nasal
+3769,225745,679,PA Catheter Discontinued
+3770,224677,139,Tremor (CINA)
+3771,8000,1,Mucamyst
+3772,4250,3,Poly Vi Sol
+3773,2739,3,FENOLDOPAM
+3774,224011,9275,Stool Consistency
+3775,5778,1,low mv
+3776,2938,2,ART
+3777,6586,2,Heliox Tank PSI
+3778,1622,19913,Alarms
+3779,227628,209,Arctic Sun Water Temp
+3780,3614,851,Sensitivity
+3781,227881,47,Pain (0-10)
+3782,6038,8,Pediarix vaccine
+3783,2126,1,Hi/Minute/Vol
+3784,722,14754,Ventilator Type
+3785,8512,965,Car Safety Seat Screen [Result]
+3786,8411,1235,ImpSkin #2 [Length]
+3787,7920,1,humalog insulin pump
+3788,224041,7728,Incision Drainage #1
+3789,5832,1,DRIVING PRSSR
+3790,5637,1,LeadII cardiac strip
+3791,6282,20,Bed Rotation
+3792,4793,12,nystatin cream
+3793,8159,4,FLOLAN ng/kg/min
+3794,1330,2281,Med Wasted [Drug]
+3795,224839,2461,Temporary Pacemaker Wires Atrial
+3796,1078,1374,BATH
+3797,224762,8008,LLE Sensation
+3798,3369,88,Clindamycin
+3799,2889,1,MIXED VENOUS
+3800,4955,1,sweating
+3801,8060,1,High NO2
+3802,1876,2,PROTONIX MG/HR
+3803,3094,1,(L) FEM ART
+3804,3043,1,RIGHT FEM ABP
+3805,227832,236,UE Bathing
+3806,2951,2,TANK PRESSURE
+3807,6315,3,Insp time
+3808,228394,2604,Orientation to Person
+3809,2924,4,sitter
+3810,225420,11,Hospice home
+3811,6379,6,vidalyn
+3812,1230,2,peri care
+3813,1430,1168,Nausea and Vomiting
+3814,1402,3151,zzO2AVI
+3815,227243,446,Manual Blood Pressure Systolic Right
+3816,5806,1,180 DEGREE TURN
+3817,4213,9,Pressure Transducer
+3818,227440,695,Digoxin
+3819,6181,1,1o cc ns irrigation
+3820,5930,1,VALPROA 50-100 UG/ML
+3821,3217,1,Abd binder
+3822,6109,1,EEG run
+3823,8402,10112,IV #3 [Size]
+3824,551,2297,Pressure Sore #1 [Stage]
+3825,223989,21843,LLL Lung Sounds
+3826,225183,529,Current Goal
+3827,2319,1,low exhaled min. vol
+3828,224109,1412,Cervical Collar Type
+3829,225982,237,IABP Balloon Waveform
+3830,179,542,Epidural Location
+3831,225192,1010,Collar Care
+3832,2194,11,SVO2
+3833,226116,117,Presep Catheter placed in outside facility
+3834,7227,2,TLow
+3835,220074,6549,Central Venous Pressure
+3836,228102,73,Enema administration
+3837,2836,1,DEEP BREATH & COUGH
+3838,2819,1,RIGHT LEG DRSG
+3839,3422,1851,FIO2 [Meas]
+3840,225044,167,Incision Packing #3
+3841,7383,1,Actigal
+3842,2706,1,TPA -right mg/hr
+3843,5635,1,Physical therapy
+3844,6422,1,Xigris  mg/hour
+3845,225190,76,Pin Care
+3846,6208,8590,Ve High
+3847,4480,16,zantac
+3848,227954,7881,Status and Comfort
+3849,6889,1,PEEP Sigh level
+3850,3143,2,low insp pressure
+3851,6117,1,wound drsg changes
+3852,228310,299,GI #2 Tube Place Method
+3853,693,296,Tract/Imm Location#1
+3854,224192,110,Pulsus Paradoxus
+3855,370,717,ImpSkin #3 [Width]
+3856,223817,1530,Agitation
+3857,2520,1,HFO-Delta P (amplit)
+3858,6317,1,iv diuril
+3859,6063,1,P insp.
+3860,227567,73,Airway Location
+3861,224425,1994,CT #2 Dressing
+3862,6895,1,hepatic drain
+3863,821,26542,Magnesium (1.6-2.6)
+3864,732,13866,Waveform-Vent
+3865,224089,17926,Anti Embolic Device
+3866,6851,12,Rotation
+3867,6663,3,Artificial tears
+3868,224044,1367,Incision Packing #1
+3869,4660,5,Bactroban ointment
+3870,224110,1382,Cervical Collar Status
+3871,6271,1,Subgaliel tap
+3872,1968,1,Verapamil
+3873,225628,2486,CK-MB fraction (%)
+3874,3773,441,Mix Venous CO2(calc)
+3875,3139,2,LUE fistula
+3876,7856,4,bruit
+3877,3528,350,Na Bicarbonate
+3878,2903,1,TSH  (NML 0.27-4.2)
+3879,227815,92,Site Appearance - Adjunctive Pain Management
+3880,3654,6738,Temp Rectal [F]
+3881,2908,1,ETOH Grams/hour
+3882,2405,1,mouth flap color
+3883,8438,2605,MDI #2 [Drug]
+3884,5741,1,Passive ROM RUE/LUE
+3885,227606,143,Impaired Skin Site #9
+3886,2188,1,precedex mcg/kg/hr
+3887,1224,1,Heliox PSI
+3888,5980,1,INO TANK PRESS
+3889,3398,1189,ETT (Re)Taped
+3890,2057,1,nitric tank pressure
+3891,180,583,Epidural Medication
+3892,7968,1,DRIVE P.
+3893,127,15610,Circulation/SkinInt
+3894,3392,23,Directed Donor
+3895,5779,1,high    mv
+3896,6310,1,Hep B ImmuneGlobulin
+3897,7892,1,ecmp pump flow
+3898,224418,1183,Cuff Volume (mL)
+3899,3489,7,Lips
+3900,5088,1,fingers
+3901,6924,1,MEASURED PEEP
+3902,3555,1818,PEEP Alarm
+3903,8458,585,Pressure Sore #2 [Heal]
+3904,1422,719,Ataxia
+3905,6509,1,VITAMIN A
+3906,1631,1,High/MIN/VENT
+3907,5468,2,PIC line placement
+3908,439,4768,MDI #1 [Puff]
+3909,225423,10,Free care pharmacy 
+3910,5356,1,Dexamethasone eye ds
+3911,2294,1,ART MEAN
+3912,7822,1,genta irrig cc/hr
+3913,1906,1,Elastic gloves
+3914,7019,2,Triple anti oint
+3915,220066,2614,Pulmonary Artery Pressure Alarm - Low
+3916,5075,4,Bicarb
+3917,1568,12,high me
+3918,223767,359,Intra Cranial Pressure Alarm - High
+3919,1480,7714,IV #2 Reason DC'D
+3920,223942,189,Graft/Flap Pulse
+3921,227577,526,BiPap Mode
+3922,5845,1,fem art
+3923,228014,6462,20 G Infiltration Scale
+3924,224951,1594,Impaired Skin Width #2
+3925,3333,4439,Blood Cultures
+3926,438,7,MAP
+3927,1338,1,L stump dsg changed
+3928,5395,1,Beclamethasone
+3929,5847,1,MV Hi
+3930,1470,1,drsgs change
+3931,3745,2416,BloodGlucose
+3932,225988,234,IABP Position on leg
+3933,5320,1,flowrate cc/min
+3934,7692,2,Bivona mark
+3935,2470,1,BLADDER PRES.mm/Hg
+3936,7505,2,Neck
+3937,4895,2,Nystatin susp
+3938,224281,6079,Multi Lumen Site Appear
+3939,3472,812,Image Transmission
+3940,5755,3,Time Disconnect
+3941,227464,8348,Potassium (whole blood)
+3942,1110,2,drsg change
+3943,227646,3,Breast Feed - R (Minutes)
+3944,6284,2,Merepenum
+3945,224025,1645,Spiritual Support
+3946,5068,1,mong.spot
+3947,4601,11,Bath demo
+3948,3160,3,HIGH MV LIMIT
+3949,309,46,IV Drip Dose #2
+3950,795,6920,Differential-Bands
+3951,1651,6,High Tidal Volume
+3952,226713,2200,Incontinent (estimate)
+3953,349,110,ImpSkin Character #6
+3954,4560,8,Umbilical hernia
+3955,6738,1,left breast doppler
+3956,1096,1,Auto-PEEP level
+3957,3641,1159,Survanta
+3958,7520,1,gent eye ointment
+3959,7607,1,Tranpul. Insp Hold
+3960,2419,1,THIGH HI TEDS.
+3961,227982,31,Neuro Drain #2 Status
+3962,227629,268,Shivering
+3963,227625,26,Undermining Present #10
+3964,6719,5,SpO2-L
+3965,6952,1,Aprotinen
+3966,5564,1,bed alarms
+3967,224981,639,Tunneling Present #4
+3968,5036,7,Tri-Vi-Sol
+3969,5077,1,Fentanyl:
+3970,2422,1,PEG SITE CARE
+3971,717,3945,Ventricular Pacemaker [Sense]
+3972,5000,1,Right hydrocele
+3973,224931,3467,Impaired Skin Site #3
+3974,1697,2580,Atrial Pacemaker Sense [mV]
+3975,224432,436,CT #3 Dressing
+3976,228334,1351,CAM-ICU Altered LOC
+3977,5261,1,Fentanyl Bolus
+3978,799,10263,Differential-Monos
+3979,5887,1,Gentamicin Opthalmic
+3980,8192,1,Dexmedetomidine
+3981,6927,1,Arterial Mean #3
+3982,2808,1,tongue midline
+3983,8299,1,R ICP
+3984,224080,21841,Head of Bed
+3985,3194,1,lab svo2
+3986,6076,1,Flowrate
+3987,7204,1,gentamycin eye ontmt
+3988,224711,267,Recruitment Duration
+3989,6848,1,hernia/drsng
+3990,226180,10027,Sexuality / reproductive problems
+3991,224850,5793,Incision Drainage Amount #1
+3992,228185,53,SVRI (PiCCO)
+3993,6065,1,High minute Volume
+3994,7687,1,ileal conduit
+3995,224077,20750,Education Method
+3996,1067,2,apnea test
+3997,6251,1,wrist restraints
+3998,7385,2,bivona trach measure
+3999,1103,2,cvp
+4000,2110,1,Mucomyst
+4001,3567,58,Pavulon
+4002,447,341,Minimal Leak Present
+4003,5545,2,Vit A IM
+4004,2456,1,CARIPROSIDE
+4005,223794,20609,Pain Level Acceptable
+4006,8070,2,dexamethasone gtts
+4007,5787,1,t-tube
+4008,4381,3,Potassium Phosphate
+4009,7955,1,CSM of right toes
+4010,4209,87,eye exam
+4011,4564,13,Nystatin oral
+4012,6207,7915,Tank B psi.
+4013,3737,808,BUN    (6-20)
+4014,8493,821,GI Tube #2 [Site]
+4015,227133,741,Small Volume Neb Drug #2
+4016,226125,70,ICP Line Discontinued
+4017,7126,1,Nystatin swabs
+4018,3121,1,himv
+4019,156,26427,Dorsal PedPulse [Right]
+4020,1962,1,LIVER FLAPPING
+4021,8346,1,Ursodiol
+4022,1670,1,driveP
+4023,3233,1,PEG SITE DRESSING
+4024,4504,165,Heparin Flush
+4025,5760,6,Bed bath
+4026,5719,1,mucumyst
+4027,225657,1,Freeform Coags
+4028,6001,2,Rebound bili
+4029,4196,1417,Base Excess (cap)
+4030,194,1082,Flow-By (lpm)
+4031,430,5651,LVSW
+4032,227841,152,Community Integration
+4033,4514,8,Chromosomes
+4034,6324,1,Tongue Deviation
+4035,227946,7940,Restraint Ordered (Non-violent)
+4036,964,1,THAM CC/HR
+4037,6332,1,mucocous fstula
+4038,2804,1,10% alcohol/ cc/hr
+4039,5884,1,Ranitidine pg
+4040,223916,18833,Response to Stimuli (Type)
+4041,228182,79,SVI (PiCCO)
+4042,3487,4863,Lesions
+4043,132,4,Compliance-Corrected
+4044,7065,1,Abdominal incision
+4045,7146,1,Oxygen #3
+4046,228015,1930,22 G Phlebitis Scale
+4047,7090,2,Right pedal pulse
+4048,2509,11,APROTONIN CC/HR
+4049,5677,3,scrotal ultrasound
+4050,721,3665,Ventilator No.
+4051,4689,8,Genetics consult
+4052,1216,2,tongue
+4053,3046,1,HIGH MINUTE VENT.  N
+4054,8033,1,NC
+4055,227668,3818,Side Rails_V2
+4056,3755,82,FIBRINOGEN
+4057,8113,1,Resp. Rate
+4058,8407,1829,ImpSkin #2 [Amount]
+4059,7469,4,Methylprednisolone
+4060,6019,1,Left arm Edema
+4061,224866,2427,Temporary Atrial Capture
+4062,224980,1110,Tunneling Present #3
+4063,223967,2585,Angio Site # 1
+4064,6871,1,Multi-Podis boots
+4065,352,6218,ImpSkin #1 [Drain]
+4066,6609,1,Ribavrin TX #
+4067,2740,1,DO2 I
+4068,5155,1,R. test. hydrocele
+4069,5311,2,Chest tube
+4070,2003,7,HIGH MIN VOL
+4071,703,60,Transcutan Pacer
+4072,2790,1,FEM. ART BP
+4073,6266,1,Low NO alarm
+4074,223795,21763,Pain Assessment Method
+4075,8463,1361,Pressure Sore #1 [Length]
+4076,8524,246,IV #4 [Location]
+4077,224,794,IABP Mean
+4078,8456,25653,PostTib. Pulses [Left]
+4079,735,156,Wound Care
+4080,4762,2,Penicillin
+4081,6221,1,tank A
+4082,660,16571,Stool Guaiac
+4083,1856,1,Vecuronium mcg/min
+4084,6461,1,fem sheat
+4085,3550,214,Oral Sx Quality
+4086,5771,1,Heliox PSI pressure
+4087,50,10401,Apnea Time Interval
+4088,223759,4638,Precautions: Standard +
+4089,1938,1,7. Tactile Disturb.
+4090,513,1560,PVRI
+4091,586,894,QTc
+4092,5995,1,Peak flow post tx.
+4093,8443,497,Neuro Drain [Location]
+4094,2358,1,ALBUMIN
+4095,2544,3,FEM ART MAP
+4096,5883,1,desitin prn
+4097,51,17074,Arterial BP [Systolic]
+4098,2236,2,MULTIPODUS BOOTS
+4099,226981,3,Albumin_ApacheIV
+4100,225142,178,Money given to hospital cashier
+4101,2225,2,URINE NA
+4102,226737,8,AaDO2ApacheIIValue
+4103,5720,1,TOTAL BATH
+4104,69,27205,BSA
+4105,225048,624,Knee Location - Immobilizer
+4106,224172,1338,MDI #2 Puff
+4107,3314,2437,BP Left Arm [Mean]
+4108,7251,1,ergocalciferol
+4109,2986,1,neuro drain type 2
+4110,203,13236,GI#1 Tube [Status]
+4111,3799,6334,Red Blood C(3.6-6.2)
+4112,529,1000,Pause Time %
+4113,2489,1,BILAT HEARING AIDS
+4114,3785,1143,PO2
+4115,227980,191,Intra Aortic Balloon Pump Setting
+4116,5585,1,MINUTE VOL. HIGH
+4117,3271,2,insp time
+4118,2006,5,high min volume
+4119,4372,80,Desitin
+4120,4871,2,vit d
+4121,5982,4,Triple antibx oint.
+4122,220765,410,Intra Cranial Pressure
+4123,3447,6817,Glucose Monitor #
+4124,1596,167,HIGH MV
+4125,502,51,PCV Insp Vt (Obser)
+4126,7095,8,Shaved
+4127,5676,1,RIGHT FEM. ALINE
+4128,225698,13132,TCO2 (calc) Arterial
+4129,90,6096,C.O.(thermodilution)
+4130,4542,5,Tobradex
+4131,2831,4,FEM ABP
+4132,227653,48,Pad Change/Hour
+4133,7194,1,NEPHROTUBE COLOR
+4134,6359,1,Halo
+4135,227358,3511,PICC Line Dressing Occlusive
+4136,226118,986,Dialysis Catheter placed in outside facility
+4137,59,796,Augmented Diastole
+4138,1604,2,HI/Minute/Vol/
+4139,227125,490,Indwelling (PortaCath) Port Type
+4140,5860,1,Bed side Observer
+4141,224808,2091,CT #2 Suction Type
+4142,4701,5,Stoma
+4143,3672,33,Umbical Cord
+4144,6115,1,high/min /vent
+4145,7614,1,ngt residual
+4146,3428,2445,Feeding Tube Loc
+4147,4526,2,lacrilube
+4148,224024,18422,Family Communication
+4149,224830,1012,Trach Tube Manufacturer
+4150,224962,409,Impaired Skin Wound Base #6
+4151,226766,14,MapApacheIIValue
+4152,3607,5543,Retractions
+4153,224370,8698,Sputum Color
+4154,4844,18,Nystatin Ointment
+4155,6489,2,auto-peep
+4156,3657,347,Terminal Sensitivity
+4157,227293,6091,Multi Lumen Dressing Occlusive
+4158,224891,783,Impaired Skin Cleanse #5
+4159,224088,15901,Pressure Reducing Device
+4160,1969,1,abduction pillow
+4161,7809,1,Bumetandime mg/hr
+4162,8169,1,Amicar mg/hr
+4163,4214,1,acycloviv
+4164,1677,1,Altepase mg/hr
+4165,228223,8,Tandem Heart Return Cannula Position
+4166,7760,1,Atropine Ointment
+4167,394,4321,Inc #3 [Drainage]
+4168,6126,1,HI press
+4169,248,1608,INV Line#4 Zero/Cal
+4170,8432,63,Inc #6 [Status]
+4171,3186,2,nicardipine
+4172,2099,1,lymphedema sleeve
+4173,224055,21808,Braden Moisture
+4174,6223,1,tank-A
+4175,1481,3970,IV #3 Reason DC'D
+4176,1507,5,HIGH MINUTE VOL
+4177,5220,1,Na Supps
+4178,2483,1,PAVULON MCG/KG/MIN
+4179,2418,1,CARIPORIDE 20MG/HR
+4180,4619,12,Nystatin Powder
+4181,207,2155,GU Catheter Size
+4182,224800,273,AV Fistula R Bruit
+4183,2553,1,svt
+4184,5988,1,AV Fistula Thrill
+4185,224013,5234,Stool Guaiac
+4186,228097,210,14 Gauge placed in the field
+4187,2832,2,APROTININE
+4188,3059,1,REE
+4189,6647,1,50% Dextrose gm
+4190,2736,1,right fem bp
+4191,1467,3,Pericare
+4192,1523,21078,Chloride
+4193,1217,1,vision
+4194,7235,1,Drivng press
+4195,224565,6944,Surrounding Tissue #1
+4196,1514,9,Hi Tidal Vol
+4197,5593,1,MMV tidal volume
+4198,224427,2041,CT #2 Suction Amount
+4199,463,584,Neuro Drain Status
+4200,1354,1,vanco peak
+4201,6045,2,1-10 ML 20% MUCOMYST
+4202,6758,1,ecmo
+4203,223059,1,Intubation - Details
+4204,2943,1,low min vol
+4205,224974,1215,Surrounding Tissue #4
+4206,6002,2,Desitin prn
+4207,141,6338,Cuff Pressure-Airway
+4208,1619,2,Lepirudin
+4209,698,54,Traction/Immobile #2
+4210,225965,68,Peritoneal Dialysis Catheter Status
+4211,227728,317,AVA Line Site Appear
+4212,539,169,Pericardial Drainage
+4213,225410,7,Acute rehab
+4214,467,28090,O2 Delivery Device
+4215,648,5332,Speech
+4216,5040,1,scrotum
+4217,1095,1,cuff leak present
+4218,2635,1,VENT ICP
+4219,8480,26449,Urine [Appearance]
+4220,5630,17,DRIVING PRESSURE
+4221,1090,1287,Ramsey SedationScale
+4222,227241,2616,PAP Alarm Source
+4223,517,4569,Pacer Rate
+4224,3676,26,VS Change W/Seizure
+4225,2443,1,PROTONIX DRIP
+4226,5711,1,x-ray
+4227,242,4225,INV Line#3 Zero/Cal
+4228,3295,3717,Abdominal Loops
+4229,1380,3,High exhaled min.vol
+4230,3780,5362,NEUTS
+4231,3077,1,Migh Min Volume
+4232,190,16161,FiO2 Set
+4233,8330,1,L AV fistula Bruit
+4234,224738,9682,Inspiratory Time
+4235,8467,14520,Pupil Size [Left]
+4236,3420,3147,FIO2
+4237,6974,1,L arm elevated
+4238,342,290,Imp Skin Cleanse #5
+4239,6155,1,surgery consult
+4240,224119,4612,22 Gauge Site Appear
+4241,854,457,Vancomycin/Peak
+4242,2484,3,incentive spirometer
+4243,220210,21913,Respiratory Rate
+4244,3466,1179,IV #2 [Location]
+4245,7967,1,vacuum assist
+4246,4820,5,HEP FLUSH
+4247,228382,51,Total Peripheral Resistance Index (TPRI) (NICOM)
+4248,224814,54,GI #1 Tube Place Method
+4249,6655,1,PCV Level
+4250,5928,1,circumcison site
+4251,224999,504,Incision Cleansing #3
+4252,236,11341,INV Line#2 Zero/Cal
+4253,148,573,Dialysis Access Site
+4254,227673,632,Non-Violent Restraints Ordered
+4255,5819,17179,Resp Alarm [Low]
+4256,6148,3,Valproic acid
+4257,6815,1,Critacaid
+4258,224695,10078,Peak Insp. Pressure
+4259,223940,1171,Femoral Pulse R
+4260,1204,1,Bias Flow
+4261,2752,1,DVO2I
+4262,7301,1,Gentamycin Eye Oint.
+4263,5380,1,piperacillin-tazbac
+4264,5629,1,csm to right hand
+4265,6470,1,CA GLUCONATE
+4266,294,25908,IV #1 [Site]
+4267,5386,1,penrose drain area
+4268,2963,1,CHECK BRUIT L ARM
+4269,227117,1234,PCA total dose units
+4270,226763,14,HrApacheIIScore
+4271,228162,2,Impella Catheter Position
+4272,5016,1,Tri Visol
+4273,7831,1,PASSy MUir valve
+4274,7023,1,T-LO (APRV)
+4275,3625,1172,Source
+4276,2915,1,HI/Minute/Vol/Alarm^
+4277,7570,1,FIO2 SET
+4278,3374,2220,Color Change
+4279,3051,3,high min.vol.
+4280,225767,486,Sheath Site Appear
+4281,8496,10,zzz Stim Thresh mA [Value]
+4282,4223,14,Bacitracin ointment
+4283,227960,7827,Patient/Family Informed
+4284,4,276,ABI Ankle BP [Right]
+4285,4822,1,Mylanta
+4286,227460,49,Phenobarbital
+4287,8345,1,Sigh peep level
+4288,1666,8,phigh
+4289,3353,7150,Cardiac Murmur
+4290,225751,12,Triple Introducer Discontinued
+4291,227020,7,HtScore_ApacheIV
+4292,8473,975,Radial Pulse [Left]
+4293,4707,55,Circ
+4294,4726,2,ZANTAC
+4295,3421,1800,FIO2 Alarm [Low]
+4296,4203,1422,pO2 (cap)
+4297,227470,619,Sed Rate
+4298,5707,7,T LOW
+4299,4282,5,Bath:
+4300,224226,6734,Impaired Skin Wound Base #1
+4301,3836,1457,pCO2 (other)
+4302,2493,3,cariporide
+4303,227860,214,Rest RR - Aerobic Capacity
+4304,7092,2,Tinsp
+4305,1703,9913,Health Care Proxy
+4306,224792,132,GI #3 Tube Status
+4307,1409,1,incentive spiromety
+4308,224368,419,Epidural Medication
+4309,227830,269,Self Feeding
+4310,613,12,Resp Quotient - (R)
+4311,3645,2204,Sx Equip Functional
+4312,224687,10149,Minute Volume
+4313,5647,1,trembling
+4314,7089,1,P4
+4315,224801,251,AV Fistula R Thrill
+4316,583,102,Pulses Paradoxus
+4317,5956,1,Cardiologist visit
+4318,8099,1,dPaw
+4319,226586,9080,Stool Estimate
+4320,650,21,Spon Minute VE L/min
+4321,3044,1,10% ETOH CC/HR
+4322,8115,1,Lt hernia repair
+4323,568,693,PressSoreTreatment#2
+4324,1520,1191,ACT
+4325,4334,24,aquaphor
+4326,1391,3572,DO2I
+4327,3294,3576,Abdominal Girth (cm)
+4328,6916,2,nitric oxide ppm
+4329,228180,53,GEDI (PiCCO)
+4330,4947,15,Nystatin cream
+4331,227649,13,Fundus Character
+4332,6667,1,G-Tube Site
+4333,225417,10,Assisted living
+4334,7618,1,BP Lt. leg Mean
+4335,223802,1813,Nerve Stimulated
+4336,8414,108,ImpSkin #5 [Length]
+4337,7709,1,L heel protect boot
+4338,4246,4,Combivent puffs
+4339,4713,4,Heplock flush
+4340,8125,1,triple antibio. oint
+4341,3347,17,Calcium Gluconate
+4342,3628,2419,State Screen Sample
+4343,2141,1,Glucagon mg/hr
+4344,225656,1,Freeform Chemistry
+4345,8535,4555,Stool [Color]
+4346,608,534,Recruit Breath
+4347,364,1694,ImpSkin Wound Base#3
+4348,4218,4,miconozole powder
+4349,6669,1,APRV Phi
+4350,2060,1,Disconnect alarm.
+4351,5697,1,CORTISOL LEVEL PRE
+4352,4181,7864,Highest Level
+4353,228186,10,Access Site Observed (Tandem Heart)
+4354,227763,41,Triple Introducer Placement Confirmed by X-ray
+4355,768,1749,ACT (102-142)
+4356,1803,10,Solumedrol
+4357,860,5059,Venous pH
+4358,572,233,PressSoreWoundBase#3
+4359,8363,145,ABI Brachial BP [Left]
+4360,7061,2,left nephrostomy
+4361,4954,4,Mineral Oil
+4362,5877,3,LFT's
+4363,224455,6,PT Splint Location #4
+4364,1620,1,L foot CSM check
+4365,1576,1,automatic tube com
+4366,70,8457,BSA - English
+4367,1577,1,high minute vent
+4368,2583,1,Multipodus boots.
+4369,2560,1,CISATRA. MCG/KG/MIN
+4370,1932,1,1. Nausea and Vomit.
+4371,1720,4,high exhale MV
+4372,225,800,IABP setting
+4373,5986,1,AV fistula bruit
+4374,5340,4,Glycerine supp
+4375,829,27448,Potassium (3.5-5.3)
+4376,1061,1,mulitpodis boots
+4377,224685,10118,Tidal Volume (observed)
+4378,1410,3,IS
+4379,6920,1,Nitric Cylinder[PSI]
+4380,225811,13418,CV - past medical history
+4381,8547,9133,ABP Alarm [High]
+4382,224908,191,Impaired Skin Drainage #8
+4383,227124,931,Dialysis Catheter Type
+4384,3286,4,solumedrol
+4385,611,511,Replace Rate ml/hr
+4386,8357,1,Sigh Peep
+4387,5998,1,meds
+4388,5655,1,Multi podis Boots
+4389,1923,1,2.tactile Disturban
+4390,2143,4,multipodus
+4391,5820,17349,SpO2 Alarm [Low]
+4392,1638,3,cortisol
+4393,7223,1,Polymyxin B oint
+4394,5699,1,CHROMOSOMES
+4395,224031,21555,Edema Location
+4396,1054,23,protonix
+4397,227565,8410,Ventilator Tank #1
+4398,5978,1,qtc
+4399,4843,3,calciferol
+4400,227122,1,Neuro Drain Landmark
+4401,226114,1500,PA Catheter placed in outside facility
+4402,3740,1452,Base Excess (other)
+4403,105,340,CT #3 Dressing
+4404,227686,651,Central Venous O2% Sat
+4405,6214,1,AMMONIA/12-47 UMOL/L
+4406,5702,2,FEM ART MEAN
+4407,228443,16,BIS - SQI
+4408,3003,1,SPNIOT TIDAL VOLUMES
+4409,2821,1,binder
+4410,6067,1,Neonatal Bili & Lyts
+4411,4375,3,Neut
+4412,225310,1660,ART BP Diastolic
+4413,3215,1,Xgris
+4414,1965,14,hi min vol
+4415,224437,44,CT #4 Suction Amount
+4416,1660,1,High Tidal volume
+4417,226179,12540,No wallet / money
+4418,224759,8014,LUE Sensation
+4419,228012,5465,18 G Infiltration Scale
+4420,510,30,PT Splint #3 [Location]
+4421,3063,1,High MV Limits
+4422,225014,884,Incision Drainage #3
+4423,3573,120,Polio Vaccine
+4424,225726,25,Tunneled (Hickman) Line Tip Cultured
+4425,3066,1,albumin
+4426,4698,1,Gtube site
+4427,7471,2,Triple Abx oint
+4428,5022,1,Emycin ointment
+4429,4926,1,"Dexamethasone, gtts"
+4430,2825,2,Cough/Deep Breath
+4431,5604,1,criticaide
+4432,220227,7212,Arterial O2 Saturation
+4433,1401,3169,zzO2AV
+4434,2488,1,sandbag->chest
+4435,7691,1,Sz Pads
+4436,8369,3932,Atrial Pacemaker [Capture]
+4437,228292,42,IO Placed in outside facility
+4438,227004,7,ChronicScore_ApacheIV
+4439,7600,1,NECK GIRTH (cm)
+4440,2993,12,trache care
+4441,8314,1,Abd.Binder
+4442,226889,1961,Legal Guardian
+4443,5123,4,Chloral hydrate
+4444,1855,2,TRACH care
+4445,227444,589,C Reactive Protein (CRP)
+4446,227861,230,Rest O2 Sat - Aerobic Capacity
+4447,3547,2470,OG/NG Residual
+4448,3728,813,Alkaline Phosphatase
+4449,1371,5,cco
+4450,920,27205,Admit Ht
+4451,224676,143,Nausea and Vomiting (CINA)
+4452,5875,1,UA/UVC placement
+4453,1187,4,demerol
+4454,522,17962,Pain Cause
+4455,8505,218,BP PAL [Diastolic]
+4456,5748,1,VItamin A inj.
+4457,224707,272,T High (APRV)
+4458,2879,1,Prostaglandin m/k/mn
+4459,3,277,ABI (R)
+4460,227477,21,Incision Site #6
+4461,201,1293,GI Intub #2 [Type]
+4462,226988,2,APACHE IV main groups non-operative
+4463,2478,1,Amiodarone mg/hr
+4464,3083,1,spont Tidal volumes
+4465,225750,82,Trauma Line Discontinued
+4466,228301,364,CAM-ICU Inattention
+4467,5462,1,Tobradex eye ung
+4468,228404,1173,Motor L Arm
+4469,224691,172,Flow Rate (L/min)
+4470,3802,297,SGPT
+4471,228225,9,Tandem Heart Return Cannula Site
+4472,5909,3196,ID band(s) on
+4473,1649,1,Hi MV Alarm Set
+4474,226381,22683,Marital Status
+4475,2525,1,Peg DSG
+4476,6872,1,intrathecal catheter
+4477,2472,1,INTRATHECAL PRESSURE
+4478,6326,3,Bair hugger
+4479,1693,1,check for pulsus q4h
+4480,3766,50,Ion Calcium
+4481,4549,35,criticaid
+4482,1059,2,shampoo hair
+4483,8396,804,INV Line#5 [Site]
+4484,1431,1144,Orient/Clouding Sens
+4485,220283,7,Resistance
+4486,8479,1511,Trach [Fenestra]
+4487,2581,1,bladder pres.
+4488,228416,767,Corneal Reflex Right
+4489,224113,228,Traction/Immobile Location #1
+4490,8212,1,mammo support
+4491,2530,1,venous pulse
+4492,226545,24074,Race
+4493,859,4748,Venous PvO2
+4494,4412,40,caffeine bolus
+4495,659,7144,Stool [Color]
+4496,3694,5401,Work of Breathing
+4497,210,27083,HOB
+4498,3264,1,MULTI PODUS SPLINTS
+4499,7174,1,fluconozole oral sol
+4500,227003,7,Chronic health on admission
+4501,5824,2,HiMV
+4502,2033,3,High VE
+4503,584,14508,Pupil Response [Right]
+4504,5757,4,mucous fistula
+4505,1127,25806,"WBC   (4-11,000)"
+4506,1329,2259,Initials (2 RNs) [RN #1]
+4507,1694,2,HI VE
+4508,225397,35,Triple Introducer Waveform Appear
+4509,224369,8577,Sputum Consistency
+4510,224987,960,Undermining Present #3
+4511,224443,663,GI #2 Tube Place Check
+4512,6256,2,Platelet Count
+4513,3831,451,Venous O2
+4514,5914,35,zz Equip Functioning
+4515,6142,1,derm consult
+4516,1316,1,left foot dressing
+4517,223752,20983,Non-Invasive Blood Pressure Alarm - Low
+4518,227461,1520,Phenytoin (Dilantin)
+4519,173,507,Effluent Press mmHg
+4520,2529,1,arterial pulse flap
+4521,228375,113,Stroke Volume Index (SVI NICOM)
+4522,227652,36,Lochia Estimate
+4523,3512,4368,Mom in to Visit
+4524,3786,36,Phenobarbitol(15-40)
+4525,3494,2079,Lowest Heart Rate
+4526,6347,1,femoral pulses
+4527,792,220,Cyclosporin
+4528,226740,5,APACHE II Diagnosistic weight factors - Medical
+4529,784,13161,CPK
+4530,226119,289,Trauma Line placed in outside facility
+4531,4501,1,DOPAMINE DRIP
+4532,5226,1,Cough
+4533,6015,1,Triple abx.
+4534,3750,796,Creatinine   (0-0.7)
+4535,7622,1,BP Rt. Leg Mean
+4536,6521,2,P-low
+4537,3352,639,Cardiac Echo
+4538,2123,4,High exhale MV
+4539,3177,1,left fem. aline
+4540,1682,3,multi podus boots
+4541,2681,1,FINGERSTICK
+4542,2268,1,BREAST BINDER
+4543,2760,1,aprotanine
+4544,224563,1033,Impaired Skin Depth #1
+4545,224645,149,Orthostatic BPs lying
+4546,7540,1,expir pressure
+4547,224902,4921,Impaired Skin Drainage #2
+4548,1034,1,RA SAT
+4549,3169,3,multipodous boots
+4550,225807,71,Volume Out (PD)
+4551,7453,2,bear hugger
+4552,150,256,Dialysis Machine
+4553,6691,1,DRIV PRESS
+4554,1228,2,aerosol mask
+4555,3167,1,Drive Pres
+4556,4285,1,Broviac site/dsg
+4557,223939,1000,Brachial Pulse R
+4558,6061,1,Sucrose H20
+4559,926,35069,Religion
+4560,5841,4,TPA
+4561,7461,1,Th
+4562,220181,21676,Non Invasive Blood Pressure mean
+4563,4958,2,Tobramycin oint
+4564,4239,25,Caffeine bolus
+4565,6398,1,FEM LINE
+4566,2508,1,SOLUMEDEROL
+4567,2711,1,qtc interval
+4568,226105,5751,Behavior
+4569,3405,1016,Edema [Existence]
+4570,5353,5,type and coombs
+4571,4446,1,caffeine
+4572,5020,12,Cyclopentalate
+4573,4263,4,PICC
+4574,4918,11,hep b vaccine
+4575,224419,272,Negative Insp. Force
+4576,6448,1,P Lo
+4577,7474,1,trach mark
+4578,228010,2012,16 G Infiltration Scale
+4579,3811,733,Triglyceride (0-250)
+4580,5913,1316,Tolerated new med?
+4581,5708,1,MgSO4
+4582,2477,1,cisatric mcg/kg/min
+4583,224652,243,Unassisted Systole
+4584,1667,11,plow
+4585,227036,4,PCO2_ApacheIV
+4586,4210,3,Glycerine Suppos.
+4587,3345,139,CVP Alarm [Low]
+4588,4365,2,k phosphorus
+4589,217,144,Heparin Dose
+4590,224970,136,Pressure Ulcer Stage #7
+4591,538,133,Pericard Drain Stat
+4592,7983,4,Hydrocele
+4593,7345,1,D5 1/2ns w/20meq kcl
+4594,5864,2,ostomy
+4595,925,27205,Marital Status
+4596,612,474,Replace.Fluid Infuse
+4597,2460,5,CARIPORIDE ML/HR
+4598,2283,1,PRECEDEX MG/K/HR
+4599,3448,1663,Grandparents Visit
+4600,7610,1,cardiac index      o
+4601,2795,1,leg dsg w-d packing
+4602,224006,1853,Emesis Appearance
+4603,2502,1,cisatricurium mg/k/h
+4604,3328,1944,Behavioral State
+4605,2824,4,SHAMPOO
+4606,4305,2,Caffeine Citrate
+4607,2209,1,MULTIPODUS BOOT
+4608,227773,2,Traction/Immobile #3
+4609,6935,1,insp. vt
+4610,4237,32,Glycerin supp
+4611,220645,24052,Sodium (serum)
+4612,5893,1,NGT lavage
+4613,228369,104,Cardiac Output (CO NICOM)
+4614,8290,1,Acetylcysteine
+4615,3404,1506,ETT Taped at (cm)
+4616,5039,1,dressing.
+4617,1070,9,shampoo
+4618,1350,1,ionized calcium
+4619,6599,1,right arm
+4620,1209,1,HFO mean airway Pres
+4621,3081,1,SPONT TV'S
+4622,7612,2,Augmentin
+4623,6254,1,Post-Ductal SaO2
+4624,225667,10821,Ionized Calcium
+4625,6252,2,Abdominal U/S
+4626,3647,384,TCP02
+4627,224947,1105,Impaired Skin Type #5
+4628,224661,781,Baseline Current/mA
+4629,2737,1,FDP
+4630,6213,3,TANK A
+4631,224085,14224,Assistance Device
+4632,3519,5281,Muscle Tone
+4633,2285,1,nimbex mcg/kg/min
+4634,3612,45,Seizure [Activity]
+4635,6552,1,low insp press
+4636,225742,95,IABP Line Discontinued
+4637,4191,27,zzzgth   Calc   (cm)
+4638,3239,1,NICARDIPINE MCG/KG/M
+4639,227807,402,In-line Suction Catheter Changed
+4640,3204,6,Pinsp.
+4641,5234,1,umbical site
+4642,5747,1,dobutamine
+4643,224688,9350,Respiratory Rate (Set)
+4644,225737,3998,Arterial Line Discontinued
+4645,437,123,Low Peep
+4646,3140,1,Urine Cl-
+4647,2813,1,Hard Cast L FA
+4648,7073,6,Cannula Size
+4649,227985,277,Neuro Drain #1 Landmark
+4650,5229,1,NACL SUPPS
+4651,223973,523,Angio Dressing # 2
+4652,6100,3,P-LO
+4653,8532,5018,SaO2 Alarm [High]
+4654,5681,1,umbi hernia measure
+4655,2310,1,cisatracuri/mcg/kg/m
+4656,6236,1,high pip
+4657,5894,1,perit/bladder pressu
+4658,2592,1,MULTIPODUS SPLINT
+4659,847,39,Tobramycin/Trough
+4660,6228,1,LEFT AV FISTULA
+4661,6342,1,P Insp
+4662,1314,1,r leg drsg change
+4663,5168,1,Shunt
+4664,2397,4,BAIR HUGGER
+4665,3358,17,Chest Appearance
+4666,7236,1,g-tube site
+4667,25,1482,AV Interval
+4668,5067,2,Folic Acid
+4669,3319,1120,BP PAL [Systolic]
+4670,227669,728,Side Rails (Restraint)
+4671,3808,1341,TCO2        (21-30)
+4672,5816,1216,ICP Alarm [Low]
+4673,1662,18,High min vol
+4674,6053,1,Hep flush 10U/CC
+4675,136,3363,Cough Effort
+4676,227858,241,Rest HR - Aerobic Capacity
+4677,5700,1,Gent eye oint
+4678,228222,9,Tandem Heart Return Cannula Migration
+4679,2642,1,FEMORAL ABP
+4680,196,1,Foley Care
+4681,6628,2,critic-aid
+4682,2796,1,Alcohol Gm/hour
+4683,8415,30,ImpSkin #6 [Length]
+4684,1741,1,Auto Tube Comp
+4685,225418,10,VA hospital
+4686,5164,1,Carnitine
+4687,5249,1,ceftazidine
+4688,3482,415,KUB
+4689,3381,571,Cyclogyl
+4690,414,1134,Incision/Wound #4
+4691,449,1304,Minute Volume (Set)
+4692,667,79,TCPCV Apnea Settings
+4693,1108,6,mucomyst
+4694,4922,1,open crib
+4695,1600,36,HIGH MINUTE VOLUME
+4696,1120,11,trach
+4697,224979,1982,Tunneling Present #2
+4698,1665,6,High Min Vol
+4699,4519,1,Atropine Opthamic
+4700,8481,15,VAD Beat Rate [Left]
+4701,5773,1,WAffle Boots
+4702,149,586,Dialysis Access Type
+4703,227476,69,Incision Site #5
+4704,2505,1,no2
+4705,224726,1,O2 Consumption
+4706,224996,66,Incision Appearance #5
+4707,706,26618,Urine [Color]
+4708,224858,47,Patient Behavior During Application
+4709,2579,34,mammary support
+4710,2503,1,bupivacaine
+4711,3685,6491,Vitamin K
+4712,227764,83,Tunneled (Hickman) Placement Confirmed by X-ray
+4713,7568,1,L arm: thrill/bruit
+4714,6767,1,heliox lpm
+4715,8534,590,Skin Integrity [Attribute #2]
+4716,2444,1,CISATRACUR.MCGKGMIN
+4717,5948,1,Heb B
+4718,3128,1,BRACHIAL S/D
+4719,1100,1,PRESSURE BAG R.GROIN
+4720,1408,1,foley irrigated.
+4721,227580,399,BiPap IPAP
+4722,225082,2869,Pregnant
+4723,4905,11,Fluconazole
+4724,2499,1,AV THRILL
+4725,3835,1366,pCO2
+4726,2838,1,HALDOL MG IVP
+4727,6216,1,hi flow O2
+4728,5130,1,PICC LINE DSG
+4729,3445,3996,Gentamicin
+4730,223805,1536,Nausea and Vomiting (CIWA)
+4731,131,13941,Compliance (40-60ml)
+4732,6414,1,Nephrostomy
+4733,6483,1,t lo
+4734,3086,1,spont Vt's
+4735,227922,109,Position - Activity - Aerobic Activity Response
+4736,5939,2,Lumbar drain
+4737,2293,1,ART BP
+4738,7594,1,OGT residual
+4739,357,3929,ImpSkin Treatment #2
+4740,241,6283,INV Line#3 [Type]
+4741,225954,6,Dialysis Access Type
+4742,6198,1,CAP GAS
+4743,6199,1,L. lower abd. kidney
+4744,7229,1,low Vt
+4745,2556,1,Cisatra.  MG/KG/HR
+4746,6622,3,hernia repair site
+4747,227654,1,Reflexes LE
+4748,5937,1,ecmo l/min
+4749,861,27164,"WBC (4-11,000)"
+4750,7976,1,mucous fistula L
+4751,816,14653,Ionized Calcium
+4752,2746,1,corlopam mcgs/kg/min
+4753,2741,1,VO2 I
+4754,109,50,CT #4 Drainage
+4755,6020,1,gent peak/trough
+4756,1740,1,R rad pulse
+4757,524,17522,Pain Level (Rest)
+4758,6819,1,drive p
+4759,226512,21920,Admission Weight (Kg)
+4760,644,27096,Skin Integrity
+4761,6860,1,SVO2-Presep. cath.
+4762,3115,1,PCV Total Pressure
+4763,7504,1,Driv pressure
+4764,2421,1,QT interval
+4765,5801,1,high ve            n
+4766,5946,1,PIC Line placement
+4767,5661,2,PLTS
+4768,224915,155,Impaired Skin Drainage Amount #8
+4769,224424,1955,CT #2 Drainage
+4770,223829,1371,Drowsiness
+4771,6024,1,venous o2 sat
+4772,228297,1937,Daily Wake Up Deferred
+4773,6423,2,Octreotide mcg/hr
+4774,6349,1,AUTOPeeP
+4775,5846,1,rigors
+4776,4709,1,Humatrope
+4777,5798,1,Ecmo Flows
+4778,6582,1,left femerol artery
+4779,617,27175,Respiratory Pattern
+4780,2768,1,fem a-line
+4781,5643,1,bupivacaine.1%-pop
+4782,4292,3,artificial tears
+4783,1569,3,high min vol.
+4784,1416,1,picc
+4785,5215,2,Na Cl supps
+4786,228199,10,Type (Tandem Heart)
+4787,225976,529,Replacement Fluid
+4788,227640,4,Medication Added Units #2 (Peritoneal Dialysis)
+4789,7699,1,HICCUPS
+4790,7668,1,CXT site
+4791,5527,1,Bacitracin nose oint
+4792,228381,43,Total Peripheral Resistance (TPR) (NICOM)
+4793,1488,1,HIGH MIN. VENTIL.
+4794,225952,25,Medication Added #1 (Peritoneal Dialysis)
+4795,3191,1,DEFLATE RECTAL TUBE
+4796,198,27178,GCS Total
+4797,224406,447,VEN Lumen Volume
+4798,413,4373,Incision/Wound #3
+4799,5674,2,vest
+4800,2646,1,Vent CPP
+4801,4461,3,COMBIVENT
+4802,227473,3453,Incision Site #2
+4803,588,2237,RCW
+4804,3606,38,Response To Stimuli
+4805,8468,3253,RLE [Color]
+4806,4618,1,ferinsol
+4807,224162,21864,Resp Alarm - Low
+4808,2390,1,cisatracurium mg/hr
+4809,3408,5118,Environment
+4810,227516,1550,PO2 (Mixed Venous)
+4811,5879,1,Right Arm Cellulitis
+4812,5992,1,Surgical site
+4813,480,256,Orthostat BP sitting [Systolic]
+4814,227786,202,Impaired Skin  - Dressing Status #7
+4815,6162,1,Lumbar drain level
+4816,4946,1,Myconazole Pdr.
+4817,4310,21,combivent
+4818,5554,1,zzzzuent Press mmHg
+4819,6751,1,Bilateral hernia dsg
+4820,5721,1,abd lateral
+4821,419,1410,KneeImmobilizeLoc [Right]
+4822,4617,6,Neurology consult
+4823,224932,1979,Impaired Skin Site #4
+4824,4406,6,Poly-vi-sol
+4825,7500,1,dexamethasone drops
+4826,595,8425,RSBI (<200)
+4827,4928,1,Neo-Synephrine gtts
+4828,47,3867,Angio Site #1
+4829,5862,1,right leg bruit
+4830,228413,322,Seizure Activity
+4831,1717,1,tPA            mg/hr
+4832,2061,1,EPOPROSTENOL
+4833,3775,441,Mix Venous PO2
+4834,1458,1,L ankle dsg change
+4835,225736,11,Triple Introducer Line Tip Cultured
+4836,6686,3,TRIVISOL
+4837,8361,1,Trans pul insp
+4838,223773,2191,PA Line cm Mark
+4839,223764,141,Orthostatic HR lying
+4840,3598,2295,Related Activity
+4841,4692,2,Atropine eye drops
+4842,125,59,Chest Tube Site #4
+4843,5718,1,PIC
+4844,153,785,Diastolic Unloading
+4845,2004,1,left groin pressure
+4846,227806,35,ScvO2 (Presep) SQI
+4847,2438,1,TPN
+4848,2497,1,cisatricurium/mc/k/m
+4849,3724,45,ABG CHLOIRDE
+4850,3048,1,PEJ CARE TID
+4851,225723,241,CCO PAC Line Tip Cultured
+4852,729,73,Vision Rate
+4853,2028,2,Low time
+4854,1045,11605,Pain Level/Response
+4855,224971,81,Pressure Ulcer Stage #8
+4856,6795,1,NO2 ANALYZED
+4857,7459,1,Ph
+4858,223951,15308,Capillary Refill R
+4859,7774,1,peak flow pre neb
+4860,468,4411,O2 Delivery Device#2
+4861,575,172,Pressure Sore Odor#3
+4862,4686,1,broviac lt saphenou.
+4863,227457,23984,Platelet Count
+4864,7992,1,Stomahesive Powder
+4865,189,1193,FiO2 (Analyzed)
+4866,224777,1957,CT #2 Leak
+4867,6028,2,abdominal girth
+4868,1346,1,l upper body drsg
+4869,2936,5,T High
+4870,225233,3468,18 Gauge Reason Discontinued
+4871,2360,1,CISATRACUR MCG/KG/MN
+4872,1453,1,CT DRSG
+4873,1118,6,multipodus boot
+4874,227758,38,Pheresis Catheter Placement Confirmed by X-ray
+4875,2605,1,CARAIPORIDE CC/HR
+4876,227111,1387,PCA  dose units
+4877,723,27186,Verbal Response
+4878,2978,1,peritoneal amylase
+4879,2823,6,incentive spirometry
+4880,1372,1,ci
+4881,224322,243,IABP Mean
+4882,5384,2,OP site
+4883,2668,1,TEMP GRAFT
+4884,8511,133,CVP Alarm [High]
+4885,8014,1,T-discon
+4886,3068,1,High Pressure Limit
+4887,2958,1,NECK FLAP CAP REFILL
+4888,2044,1,Tidal Vol (P Low)
+4889,303,3454,IV #4 [Site]
+4890,223828,1366,Slurred Speech
+4891,227128,42,Indwelling (PortaCath) Port #2
+4892,5566,2,posey
+4893,2288,1,L ARM ELEVATION
+4894,3605,2071,Respiratory Support
+4895,5790,1,Cyclosporine mg/hr
+4896,1611,2,I time
+4897,7361,1,SV02
+4898,8266,1,epoetin alfa
+4899,3683,654,Vital Sign
+4900,224145,374,Heparin Dose (per hour)
+4901,8390,12201,GI#1 Tube [Drain]
+4902,5659,1,D5W & 40Gm CaGluc
+4903,5062,1,MEROPENEM
+4904,1729,1,Hi Min Vent
+4905,228100,9081,20 Gauge placed in the field
+4906,224149,530,Access Pressure
+4907,401,261,Inc #5 [Dressing]
+4908,2521,1,HFO-Hz
+4909,227439,385,Ndwelling Port (PortaCath) placed in outside facility
+4910,8225,1,Effluent Cr
+4911,226987,5,APACHE IV diagnosis
+4912,227539,1868,ART Blood Pressure Alarm Source
+4913,5259,1,ABD INC LINE
+4914,225421,10,DME
+4915,5780,1,NT SX
+4916,227549,66,ScvO2 (Presep)
+4917,226743,14,APACHE II
+4918,226991,12,APACHEIII
+4919,6739,1,right breast doppler
+4920,822,4029,Mixed Venous O2
+4921,8437,4689,MDI #1 [Drug]
+4922,6234,2,L AV fistula
+4923,8416,7690,Inc #1 [Appearance]
+4924,5724,1,TEA BAGS TO R EYE.
+4925,1553,2,flank drsg change
+4926,1486,150,High Minute Volume
+4927,718,1063,Ventricular Pacemaker Threshold [Unit]
+4928,3633,25,Stools
+4929,5768,1,Left nephro. tube
+4930,227788,82,Impaired Skin  - Dressing Status #9
+4931,7341,1,Vasopressin  u/hr
+4932,223783,21325,Pain Location
+4933,694,53,Tract/Imm Location#2
+4934,7166,1,Eye care
+4935,2361,1,FOOT WOUND
+4936,6103,3,vit A
+4937,5664,1,CHOLEY TUBE
+4938,1136,9,vasopressin
+4939,3479,143,Intervention
+4940,6270,1,Thigh Tourniquet
+4941,1029,2,INCENTIVE SPIROMETER
+4942,227866,174,Activity RR - Aerobic Capacity
+4943,8321,1,nystatin pwdr
+4944,1575,4,HIGH MINUTE VOL.
+4945,2952,1,RT RAD A LINE
+4946,223982,15968,LUE Color
+4947,221,11990,I:E Ratio
+4948,227730,234,AVA Waveform Appearance
+4949,224733,18298,Pupil Size Left
+4950,227943,401,Anticipated Discharge
+4951,2124,1,high mn vent
+4952,6618,1,HumR #Units
+4953,226758,14,GCSVerbalApacheIIValue
+4954,6125,1,L thigh circumferenc
+4955,6243,1,tri abx ointment
+4956,227810,2785,ETT Re-taped
+4957,643,4876,Skin Color
+4958,3432,432,Fentanyl
+4959,1051,5,passy-muir valve
+4960,3521,7,Myoclonic Jerks
+4961,6338,1,femoral line left
+4962,223911,19009,Spontaneous Movement
+4963,2326,1,(R) FEMORAL SHEATH
+4964,6203,1,Caffeine(bolus)
+4965,5899,2,Triple Antibx Oint
+4966,5649,1,PRBCS
+4967,227957,7954,Signs of Injury from Intervention
+4968,1022,77,Trach care
+4969,1832,2,Trach care.
+4970,1122,4,lepirudin
+4971,1102,7,high exhaled min vol
+4972,7063,2,VENOUS SAT
+4973,358,1923,ImpSkin Treatment #3
+4974,701,24,Transcut Pacer Rate
+4975,227919,159,Rest O2 Sat - Aerobic Activity Response
+4976,224832,9224,ETT Type
+4977,4801,19,Bath+Shampoo
+4978,6678,1,nitric ppm
+4979,3530,897,Narcotic Analgesic
+4980,3033,8,hair washed
+4981,289,55,INV#7 WaveformAppear
+4982,4960,9,Ilex
+4983,227594,103,Impaired Skin Cleanse #9
+4984,4893,1,right hydrocele
+4985,227670,106,Violent Restraints
+4986,7268,3,Bed Rotation Left
+4987,228214,9,Tandem Heart Access Line Site Appear
+4988,1819,1,Protonix ml/hr
+4989,2696,1,EDV1
+4990,232,19699,INV Line#1SiteAppear
+4991,8475,4604,Skin Condition
+4992,692,1639,Tracheostomy Type
+4993,7730,1,RT AV thrill/bruit
+4994,228410,2607,Strength L Leg
+4995,4525,12,Glycerin suppository
+4996,3545,24,O2 Sat W/Seizure
+4997,113,12164,CVP
+4998,2103,7,High minute volume
+4999,228101,2891,22 Gauge placed in the field
+5000,3777,442,Mix Venous pH
+5001,225371,49,Pheresis Catheter Site Appear
+5002,1633,13,HIGH/MIN/VENT
+5003,6520,2,P-high
+5004,1934,1,3.Paroxysmal Sweats
+5005,3653,1,Temp CoB 1/W/C
+5006,3673,25,Upper GI
+5007,652,8378,Spon. Vt (L) (Mech.)
+5008,6893,1,Vitamin A INJ
+5009,535,14078,Peak Insp. Pressure
+5010,565,577,PressSoreCleansing#2
+5011,5577,1,acytylcisteine
+5012,300,10780,IV #3 [Site]
+5013,2274,1,APROTININ U/HR
+5014,3427,2371,Feeding Tube Check
+5015,226778,14,TempApacheIIValue
+5016,7482,1,irrigate pericardial
+5017,5486,1,NYSTATIN ORAL
+5018,4350,8,PKU
+5019,2802,1,VENOUS FLOW/GRAFT
+5020,6279,1,TPA 50MG IN 500NS
+5021,202,9427,GI#1 Tube PlaceCheck
+5022,266,53,INV Line#7 Zero/Cal
+5023,7826,1,IVPPI
+5024,228206,2,Tandem Heart Access Line Discontinued
+5025,2069,1,hi tidal volume
+5026,2408,1,tidal vol
+5027,80,31087,Bowel Sounds
+5028,4636,2,Umb Hernia
+5029,1721,2,Ribaviron
+5030,7969,1,ATC size
+5031,1595,3,Seizure Pads
+5032,683,14016,Tidal Volume (Set)
+5033,228219,9,Tandem Heart Return Cannula Dressing Occlusive
+5034,2034,1,High min. vent.
+5035,5026,1,extra digit rt/lt fr
+5036,5043,4,gentamycin ointment
+5037,225097,14112,Balance
+5038,6143,2,Lacrilube Ointment
+5039,7170,1,T deconn
+5040,3754,5362,Eosinophils
+5041,1415,1,robinul
+5042,2344,5,TPA MG/HR
+5043,7004,1,mulitpodus boots
+5044,175,12,Energy Expenditure
+5045,1418,33,multipodus boots
+5046,7841,1,Combivent Puff
+5047,227873,200,Recovery O2 Sat - Aerobic Capacity
+5048,6260,1,R fem Art line
+5049,6135,1,Ptp exp
+5050,227428,2,SOFA Score
+5051,6449,1,PROTONIX MG/HOUR
+5052,7396,1,INO TANK
+5053,8553,17156,Resp Alarm [High]
+5054,699,9,Traction/Immobile #3
+5055,5660,3,LYTES
+5056,362,6834,ImpSkin Wound Base#1
+5057,4663,4,CIRC
+5058,225730,301,PA Catheter Line Tip Cultured
+5059,8126,1,Thrill
+5060,224421,5462,Spont Vt
+5061,4799,3,synthroid
+5062,3407,2548,Enteral In for Calc.
+5063,224758,8028,RUE Sensation
+5064,225339,237,IABP Site Appear
+5065,225091,5984,Unable to assess activity / mobility
+5066,224946,1915,Impaired Skin Type #4
+5067,4677,12,nystatin powder
+5068,5153,5,Ceftazadime
+5069,6416,1,Bilateral hernia
+5070,5866,1,APRV Pressure Low
+5071,3316,1034,BP Left Leg [Mean]
+5072,8054,1,deistin
+5073,225416,10,Long term care custodial non-Medicare certified
+5074,1426,776,Drowsiness
+5075,8504,1025,BP Left Leg [Diastolic]
+5076,224447,1217,Family Meeting
+5077,5157,2,Ambisome
+5078,3008,1,Epidural rate
+5079,6291,1,NITRIC TANK PRESSURE
+5080,227365,428,14 Gauge Dressing Occlusive
+5081,3253,1,Sigh Breath/Pressure
+5082,4538,10,amoxicillin
+5083,4296,15,Glycerin supp.
+5084,670,505,TCPCV Insp. Pressure
+5085,227624,50,Undermining Present #9
+5086,226873,9149,Inspiratory Ratio
+5087,560,196,Pressure Sore #3 [Drainage]
+5088,2876,1,10% ALCOHOL CC/HR
+5089,5633,2,cyclosporine
+5090,940,219,trach care
+5091,3075,1,calTIBC  264-432
+5092,697,337,Traction/Immobile #1
+5093,224680,647,Cuff Volume/units
+5094,1761,21,HI/MINUTE/VOL/ALARM
+5095,6144,1,ABD BINDR/THIGH HI'S
+5096,225087,12850,Visual / hearing deficit
+5097,225105,4306,Unable to assess habits
+5098,4369,5,thoracentesis
+5099,4235,35,Aquaphor
+5100,5874,1,High min. vent
+5101,5666,1,EDEMA
+5102,8173,1,Nitric Tank psi
+5103,553,226,Pressure Sore #3 [Stage]
+5104,1190,1,natrecor mcg/kg/min
+5105,1339,1,bed rotation q2hrs.
+5106,226741,1,APACHE II Diagnosistic weight factors - Surgical emergency
+5107,2865,1,iabp-bp
+5108,6480,1,p hi
+5109,8021,2,AutoRotation
+5110,224168,21858,Parameters Checked
+5111,4451,1,aclyclovir
+5112,5678,1,bath/ shampoo
+5113,227088,14001,Admit from
+5114,4911,12,hep B vaccine
+5115,224860,21803,Skin Condition
+5116,7121,1,TUBE feed sugar levl
+5117,3456,67,Hernia [Right]
+5118,710,77,VEN Lumen Volume
+5119,5473,1,op. site
+5120,6007,1,badbath
+5121,2929,3,sputum culture
+5122,5221,1,DOPA mcg/k/min
+5123,3219,13,calcium gluconate
+5124,3172,1,right groin sheath
+5125,5784,1,lab results
+5126,3818,279,Urine Ketones
+5127,6650,1,DSD on head
+5128,6297,1,VP shunt placement
+5129,4620,2,monilial rash
+5130,224631,3422,Pressure Ulcer Stage #1
+5131,187,23790,Family Communication
+5132,1623,19899,Parameters Checked
+5133,5858,1,bedside observer
+5134,224944,6166,Impaired Skin Type #2
+5135,3329,2466,BehavioralIntervent
+5136,2716,12,EDV
+5137,2665,2,NO
+5138,227725,121,AVA Line Discontinued
+5139,227596,24,Impaired Skin Depth #9
+5140,227578,645,BiPap Mask
+5141,7998,1,Versed mg/kg/hr
+5142,511,9,PT Splint #4 [Location]
+5143,7777,1,Ptp Exp.
+5144,2734,1,right vent drain
+5145,7288,1,Acapella (PEP)
+5146,378,406,Impaired Skin Site#5
+5147,228409,2610,Strength L Arm
+5148,1880,352,Urine pH
+5149,5671,1,r fem art line
+5150,1423,1154,Auditory Disturbance
+5151,227591,101,Neuro Drain Landmark
+5152,5843,1,Neosynephrine drops
+5153,1032,11,Hi/minute/vol/alarm
+5154,224922,71,Impaired Skin Length #8
+5155,7840,2,CIRC site
+5156,2492,4,ABD BINDER
+5157,5282,3,propanolol
+5158,5794,1,DaPT
+5159,2482,1,SOLUMEDROL  MG/KG/HR
+5160,1635,1,HIGH Resp Rate
+5161,477,20486,Oral Care
+5162,2161,9,aprotinin cc/hr
+5163,4231,2,NaCl
+5164,3798,1,RETIC Count(0.5-1.5)
+5165,227052,7,Sodium_ApacheIV
+5166,226108,916,CCO PAC placed in outside facility
+5167,228305,6856,ST Segment Monitoring On
+5168,2548,1,nimbex mg/kg/hr
+5169,4727,1,mitoclopramide
+5170,227349,12936,High risk (>51) interventions
+5171,227813,70,Medication Bolus - Adjunctive Pain Management
+5172,1098,1,cisatracurium mg/kg
+5173,5464,2,Fentanyl bolus
+5174,5872,1,Inner canula
+5175,4243,22,glycerin supp
+5176,2018,1,High min volume
+5177,227581,40,BiPap bpm (S/T -Back up)
+5178,3324,333,BP UAC [Mean]
+5179,6036,1,Blocked tear duct
+5180,4696,2,Calcium Glubionate
+5181,224865,10001,Flow Sensitivity
+5182,5265,4,Hepflush
+5183,481,244,Orthostat HR sitting
+5184,4670,2,heprin lock
+5185,228308,2877,GI #1 Tube Place Method
+5186,134,1146,Cooling [Device]
+5187,3372,63,[Color]
+5188,6278,4,fingerstick
+5189,3210,4,pressure high
+5190,1648,3,HIGH ME
+5191,6367,1,P LO
+5192,225094,14498,History of slips / falls
+5193,6399,1,ART MAP
+5194,8486,802,Initials (2 RNs) [RN #2]
+5195,220052,9689,Arterial Blood Pressure mean
+5196,227771,190,Traction/Immobile #1
+5197,223953,164,Pericardial Drain Drainage
+5198,223983,16238,LLE Color
+5199,1535,21167,Potassium
+5200,1688,5,passy muir
+5201,2065,1,HIGH TIDAL VOLUME
+5202,3250,2,Nephrostomy tube
+5203,7546,1,bactroban oint.
+5204,8129,1,r arm fistula
+5205,1683,1,Low minute volume
+5206,7574,3,lumbar pressure
+5207,4791,6,Circ Care
+5208,1634,1,lactated ringers
+5209,3624,128,Sodium Chloride
+5210,227650,11,Fundus Location (Breadth)
+5211,74,1365,Base Excess
+5212,3789,6273,Platelet  (150-440)
+5213,509,340,PT Splint #2 [Location]
+5214,6,7,ABP [Systolic]
+5215,2139,181,EDVI
+5216,226776,13,SodiumApacheIIValue
+5217,2369,3,fem map
+5218,2809,2,xigris mcg/kg/hr
+5219,7524,2,aprv phigh
+5220,41,133,Alarms Activated
+5221,516,4988,Pacemaker Type
+5222,3549,1725,Oral Sx Color
+5223,713,46,VO2I
+5224,2794,1,r wrist brace
+5225,3631,3061,Stool Hemoccult
+5226,580,17209,Previous Weight
+5227,5813,9634,ABP Alarm [Low]
+5228,720,14781,Ventilator Mode
+5229,769,12303,ALT
+5230,5505,2,O2 sat probe site
+5231,564,1989,PressSoreCleansing#1
+5232,224779,411,CT #3 Leak
+5233,220274,4376,PH (Venous)
+5234,247,2423,INV Line#4 [Type]
+5235,3695,13,Yawning
+5236,311,46,IV Drip Medication#2
+5237,227005,7,Creatinine_ApacheIV
+5238,5285,1,Cord Drg.
+5239,224789,1103,GI #2 Tube Status
+5240,2434,1,CAGLUCONATE2GMS/L.
+5241,4770,3,Umbi Hernia
+5242,4578,1,grunting
+5243,224073,20766,Education Topic
+5244,224106,1375,Cooling Device
+5245,663,25363,Support Systems
+5246,6081,3,straight cath
+5247,208,5341,Gag Reflex
+5248,322,634,IV Site #3
+5249,1618,2,high tidal vol
+5250,2320,1,Lower leg splint
+5251,6812,1,myconazole
+5252,8405,63,ImpSkin #6 [Amount]
+5253,1493,1,LAVAGE
+5254,2634,1,VENT CPP
+5255,4373,3,Mineral oil/ skin
+5256,227051,7,RRScore_ApacheIV
+5257,8422,6593,Inc #1 [Amount]
+5258,7965,1,methhemoglobin
+5259,6541,1,methadone mg /hr
+5260,226062,2271,Venous CO2 Pressure
+5261,3451,4617,Head Circ       (cm)
+5262,1544,1,high min
+5263,3770,5235,Lymphs
+5264,3378,16,Consent for visitors
+5265,3315,2436,BP Left Arm [Systolic]
+5266,224879,17550,Nares L
+5267,224016,21049,Urine Color
+5268,4850,10,diaper rash
+5269,6553,1,cyclosporin
+5270,1039,2,MDI #4
+5271,2014,1,lithium level
+5272,1474,6,Folate
+5273,227362,49,Pheresis Catheter Dressing Occlusive
+5274,2387,2,CHEST DRSG W->D
+5275,5886,1,GlycerineSuppository
+5276,224028,21781,Skin Color
+5277,6940,1,BLADDER SCAN AMOUNT
+5278,544,3,Plateau Time (7200)
+5279,5929,1,180 Degree rotation
+5280,7732,1,Right leg straight
+5281,4459,2,trach collar
+5282,2606,1,halo traction
+5283,1113,1,sacral drsg change
+5284,2629,2,SOLUMEDROL DRIP
+5285,4477,3,narcan
+5286,8304,1,mulitpodus
+5287,8430,4101,Inc #3 [Status]
+5288,2849,1,JP#2 L SITE/DRAINAGE
+5289,3298,11,Albuterol MDI
+5290,6219,1,Breast Pump
+5291,224072,20785,Education Learner
+5292,3761,6439,Hematocrit (35-51)
+5293,4952,15,Bactroban
+5294,7200,2,Pmax
+5295,6147,2,APNEA INT.
+5296,6725,1,SSI HumR #u
+5297,7138,1,umb hernia
+5298,2015,2,ATC ON
+5299,3127,1,Sitter at bedside.
+5300,225813,5384,Baseline pain level
+5301,360,383,ImpSkin Treatment #5
+5302,225674,3024,Mixed Venous O2% Sat
+5303,8439,540,MDI #3 [Drug]
+5304,780,18016,Arterial pH
+5305,2874,1,lepirudin mg/kg/hr
+5306,220734,10147,PH (dipstick)
+5307,227639,3,Medication Added Amount  #2 (Peritoneal Dialysis)
+5308,226120,65,Triple Introducer placed in outside facility
+5309,3214,1,Ca++ Gluconate
+5310,5199,3,NS Bolus
+5311,225341,238,IABP Art. Waveform Appear
+5312,5442,2,pic line placement
+5313,1731,1,drive P.
+5314,4873,1,Tobradex oint.
+5315,224816,2,GI #2 Tube Place Method
+5316,225047,7,Incision Packing #6
+5317,1909,1,RT LE PULSE
+5318,228173,2,Impella Position
+5319,5714,1,CPM MACHINE
+5320,4267,137,heparin flush
+5321,227566,8408,Ventilator Tank #2
+5322,75,437,Baseline Current/mA
+5323,3651,42,TcO2 [Value]
+5324,561,1448,Pressure Sore #1 [Width]
+5325,224366,411,Epidural Infusion Rate (mL/hr)
+5326,8425,537,Inc #4 [Amount]
+5327,1044,17328,Pain Level
+5328,6055,1,Peg Care
+5329,1861,1,HFO Hz
+5330,6854,1,EEG (burst/min)
+5331,3822,330,Urine Protein
+5332,1010,89,High exhaled min vol
+5333,1464,40,ZZZly Wake Up
+5334,226144,26,Case Management discharge plan
+5335,2071,1,P (drive)
+5336,224359,441,QTc
+5337,2430,1,AMBU/NS INSTILLATION
+5338,224746,162,Transpulmonary Pressure (Exp. Hold)
+5339,227632,240,Arctic Sun/Alsius Temp #1 C
+5340,1650,201,high mv
+5341,8520,62,Hernia [Right]
+5342,1857,1,nesiritide
+5343,8494,99,GI Tube #3 [Drain]
+5344,4706,8,initial bath
+5345,2043,1,Tidal Vol (P High)
+5346,431,5601,LVSWI
+5347,4383,25,Aldactone
+5348,7606,1,adjustable flange
+5349,176,584,Epi Infusion Rate
+5350,223797,323,Sensory Level
+5351,225184,15568,Eye Care
+5352,224673,138,Abdominal Changes: Observation
+5353,3000,1,CPP WITH CAMINO ICP
+5354,598,1594,RUE [Sensation]
+5355,6027,1,thrush
+5356,5935,1,L Hand Grasp
+5357,7812,1,Pre duct sat
+5358,3016,1,CT #5 CREPITUS.
+5359,224909,3811,Impaired Skin Drainage Amount #2
+5360,472,3800,O2AV
+5361,7091,1,P5
+5362,3197,1,INO LEVEL
+5363,2960,1,lepirudin mgs/kg/hr
+5364,228401,1594,Pronator Drift
+5365,220293,10136,Minute Volume Alarm - High
+5366,225651,1689,Direct Bilirubin
+5367,3518,1399,Murmur Intensity
+5368,6748,1,Pt Leak
+5369,5584,2,t-high
+5370,4615,3,Mylicon
+5371,224785,9844,GI #1 Tube Type
+5372,916,27205,Allergy 1
+5373,161,27210,Ectopy Type
+5374,224308,15234,Capillary Refill L
+5375,3667,356,Transfusion Consent
+5376,3331,1,Blink Reflex [Left]
+5377,227050,6,RR_ApacheIV
+5378,3543,2300,O2 Administration
+5379,4486,1,k phosphate
+5380,228232,631,PAR-Oxygen saturation
+5381,1689,7,P High
+5382,223994,3482,CT #1 Suction Amount
+5383,2965,1,INTRAABDOM. PRESSURE
+5384,6656,3,PHigh
+5385,491,2974,PAP Mean
+5386,6160,1,R/L FLAP PULSE
+5387,5716,2,bed exit alarm
+5388,5709,1,TOX SCREEN
+5389,6659,1,right femoral sheath
+5390,224926,716,Impaired Skin Odor #5
+5391,7221,1,Protonix       mg/hr
+5392,345,4036,ImpSkin Character #2
+5393,227447,108,Gentamicin (Random)
+5394,5651,9,High Ve
+5395,7762,2,autorotation
+5396,4941,3,Genetics Consult
+5397,1421,1179,Anxiety
+5398,228402,283,Neurological Symptoms
+5399,2041,2,THIGH
+5400,3419,2209,Eye Shields
+5401,225810,53,Dwell Time (Peritoneal Dialysis)
+5402,228296,404,PCA concentrations
+5403,4856,2,hydrocele
+5404,1939,1,8. Visual Disturb.
+5405,917,27204,Diagnosis/op
+5406,1827,1,sacra decub dressing
+5407,6092,1,Sclerea edema
+5408,224804,413,AV Fistula L Thrill
+5409,7858,1,gent opthalmic
+5410,1785,1,bed alarm on
+5411,2137,1,Nephrostomy Drain
+5412,225640,10193,Differential-Eos
+5413,227239,9887,ABP Alarm Source
+5414,4694,1,Cosopt
+5415,224017,11824,GU Catheter Size
+5416,4773,2,Poly-Vi-Sol
+5417,772,11670,Albumin (>3.2)
+5418,224650,21461,Ectopy Type 1
+5419,6846,1,Primo study cc/hr
+5420,212,27224,Heart Rhythm
+5421,1918,1,Urine Osm
+5422,1534,20586,Phosphorous
+5423,1379,1,Continuous CO
+5424,1671,14,act
+5425,4503,3,Actigall
+5426,615,14806,Resp Rate (Total)
+5427,2933,1,SVO2 SAT
+5428,106,341,CT #3 [Fluctuate]
+5429,285,4284,INV#3 WaveformAppear
+5430,227063,7,WBCScore_ApacheIV
+5431,8508,327,BP UAC [Diastolic]
+5432,5712,1,orogastric sxn
+5433,4200,5612,WBC 4.0-11.0
+5434,497,1680,Patient controlled analgesia (PCA) [Inject]
+5435,6161,1,PMV on.
+5436,5788,1,LLE Cast care
+5437,5652,1,PICC Attempt
+5438,6601,1,Auto PeeP
+5439,1468,2,HI/Minute/Vol/alarm
+5440,224007,9714,GI #1 Intub Site
+5441,8507,1019,BP Right Leg [Diastolic]
+5442,577,248,Pressure Sore Site#3
+5443,6352,1,fentanyl mcg/hr
+5444,220621,23990,Glucose (serum)
+5445,550,26079,Precautions
+5446,7869,2,PERCUSSION
+5447,2743,1,VENOUS DOPPLER
+5448,4712,1,SPIT
+5449,6107,1,Low Pressure
+5450,225949,867,NIV Mask
+5451,8404,927,ImpSkin #3 [Amount]
+5452,1838,1,Lithium level
+5453,220046,21875,Heart rate Alarm - High
+5454,224756,18756,Response
+5455,6086,1,Micro-Neb tx
+5456,2658,1,ALCOHOL
+5457,384,80,Inc Cleansing #5
+5458,6064,1,ORL Exam
+5459,225744,1332,Multi Lumen Line Discontinued
+5460,3516,431,Multi-Vitamins
+5461,700,2,Traction/Immobile #4
+5462,3383,133,DTaP
+5463,1872,46,Shave
+5464,3644,13,Sweating
+5465,5895,1,Abduction Wedge
+5466,620,6833,Responds to Stimuli [Type]
+5467,4605,23,bath demo
+5468,1541,887,Uric Acid
+5469,2872,10,abd binder
+5470,228208,9,Tandem Heart Access Line Dressing Occlusive
+5471,397,70,Inc #6 [Drainage]
+5472,6485,1,sacral wound
+5473,224897,177,Impaired Skin Depth #4
+5474,7751,2,STOMA BAG CHANGED
+5475,2136,1,CCO CO
+5476,4743,12,Circumcision Site
+5477,1114,1,FOLLOWS CONSISTENTLY
+5478,7888,1,gentamycin opthalmic
+5479,486,213,Ostomy Care
+5480,225000,157,Incision Cleansing #4
+5481,2733,1,RIGHT VENT ICP
+5482,1462,1,wrist  restraints
+5483,1069,1,seizure activity
+5484,7838,1,Pantoprozole
+5485,224969,219,Pressure Ulcer Stage #6
+5486,8141,1,chest dressing
+5487,2702,1,ulnar pulse right
+5488,6546,1,pm valve
+5489,4185,7864,5 min
+5490,226756,14,GCSEyeApacheIIValue
+5491,8309,2,prednisolone gtts
+5492,7220,1,X-Ray
+5493,8218,1,left icp
+5494,5817,15963,NBP Alarm [Low]
+5495,224309,243,Assisted Systole
+5496,7458,1,ICE PACKS PERINEAL
+5497,3484,2454,Latch On
+5498,2659,1,Camino CPP
+5499,6939,3,LUE AV fistula
+5500,1383,8,high minute vol.
+5501,5769,3,multipodus splints
+5502,227348,195,Low risk (25-50) interventions
+5503,5826,1,CBC and blood cx
+5504,227449,125,Gentamicin (Trough)
+5505,5469,5,lytes and bili
+5506,1933,1,2.Tremor
+5507,27,27117,Abdominal Assessment
+5508,5515,2,Na supps
+5509,1496,3,HIGH MIN. VENT.
+5510,8370,1181,Atrial Pacemaker Threshold [Value]
+5511,2500,1,L RADIAL AV FISTULA
+5512,4171,7864,Time
+5513,942,2,BLOOD CULTURES
+5514,6047,1,Hi insp press
+5515,224037,7114,Impaired Skin Cleanse #1
+5516,227955,7759,Food and Fluid
+5517,2022,12,NIF
+5518,1093,4,coccyx drsg change
+5519,2116,1,Disconnect
+5520,225959,14,Medication Added Amount  #1 (Peritoneal Dialysis)
+5521,3433,20,Fever
+5522,5487,1,NYSTATIN POWDER
+5523,6741,1,pantoprazole mgm/hr
+5524,5731,1,FEMORAL ABP MEAN
+5525,2597,1,intrathecal cath
+5526,225746,11,Pheresis Catheter Discontinued
+5527,226761,14,HematocritApacheIIScore
+5528,1597,1,Flolan chart cc/hr
+5529,5804,1,sheath MAP
+5530,5083,1,rt. hernia
+5531,2518,1,HFO- FIO2
+5532,7743,1,ACETYLCYSTEINE MG/HR
+5533,805,386,FK506
+5534,5966,1,Continuous EEG q1hr
+5535,5867,1,APRV Time High
+5536,6434,2,RSBI
+5537,815,24040,INR (2-4 ref. range)
+5538,7084,1,Broviac Dsg
+5539,225764,160,Sheath Line Discontinued
+5540,5089,1,toes
+5541,223754,5774,Risk for Falls
+5542,3723,4929,Birth Weight    (kg)
+5543,5388,1,incision
+5544,3303,3841,Ampicillin
+5545,223945,1017,Femoral Pulse L
+5546,1210,1,HFO min. pres. alarm
+5547,228174,2,Impella Line Site Appear
+5548,508,621,PT Splint #1 [Location]
+5549,6603,1,INAMRINONE MCG/KG/MN
+5550,224651,13891,Ectopy Frequency 1
+5551,7595,1,PSV
+5552,227621,58,Surrounding Tissue #10
+5553,1718,5,High Minute Vent.
+5554,2866,1,CPAP MASK
+5555,227454,3028,Vancomycin (Random)
+5556,471,4221,O2 Flow (lpm) #2
+5557,226480,1122,Ectopy Frequency 2
+5558,6209,1,"LYTES,BILI,LIVER PRF"
+5559,465,3726,Neuro Symptoms
+5560,226759,12,HCO3ApacheIIValue
+5561,2455,7,percussion
+5562,8104,1,NAS
+5563,228227,8,Tandem Heart Return Cannula Size
+5564,8376,48,CT #4 [Leak]
+5565,7211,1,Atropine opth. oint
+5566,7833,1,Heels Elevated
+5567,512,2669,PVR
+5568,227463,1628,Cortisol
+5569,2420,1,TIDAL VOLUME
+5570,227465,20787,Prothrombin time
+5571,225309,1680,ART BP Systolic
+5572,1912,2,ASTERIXIS
+5573,224438,2466,Chest Tube Site # 2
+5574,228198,10,Tandem Heart Flow
+5575,57,1340,Atrial Pacemaker Threshold [Unit]
+5576,225692,294,Total Granulocyte Count (TGC)
+5577,7675,1,Traction amt (lbs)
+5578,1744,1,R NEPHROSTOMY
+5579,4666,2,head
+5580,1592,1,Left Arm Girth (cm)
+5581,224986,1740,Undermining Present #2
+5582,5098,1,KCl Supps
+5583,5541,2,Heparin flush 10u/cc
+5584,8398,92,INV Line#7 [Site]
+5585,6429,1,Glucagon       mg/hr
+5586,5949,1,ivp
+5587,8421,65,Inc #6 [Appearance]
+5588,7639,2,T disconnect
+5589,226457,740,Ultrafiltrate Output
+5590,3632,5226,Stool [Amount]
+5591,1964,1,Camino Monitor
+5592,7078,43,Ranitidine/Zantac
+5593,4227,30,lytes
+5594,1207,1,HFO Hz:
+5595,4968,1,diaper area
+5596,424,2920,LLE [Temp]
+5597,3439,259,Furosemide/Lasix
+5598,224803,411,AV Fistula L Bruit
+5599,2517,1,Cisatracu mg/kg/hr
+5600,223935,20529,PostTib. Pulses R
+5601,408,16,Inc/Wound Packing #5
+5602,227595,61,Impaired Skin Cleanse #10
+5603,3259,2,mv
+5604,7128,1,He tank pressure
+5605,225624,24062,BUN
+5606,2468,1,NAHCO3- MEQ/HR
+5607,1809,2,PA sat
+5608,1225,1,check bruit l arm
+5609,3446,7957,Gestational Age
+5610,2751,1,DVO2
+5611,227780,6577,Impaired Skin  - Dressing Status #1
+5612,64,682,BIPAP - EPAP
+5613,224938,2984,Impaired Skin Treatment #3
+5614,3656,5855,Temp/Iso/Warmer [Type]
+5615,1200,1,High MAP Alarm
+5616,1725,5,Pulse
+5617,6627,10,linen change
+5618,4683,1,KPhos
+5619,224038,10340,Impaired Skin Treatment #1
+5620,6091,1,leg dressings
+5621,224665,1309,PCA total dose
+5622,223988,21847,LUL Lung Sounds
+5623,2516,3,CARIPORIDE
+5624,225067,11940,Is the spokesperson the Health Care Proxy
+5625,6831,1,cool bath
+5626,5728,1,Solumedrol  mg/kg/hr
+5627,7579,1,rotation mode on   d
+5628,1567,126,apnea
+5629,5581,2,T-Low
+5630,1598,1,Flovan chart as cchr
+5631,224428,397,CT #3 Crepitus
+5632,346,1979,ImpSkin Character #3
+5633,1509,1,bld pres
+5634,224152,529,Return Pressure
+5635,3089,2,ELEVATE R ARM
+5636,6807,1,Triple antibx oint
+5637,225772,307,Sheath Size
+5638,2643,2,N.O.
+5639,8037,1,Ketamine 100mg/50ml
+5640,7292,1,Urine source #2
+5641,6154,2,pnuemogram
+5642,1194,1,natrecor
+5643,6244,1,Surgery
+5644,227732,288,AVA Line Placement Confirmed by X-ray
+5645,7421,1,disconect alarm
+5646,225002,15,Incision Cleansing #6
+5647,7082,1,Acetylcysreine
+5648,5543,6,BILI
+5649,227342,21703,Secondary diagnosis
+5650,1878,2,methylprednisolone
+5651,225046,14,Incision Packing #5
+5652,1690,7,P low
+5653,7499,1,MINERVA BRACE
+5654,225693,2438,Triglyceride
+5655,5590,1,warm pack to LUE
+5656,5767,1,trach button
+5657,687,1400,Trach Care
+5658,5667,4,heliox tank pressure
+5659,224936,232,Impaired Skin Site #8
+5660,5717,1,circ.site
+5661,6828,1,Q1H EEG TRACE
+5662,226754,10,FiO2ApacheIIValue
+5663,1407,9,CIWA SCALE
+5664,220339,10189,PEEP set
+5665,6034,1,EPOGEN
+5666,1853,9,protonix mg/hr
+5667,8445,129,OrthostatBP standing [Diastolic]
+5668,226994,7,ApacheIV_Mortality prediction
+5669,5738,1,Pericardial flush
+5670,2070,1,nicardipine gtt
+5671,8044,1,HeliOx press
+5672,8385,72,Emesis [pH]
+5673,3837,1366,pO2
+5674,8495,1279,Ventricular Pacemaker Sense [mA]
+5675,5749,1,Percussion per bed
+5676,2481,1,Amicar cc/hr
+5677,5785,1,Vath
+5678,225234,12612,18 Gauge Site Appear
+5679,4555,7,Circ. site
+5680,5641,3,fer-gen-sol
+5681,6864,4,Low insp pressure
+5682,224812,45,CT #4 Suction Type
+5683,227583,697,Autoset/CPAP
+5684,224967,594,Pressure Ulcer Stage #4
+5685,227455,3012,Vancomycin (Trough)
+5686,7440,1,walking o2 sat
+5687,3687,20,Vomiting
+5688,5837,1,time disc.
+5689,224439,718,Chest Tube Site #3
+5690,6457,1,L FEM ART LINE
+5691,226996,7,APS
+5692,8148,1,Zidovudine/AZT
+5693,2416,1,finger stick glucos.
+5694,225032,21,Dressing Status #6
+5695,6517,1,ABD Binder
+5696,224934,643,Impaired Skin Site #6
+5697,226104,19205,Level of Consciousness
+5698,224985,96,Tunneling Present #8
+5699,3511,3495,Mom held Infant
+5700,642,21760,Skin Care
+5701,224956,132,Impaired Skin Width #7
+5702,1967,1,insentive spir
+5703,3725,69,ABG POTASSIUM
+5704,5523,5,Amoxacillin
+5705,770,12257,AST
+5706,1359,4,complete bath
+5707,5823,2,Bed Percussion
+5708,3018,1,CT #5 DRESSING.
+5709,6351,2,Train of Four
+5710,225419,12,Hospice inpatient
+5711,2037,1,PC driving press
+5712,4957,2,Atropine drops
+5713,228420,39,Compression device # 2
+5714,5192,5,Cardiology Consult
+5715,8177,1,Ionized calcium
+5716,3403,1483,ETT Sx Quantity
+5717,224066,839,Position Change
+5718,152,566,Dialysis Type
+5719,3832,448,Venous TCO2
+5720,6799,1,COO
+5721,536,3,Peri Care
+5722,3110,1,bicarb drip 200/200
+5723,462,529,Neuro Drain [Level]
+5724,4436,8,Circ care
+5725,789,2258,Cholesterol (<200)
+5726,593,27149,RLL Lung Sounds
+5727,224042,7471,Incision Dressing #1
+5728,7907,1,bed roation
+5729,661,4213,Stool Management
+5730,1321,1,map
+5731,1340,141,high minute volume
+5732,4441,1,trach care/site
+5733,2066,6,atc
+5734,7096,1,suicide precautions
+5735,1417,1,L&R DECUB DRSG CHGE
+5736,225054,15892,Anti Embolic Device Status
+5737,5606,3,Nutrition Labs
+5738,5017,35,Vidaylin
+5739,4252,39,Acyclovir
+5740,5592,1,MMV rate
+5741,228145,7,ABI Ankle BP L
+5742,2459,1,osomolarity
+5743,224093,21571,Position
+5744,223903,5737,Communication
+5745,227057,7,Type of admission
+5746,6052,1,"Neonatal bili, lytes"
+5747,818,13425,Lactic Acid(0.5-2.0)
+5748,3784,1151,PCO2
+5749,6062,1,J-tube
+5750,1613,2,Pres. Low
+5751,228335,473,CAM-ICU Disorganized thinking
+5752,2076,1,HI(GH MV
+5753,223761,21673,Temperature Fahrenheit
+5754,1996,6,HIGH MIN. VOL.
+5755,6394,2,Miconazole Pdr
+5756,6323,1,solumedol
+5757,6090,1,neosynepherin
+5758,3738,5180,Bands
+5759,5439,3,Miconazole pwdr
+5760,223791,20309,Pain Level
+5761,6458,1,Multipodus
+5762,3429,2429,Feeding Tube Size
+5763,8401,21099,IV #2 [Size]
+5764,227006,7,CreatScore_ApacheIV
+5765,2511,1,CISATRACURIUM GTT
+5766,1457,4,CPAP
+5767,1621,12,High/Min/Vent
+5768,37,6,Additional Gas(Vent)
+5769,3477,2458,Infant's Behavior
+5770,6193,1,Bili & Lytes
+5771,3582,4533,Present Weight  (oz)
+5772,224311,243,BAEDP
+5773,3418,87,Eye Lids
+5774,3017,1,CT #5 DRAINAGE.
+5775,326,9688,IV Site Appear #3
+5776,8339,1,Neo Opium Solution
+5777,228380,17,Thoracic Fluid Content (TFC) (NICOM)
+5778,7036,1,neonatal opium solun
+5779,2883,1,Venous signal
+5780,226479,1261,Ectopy Type 2
+5781,6753,3,Prednisilone gtts
+5782,1202,2,bathed
+5783,226122,48,Pheresis Catheter placed in outside facility
+5784,8462,119,Pressure Sore #3 [Amount]
+5785,225637,3543,Differential-Atyps
+5786,1220,1,Psa02
+5787,5744,1,High Exhaled Min vol
+5788,1343,5,versed
+5789,8276,1,critcaid ointment
+5790,172,15472,Education Topic #2
+5791,4966,4,GI consult
+5792,228195,10,Pump Speed
+5793,4254,2,Broviac Dsg:
+5794,170,17192,Education Response
+5795,2466,5,KCL
+5796,55,797,Assisted Systole
+5797,374,8577,Impaired Skin Site#1
+5798,5636,1,2nd O2 Sat
+5799,227443,24056,HCO3 (serum)
+5800,7400,1,Antibiotic ointment
+5801,1940,1,9. H/A Head fullness
+5802,6066,1,Chest tube DSG
+5803,128,26248,Code Status
+5804,38,1876,Airway
+5805,227839,154,Home Management
+5806,4215,12,cefotaxime
+5807,224755,2239,Temporary Atrial Stim Setting mA
+5808,2504,2,no
+5809,227627,216,Arctic Sun/Alsius Set Temp
+5810,225182,123,PT Splint Status #2
+5811,1990,2,High minute vent.
+5812,1663,6,Calcium gluconate
+5813,4803,1,GT Site
+5814,5244,2,Left lateral decub
+5815,2591,1,FENOLDOPAM MCG/KG/MN
+5816,225729,1515,Multi Lumen Line Tip Cultured
+5817,226129,252,ICP Line placed in outside facility
+5818,2336,1,cist mcg/kg/min.
+5819,1824,4,C&DB
+5820,224928,260,Impaired Skin Odor #7
+5821,1781,5,BED ALARM
+5822,6289,1,spontaneous vt
+5823,224899,58,Impaired Skin Depth #6
+5824,725,89,Vision - IPAP
+5825,129,1974,Collar Care
+5826,5195,2,potassium phosphorus
+5827,227700,2616,Safety Measures
+5828,1106,2,Meperidine mg/hr
+5829,2064,6,in-exsufflator
+5830,6406,1,Rt Neck Massage
+5831,2356,1,RIGHT HEEL DRESSING
+5832,223770,21873,O2 Saturation Pulseoxymetry Alarm - Low
+5833,5815,17386,HR Alarm [Low]
+5834,930,27205,Ext
+5835,7647,1,set min. vent
+5836,8526,1170,Kangaroo Care [Tolerated]
+5837,855,4434,Vancomycin/Random
+5838,571,675,PressSoreWoundBase#2
+5839,7391,1,Rotation On/Off
+5840,3263,6,BATHED
+5841,1925,1,4.Auditory disturban
+5842,4273,35,Zantac
+5843,2973,2,High Mv
+5844,227676,680,Reason for Restraints (Non-Violent)
+5845,3343,49,CT Scan
+5846,1368,1,dressing changes
+5847,4812,29,Bacitracin
+5848,228450,1,Angio Site # 4
+5849,622,15211,Restraint Type
+5850,2670,1,nimbex
+5851,1971,1,Oral drng
+5852,48,701,Angio Site #2
+5853,1590,2,disconnect alarm
+5854,2576,1,rt groin
+5855,204,921,GI#2 Tube PlaceCheck
+5856,5818,4254,PAP Alarm [Low]
+5857,4458,1,chest tube air leak
+5858,7294,2,BNP
+5859,223823,1495,Insomnia
+5860,356,8059,ImpSkin Treatment #1
+5861,2854,2,rectal tube
+5862,5932,1,PMV.
+5863,7226,3,THigh
+5864,1603,2,multi podis boots
+5865,3554,140,Oxacillin
+5866,623,15346,Restraints Evaluated
+5867,8181,1,HeOx PSI
+5868,2036,1,high min.
+5869,5693,1,Left Lateral decub
+5870,5638,1,sheath a line
+5871,3513,4514,Moro Reflex
+5872,224671,140,Pupils
+5873,2957,4,ECMO FLOW
+5874,8199,1,lacrilube ointment
+5875,227678,738,Restraint Device (Non-Violent)
+5876,227682,636,Restraints Evaluated_V2
+5877,5106,6,caffeine citrate
+5878,6269,1,Dressing
+5879,227568,44,Airway Size (mm)
+5880,3313,7398,BP Cuff [Systolic]
+5881,2934,1,high minute ven    n
+5882,7094,2,low IP
+5883,5066,5,Epogen
+5884,2803,1,10%alcohl
+5885,5967,1,PROM
+5886,2690,1,URINE OSM
+5887,5431,4,CBG
+5888,709,16,VCO2 (180-200)
+5889,2833,1,Femoral A-Line
+5890,227442,24039,Potassium (serum)
+5891,6463,1,intermit pacer beats
+5892,8488,5756,GI Prophylaxis [Drug #2]
+5893,3268,1,INSP TIME
+5894,227073,24004,Anion gap
+5895,5559,1,Peak flow Pred
+5896,224415,9180,ETT Mark (cm)
+5897,227638,6,Medication Added #2 (Peritoneal Dialysis)
+5898,227716,271,Cerebral Perfusion Pressure Alarm - High
+5899,363,3424,ImpSkin Wound Base#2
+5900,227352,1008,CCO PAC Dressing Occlusive
+5901,227054,6,TemperatureF_ApacheIV
+5902,6792,1,range of motion
+5903,224952,919,Impaired Skin Width #3
+5904,6891,2,ISUPREL
+5905,632,283,Sensory Level
+5906,6438,2,Nitric Oxide PPM
+5907,6368,2,T HI
+5908,286,1642,INV#4 WaveformAppear
+5909,2745,2,ICP LEFT
+5910,7020,1,P-HI (APRV)
+5911,676,8393,Temperature C
+5912,226773,14,RrApacheIIScore
+5913,224983,227,Tunneling Present #6
+5914,1376,2,NEB
+5915,226110,236,IABP placed in outside facility
+5916,2314,1,cpp
+5917,220128,3,Right Ventricular Assist Device Flow
+5918,7281,2,Cooling Blanket
+5919,6938,1,ligation site
+5920,6838,1,left ankle drsg ch
+5921,225189,5153,Incentive Spirometry
+5922,3756,495,Gentamicin Post 5-10
+5923,641,1043,Sitter
+5924,1844,2,position
+5925,1907,1,PAsat
+5926,224918,565,Impaired Skin Length #4
+5927,3488,856,Lipid Change Q 12 hr
+5928,6832,1,hob angle
+5929,7308,1,FS
+5930,226473,2812,Blood Transfusion Consent
+5931,227962,390,Restraints (Violent)
+5932,8137,1,preauricular tag
+5933,3306,2109,Apnea [Existence]
+5934,2538,1,STUDY DRUG
+5935,6048,1,right armpit
+5936,8368,16136,Arterial BP [Diastolic]
+5937,8080,1,CT site
+5938,225722,1927,Arterial Line Tip Cultured
+5939,2512,1,SILVADENE FEET BID
+5940,5434,4,"lytes,bili"
+5941,3181,1,APRV P-LOW
+5942,224705,286,P High (APRV)
+5943,4197,6177,RBC(3.6-6.2)
+5944,5765,1,CPR instruction
+5945,224786,9564,GI #1 Tube Status
+5946,520,122,Pacer Wires Ground
+5947,7289,1,thigh measurement
+5948,220058,9877,Arterial Blood Pressure Alarm - High
+5949,220546,23983,WBC
+5950,7435,1,Cyclosporine   mg/hr
+5951,5206,2,Gent eye ointment
+5952,4553,2,Glycerin Supp.
+5953,1362,1,mg Versed IV
+5954,1550,1,lipirudin
+5955,224829,1026,Trach Tube Type
+5956,4590,6,zosyn
+5957,2469,2,deflate rectal foley
+5958,395,1111,Inc #4 [Drainage]
+5959,1928,1,7.anxiety
+5960,224317,21,ABI Ankle BP R
+5961,567,2392,PressSoreTreatment#1
+5962,1066,42,shave
+5963,6026,1,NECKJP/DRAINAGE/SITE
+5964,6041,2,hi Ve
+5965,2633,1,unassisted systole
+5966,5902,1,yi MV
+5967,1325,3,vc
+5968,225209,1439,Cash amount
+5969,4587,6,Meropenem
+5970,6225,1,Caffeine load
+5971,224082,21833,Turn
+5972,5797,1,L FEM ALINE
+5973,460,436,Nerve Stimulated
+5974,8083,1,proning via bed.
+5975,226749,13,ChpApacheIIScore
+5976,441,576,MDI #3 [Puff]
+5977,4951,4,Diaper rash
+5978,393,6271,Inc #2 [Drainage]
+5979,224848,8045,Incision Appearance #1
+5980,557,101,PressSore Depth #3
+5981,778,17918,Arterial PaCO2
+5982,223821,1499,Orient/Clouding Sensory
+5983,8331,2,Diazoxide
+5984,3248,1,mittens
+5985,7319,3,bil leg drsgs
+5986,5799,1,R LEG ELEVATED
+5987,5478,2,Gentamycin oint
+5988,6620,1,PAUSE TIME L/R
+5989,2684,1,Cisat mcg/kg/hr
+5990,227061,7,Ventilated at any time during ICU Day 1
+5991,227762,231,Trauma Line Placement Confirmed by X-ray
+5992,4433,3,EMLA
+5993,2688,1,URINE CL.
+5994,5993,1,Peak exp flow rate
+5995,4737,1,PREDFORTE DROPS
+5996,7626,1,mitts
+5997,227969,17770,Safety Measures_U_1
+5998,350,1555,ImpSkin #3 [Drain]
+5999,2566,2,Spontaneous VT
+6000,5680,1,RADIAL MAP
+6001,8434,1007,KneeImmobilizeLoc [Left]
+6002,6258,2,fluconazole
+6003,7280,1,Nystatin.
+6004,4817,6,IVIG
+6005,224641,21881,Alarms On
+6006,4238,284,Eye Exam
+6007,8194,2,Broviac site
+6008,6419,1,mlti podus boots
+6009,3309,4,Atrovent MDI
+6010,2379,1,RAD ART S/D
+6011,1664,3,Low exhaled min vol
+6012,3288,159,O2 sat [Pre]
+6013,5119,1,Rhythm
+6014,7797,1,helioox neb flow
+6015,2077,1,nicardipine 25mg/250
+6016,159,26925,Ectopy Frequency
+6017,3184,1,Neo mcg/kg/min
+6018,1111,1,PEG TUBE DRESSING
+6019,3180,1,APRV P-HI
+6020,5979,1,NITRIOUS OXIDE
+6021,6629,1,Rash left hand
+6022,1594,5,HI/MINUTE/VOL
+6023,6366,2,P HI
+6024,6005,1,Security Guard
+6025,3344,16,CVL Dressing Change
+6026,5715,1,gentamycin eye ointt
+6027,2386,3,passey muir
+6028,3660,2465,Time at Breast
+6029,2129,38,Driving Pressure
+6030,4649,6,Adenosine
+6031,1112,1,l/r heel drsg change
+6032,138,2837,Cough Type
+6033,224927,419,Impaired Skin Odor #6
+6034,3540,222,Nipple Type
+6035,5412,1,healed penrose site
+6036,1948,5,Trache Care
+6037,224027,21806,Skin Temperature
+6038,574,509,Pressure Sore Odor#2
+6039,3327,2133,Bag & Mask Present
+6040,6687,1,PPN
+6041,223768,360,Intra Cranial Pressure Alarm - Low
+6042,2792,4,pr interval
+6043,227956,7851,Urinal/Bedpan
+6044,1526,1001,D-Dimer
+6045,2780,1,stv
+6046,678,26665,Temperature F
+6047,3317,1035,BP Left Leg [Systolic]
+6048,225986,236,IABP Arterial Waveform Source
+6049,4792,13,bacitracin
+6050,6264,1,high NO alarm
+6051,1214,2,smile
+6052,1397,7625,RSBI (<100)
+6053,228318,127,Shivering Assessment
+6054,7031,2,multi podis boot
+6055,4391,3,gentamycin
+6056,6072,1,vision fields
+6057,224851,7332,Dressing Status #1
+6058,228398,2563,Commands
+6059,3744,366,Blood Glucose
+6060,227958,7868,Less Restrictive Measures
+6061,5786,1,high pressure
+6062,8393,13687,INV Line#2 [Site]
+6063,7811,1,post ductal sat
+6064,200,13376,GI Intub #1 [Type]
+6065,5964,1,Autopeep
+6066,223923,7819,Seizure Activity
+6067,1645,1,LLE drsg change
+6068,7043,1,LUA AV fistula
+6069,2852,2,COUGH/DEEP BREATHE
+6070,3377,72,Combivent MDI
+6071,3537,478,Nasal Sx Quality
+6072,2565,5,Bruit/Thrill
+6073,225668,13766,Lactic Acid
+6074,5764,7,driving press
+6075,224837,1836,Temporary Ventricular Sens Setting mV
+6076,223921,3379,Neuro Symptoms
+6077,7911,1,Pre ductal Sat
+6078,371,342,ImpSkin #4 [Width]
+6079,7422,1,aqua tears
+6080,1097,4,Pantoprazole  mg/hr
+6081,2784,1,irrigate pigtail
+6082,58,3991,Atrial Pacemaker [mA]
+6083,1,1109,% Inspir. Time
+6084,666,791,Systolic Unloading
+6085,5394,5,stoma
+6086,6187,1,sling L arm - pacer
+6087,8381,26357,Dorsal PedPulse [Left]
+6088,2976,22,SHAVE
+6089,6253,1,"NUTR PANEL,Hct, reti"
+6090,228152,2,Aortic Pressure Signal - Systolic
+6091,225963,52,Peritoneal Dialysis Catheter Type
+6092,1352,5,urine pH
+6093,6870,1,Pedal edema
+6094,225013,3249,Incision Drainage #2
+6095,7135,1,Peak flow
+6096,2552,1,cistracurium mg/min
+6097,227008,2,Ejection Fraction
+6098,6533,1,Coccyx WTD Dressing
+6099,220047,21878,Heart Rate Alarm - Low
+6100,3417,500,Eye Drainage [Left]
+6101,1822,4,PASSE-MUIR VALVE
+6102,8273,1,amoxacillin
+6103,49,20886,Anti-Embolism [Device]
+6104,227959,7985,Restraints Evaluated
+6105,1365,1,periph edema
+6106,5663,7,hepatitis B vaccine
+6107,6227,1,passy muir valve on
+6108,1058,1,foley cath. care
+6109,8531,312,Remote Alarm [D]
+6110,224903,2678,Impaired Skin Drainage #3
+6111,8253,1,Atropine 1% eye drop
+6112,223825,1357,Sustained Nystagmus
+6113,6605,1,Fem sheath MAP
+6114,7515,5,Umbi
+6115,6088,1,circumcission
+6116,60,887,Auto-PEEP Level
+6117,2435,1,CALGLUCONATE20GMS/L
+6118,6204,2,urine for CMV
+6119,225980,222,IABP Volume
+6120,5811,1,urine creatinine
+6121,6985,1,Sigh PEEP level
+6122,327,3408,IV Site Appear #4
+6123,4342,5,Rash
+6124,226999,7,BiliScore_ApacheIV
+6125,1053,1,bed/bath linen
+6126,469,6,O2 Delivery Mode
+6127,6094,2,line placement
+6128,2944,1,Abdominal Binder.
+6129,4724,1,Pred Forte
+6130,224929,151,Impaired Skin Odor #8
+6131,5976,1,lab draw
+6132,5644,1,PASSY MUIR/CUFF DOWN
+6133,5461,6,phenylephrine drops
+6134,4719,2,Ca Glubionate
+6135,2433,1,pej site
+6136,6098,1,Bacitracin topical
+6137,6233,1,Tank 2
+6138,224750,35,Nitric Oxide Tank Pressure
+6139,228217,3,Tandem Heart Return Cannula Discontinued
+6140,5159,1,RANGE OF MOTION
+6141,3827,225,Vancomycin Post
+6142,8010,2,multivitamins
+6143,423,7463,LL Strength/Movement
+6144,224086,21789,Activity Tolerance
+6145,3592,1075,Prongs Changed
+6146,225387,117,Presep Catheter Site Appear
+6147,5245,1,Repogyle
+6148,2081,1,high NO2
+6149,228176,49,CFI (PiCCO)
+6150,3240,1,Nicardipine gtt
+6151,224391,3856,ETT Mark (location)
+6152,3182,1,APRV T-HI
+6153,220635,23446,Magnesium
+6154,7406,1,PMV ON
+6155,225734,29,Presep Catheter Line Tip Cultured
+6156,4520,2,Tobradex opthalmic
+6157,227134,86,ATC Tube #
+6158,2632,1,unassisted diastole
+6159,227588,5572,GI #1 Tube Place Method
+6160,3664,4286,Total Fluids cc/kg/d
+6161,157,13766,ETT [Mark]
+6162,7592,1,Solumedrol cc/h
+6163,2454,2,CISATRA MCG/KG/MIN
+6164,5692,1,"BILI, HCT. RETIC"
+6165,227662,1649,Patient/Family Informed_V2
+6166,7532,1,T  high
+6167,3243,1,RUPPER ARM FISTULA
+6168,2463,1,CISATRAC. MCG/KG/MIN
+6169,3199,1,valpro acid
+6170,223987,21845,RLL Lung Sounds
+6171,227756,4793,Multi Lumen Placement Confirmed by X-ray
+6172,503,141,PCV Set Insp. Press
+6173,220060,2603,Pulmonary Artery Pressure diastolic
+6174,223998,3396,CT #1 Crepitus
+6175,2786,1,PGTAILS/FLUSH/10MLNS
+6176,8193,1,Heparin Lock Flush
+6177,5907,3183,Bag and Mask Present
+6178,223996,3513,CT #1 Drainage
+6179,3302,12,Amphotericin
+6180,1883,1,Spont Minute vols
+6181,226982,7,AlbuminScore_ApacheIV
+6182,7602,3,Midazolam
+6183,8220,1,Effluent BUN
+6184,8395,2373,INV Line#4 [Site]
+6185,224414,1781,TOF Twitch
+6186,1466,48,ATC
+6187,7643,1,RVSYSTOLIC
+6188,972,36,passy muir valve
+6189,1326,1,chest tube drsgs.
+6190,228210,8,Tandem Heart Access Line Position
+6191,808,163,Gentamycin/Peak
+6192,798,10263,Differential-Lymphs
+6193,5672,1,icd
+6194,4370,93,Circ site
+6195,6116,1,Aveeno bath
+6196,225411,14,Patient on vent
+6197,224647,113,Orthostatic HR standing
+6198,3486,136,Length in Inches
+6199,6273,3,Driving P.
+6200,411,10776,Incision/Wound #1
+6201,445,16,Mech. Minute Volume
+6202,5289,1,cefotaxine
+6203,4544,6,Glycerine Supp.
+6204,226329,1279,Blood Temperature CCO (C)
+6205,832,45,Procan Napa
+6206,227590,55,GI #3 Tube Place Method
+6207,2647,1,art mean
+6208,2921,204,Delta P
+6209,4234,2,nystatin oral suspen
+6210,6756,1,pantoprazole80mg/100
+6211,227781,2752,Impaired Skin  - Dressing Status #2
+6212,1888,1,pitressin u/hr
+6213,6075,1,Hep Flush 10U/cc
+6214,227467,20787,INR
+6215,223900,21870,GCS - Verbal Response
+6216,5167,1,potassium Phosphate
+6217,6467,1,T-High
+6218,7589,1,podus boot
+6219,383,230,Inc Cleansing #4
+6220,224015,21591,Urine Source
+6221,227663,1705,Immobilizer
+6222,224433,43,CT #4 Dressing
+6223,224771,16489,RLE Temp
+6224,226540,6134,Hematocrit (whole blood - calc)
+6225,1119,11,seizure pads
+6226,3642,4392,Sutures
+6227,616,3185,Respiratory Effort
+6228,5200,4,triple abx cream
+6229,7124,1,Low pressure Alarm
+6230,3108,1,PA PRESSURE
+6231,6268,2,drive pr
+6232,453,63,Motor Deficits
+6233,3668,45,Tremors
+6234,228164,2,Impella Catheter Site
+6235,1548,1,Lt hand splint &ace
+6236,3145,1,L breast doppler
+6237,5603,4,Tri Vi Sol
+6238,4874,1,atropine
+6239,5836,1,mask/sz
+6240,3318,1118,BP PAL [Mean]
+6241,227007,7,Diabetes
+6242,7009,1,Nacl supp
+6243,2125,6,slope
+6244,455,26459,NBP [Systolic]
+6245,1420,1165,Aggitation
+6246,3311,1545,BP Alarm [Low]
+6247,8259,1,omerprazole
+6248,226814,5572,Known difficult intubation
+6249,1087,23706,Pain Assess Method
+6250,630,597,Seizure Duration
+6251,226092,147,Orthostatic BPd lying
+6252,4632,9,Glycerin Supp
+6253,5316,1,CLONIS
+6254,4281,25,Polyvisol
+6255,1727,2,TDISCONNECT
+6256,850,3242,Triglyceride (0-200)
+6257,228395,2596,Orientation to Place
+6258,5933,2,Triple Abx ointment
+6259,226738,15,AgeApacheIIScore
+6260,3001,4,Solumedrol mg/kg/hr
+6261,3495,2278,Lowest SaO2
+6262,151,553,Dialysis Site Appear
+6263,2020,2,r leg elevated
+6264,2987,2,Epidural
+6265,5924,1,Afrin Nasal Drops
+6266,7847,1,SVR/PVR ratio
+6267,8235,1,naHCO3
+6268,3312,7388,BP Cuff [Mean]
+6269,2779,4,bladder pressures
+6270,227918,144,Rest RR - Aerobic Activity Response
+6271,226121,133,Tunneled (Hickman) placed in outside facility
+6272,225395,62,Triple Introducer Site Appear
+6273,1465,1,Back Dsg
+6274,3270,1,aprotinin ml/hr
+6275,1348,9,podus boots
+6276,1879,7,xigris
+6277,1732,2,Hair washed
+6278,2515,1,IABP-BP
+6279,227674,712,Face to Face Eval (Non-Violent)
+6280,226169,8800,Subglottal Suctioning
+6281,1640,5,PEG care
+6282,3189,1,High Min. Vol
+6283,3310,312,Auditory Evokes
+6284,228415,761,Corneal Reflex Left
+6285,225129,6013,Unable to assess teaching / learning needs
+6286,6395,6,Phenylephrine gtts
+6287,226138,14808,20 Gauge placed in outside facility
+6288,7940,1,Xylocaine 2% Jelly
+6289,8034,1,Criticaid/Powder
+6290,225110,11573,Recreational drug use
+6291,7785,1,Multivitamin
+6292,224070,167,Sitter
+6293,218,14711,High Insp. Pressure
+6294,5658,1,Erythromycin Oint
+6295,7792,2,BATH CARE
+6296,224862,16753,Edema Amount
+6297,7517,1,MARCAINE .25/4CC SC
+6298,6180,6,Lacrilube
+6299,230,15621,INV Line#1 Zero/Cal
+6300,224984,148,Tunneling Present #7
+6301,785,9197,CPK/MB
+6302,225031,60,Dressing Status #5
+6303,228184,65,SVV (PiCCO)
+6304,2574,1,MVO2 SAT
+6305,2974,1,FEM LINE MAP
+6306,223766,123,Orthostatic BPs standing
+6307,7389,1,protonix 80mg/250cc
+6308,223993,3529,Chest Tube Site # 1
+6309,93,1547,CT #1 Crepitus
+6310,5639,1,r axilla-bupivacaine
+6311,228419,179,Compression device # 1
+6312,8072,1,Abd. incision
+6313,224715,2765,SBT Started
+6314,4994,6,ECHO
+6315,774,8,Ammonia
+6316,6408,2,Multi podis boots
+6317,3254,1,High minute Vent.
+6318,6346,7,Cuff Pressure
+6319,224893,289,Impaired Skin Cleanse #7
+6320,7787,1,RLEcomp.pressure
+6321,6928,1,Diplopia
+6322,224440,79,Chest Tube Site #4
+6323,224710,236,Recruitment Press
+6324,7799,1,Heliox tank psi
+6325,227755,262,Midline Placement Confirmed by X-ray
+6326,4184,7864,Apgar      1 min
+6327,223847,570,Passey Muir Valve in use
+6328,1425,20773,Daily Wake Up
+6329,4180,7864,Current Level
+6330,4319,2,Skin
+6331,224977,262,Surrounding Tissue #7
+6332,224898,90,Impaired Skin Depth #5
+6333,6206,7926,Tank A psi.
+6334,227930,110,Recovery HR - Aerobic Activity Response
+6335,5051,5,CAFFEINE BOLUS
+6336,3801,296,SGOT
+6337,7850,1,Heliox tank PSI
+6338,224410,633,PCA bolus
+6339,227684,1174,Safety Measures
+6340,2304,1,aprotamine
+6341,7901,1,T Disconnect
+6342,504,3687,PCWP
+6343,7508,1,CSM CHECK
+6344,6013,8,T-Lo
+6345,1188,8,dressing change
+6346,1003,13,cuff pressure
+6347,6071,2,Hep B Imm Globulin
+6348,6484,1,Rt Thigh Girth
+6349,225978,9873,Slope
+6350,1489,1,Transtracheal
+6351,228203,9,Tandem Heart Access Line Cannula Site
+6352,6250,1,lt av fistula
+6353,1987,3,glucagon
+6354,6177,3,Miconozole powder
+6355,5733,1,granuloma
+6356,2486,2,mask
+6357,6512,1,Phenylephrine gtt
+6358,428,27151,LUL Lung Sounds
+6359,1117,5,PASSEY MUIR VALVE
+6360,2376,4,APROTININ
+6361,6384,5,PINSP
+6362,228370,63,CO / CI Change
+6363,2652,2,APROTANIN
+6364,5679,1,RADIAL ABP
+6365,3626,3266,Spits
+6366,3690,3674,Water Pillow
+6367,98,606,CT #2 Crepitus
+6368,6300,1,methylene blue test
+6369,2554,1,Cisatr mcg/kg/min
+6370,223971,520,Angio Site # 2
+6371,6102,3,T-LO
+6372,224955,195,Impaired Skin Width #6
+6373,2868,1,FEMORAL A-LINE
+6374,226534,6485,Sodium (whole blood)
+6375,2059,25,Driving pressure
+6376,6922,1,mucous fistula stoma
+6377,7689,1,trach tube mark
+6378,7587,2,PS
+6379,223930,368,Neuro Drain #1 Level
+6380,674,27177,Temp. Site
+6381,8485,5627,Warming [Status]
+6382,4304,1,CVL site
+6383,2164,3,NIMBEX MG/KG/HR
+6384,8138,1,Trach Sx Color
+6385,672,474,TCPCV-MAP
+6386,228309,334,GI #2 Tube Place Check
+6387,225379,526,Indwelling Port (PortaCath) Site Appear
+6388,7936,1,Aquaphour
+6389,224417,6514,Cuff Pressure
+6390,224191,527,Hourly Patient Fluid Removal
+6391,4279,52,Hep flush
+6392,224966,1053,Pressure Ulcer Stage #3
+6393,956,9,CPT
+6394,5844,1,hep. b
+6395,6982,1,Bed bath/shaved
+6396,1366,11,CCI
+6397,3262,1,extremities elevated
+6398,2573,1,cistra  mgm/kg/hr
+6399,1715,1,Nicardipine mg/hr
+6400,224170,2945,MDI #1 Drug
+6401,5560,1,Coccyx drsg change
+6402,163,1349,Edema #1 [Location]
+6403,2778,6,Pantoprazole
+6404,2119,4,Slope
+6405,1134,2,pad change
+6406,225951,62,Peritoneal Dialysis Fluid Appearance
+6407,2671,1,NO2 TANK PRESSURSE
+6408,2767,1,Mixed Venous SaO2
+6409,3190,1,high  minute vol
+6410,5970,1,"LYTES, BILI"
+6411,343,83,Imp Skin Cleanse #6
+6412,1555,2,Apnea Interval
+6413,186,2156,FIO2 Alarm-Low
+6414,6378,4,ViDaylin
+6415,225028,3159,Dressing Status #2
+6416,6766,1,foley change
+6417,224828,13134,Arterial Base Excess
+6418,2428,1,QUAD COUGHING
+6419,5752,1,Epinephrin
+6420,4462,3,Flovent
+6421,7835,1,Lacrilube ointment
+6422,705,4702,Untoward Effect
+6423,5247,1,Chest tube dsg
+6424,6087,1,PMV Trial
+6425,3834,5767,WhiteBloodC 4.0-11.0
+6426,727,90,Vision FiO2
+6427,223781,21843,Pain Present
+6428,781,27354,BUN (6-20)
+6429,6908,1,Triple ant. ointment
+6430,2962,1,fenoldopam mcg/k/min
+6431,228392,3,Alsius Bath Temp
+6432,228213,9,Tandem Heart Access Line Repositioned
+6433,7943,1,Sigh pressr/rate
+6434,224318,14,ABI Ankle BP L (Impella)
+6435,6179,1,I TIME
+6436,225029,867,Dressing Status #3
+6437,6290,1,Bath & shampoo
+6438,224434,410,CT #3 Fluctuate
+6439,4738,3,RANITIDINE
+6440,7182,1,thigh circ
+6441,224911,1243,Impaired Skin Drainage Amount #4
+6442,6937,1,Dextran
+6443,3436,2423,Flowrate (cc/min)
+6444,8069,1,protonix 80mg/250ml
+6445,8344,1,nacl
+6446,227831,347,Grooming
+6447,224990,203,Undermining Present #6
+6448,227620,97,Surrounding Tissue #9
+6449,6631,3,pressure low
+6450,2649,1,Police Gaurd
+6451,1747,1,l.heel drsg change E
+6452,1201,1,Low MAP alarm
+6453,226117,478,Sheath placed in outside facility
+6454,946,10,STV
+6455,4880,1,Levothyroxin (T4)
+6456,1647,1,coccyx dsg change
+6457,225641,10193,Differential-Lymphs
+6458,2072,19,Pinsp
+6459,1414,1,rubinol
+6460,8447,618,Ostomy [Appearance]
+6461,227945,8518,Restraint (Non-violent)
+6462,3132,1,20# to skeletal tx

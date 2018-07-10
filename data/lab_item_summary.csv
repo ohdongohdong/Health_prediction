@@ -1,0 +1,727 @@
+,itemid,count,label
+0,51029,6,"Calcium, Body Fluid"
+1,50903,9935,Cholesterol Ratio (Total/HDL)
+2,50800,23819,SPECIMEN TYPE
+3,51438,1070,"RBC, Other Fluid"
+4,51183,211,CD45
+5,51387,72,Basophils
+6,51506,27828,Urine Appearance
+7,50816,18128,Oxygen
+8,50935,6312,Haptoglobin
+9,51132,606,Absolute CD8 Count
+10,50868,41169,Anion Gap
+11,51337,191,HLA-DR
+12,51379,468,Monocytes
+13,51307,95,CD13
+14,50832,10,"pO2, Body Fluid"
+15,51105,448,"Uric Acid, Urine"
+16,51486,27229,Leukocytes
+17,51453,553,Other
+18,51502,30,Trichomonas
+19,51306,65,CD11c
+20,51436,1530,Polys
+21,51084,55,"Glucose, Urine"
+22,51175,14,CD3 Absolute Count
+23,50874,472,"Anti-Nuclear Antibody, Titer"
+24,51075,6798,"Benzodiazepine Screen, Urine"
+25,51053,1635,"Glucose, Pleural"
+26,50954,21451,Lactate Dehydrogenase (LD)
+27,51496,23,"Reducing Substances, Urine"
+28,51462,5096,Amorphous Crystals
+29,51037,8,"Magnesium, Body Fluid"
+30,50983,41209,Sodium
+31,51282,4,"Reticulocyte Count, Absolute"
+32,50936,5,"HCG, Maternal Screen"
+33,51240,1665,Large Platelets
+34,51426,433,Lambda
+35,51518,1570,WBC Clumps
+36,51353,38,Mesothelial cells
+37,51119,6,Metamyelocytes
+38,51155,64,CD11c
+39,50864,1358,Alpha-Fetoprotein
+40,51468,7,Calcium Carbonate Crystals
+41,51157,4,CD138
+42,50853,69,25-OH Vitamin D
+43,51466,27797,Blood
+44,51209,23,Factor XI
+45,51124,58,Plasma
+46,50998,10245,Transferrin
+47,51146,37760,Basophils
+48,51381,47,Other
+49,51010,8464,Vitamin B12
+50,51366,43,Bands
+51,51383,430,"RBC, Joint Fluid"
+52,50968,388,"Phenytoin, Free"
+53,51110,132,Atypical Lymphocytes
+54,51212,10,Fetal Hemoglobin
+55,51327,2,CD55
+56,51363,2840,"WBC, CSF"
+57,50957,261,Lithium
+58,51131,690,Absolute CD4 Count
+59,51236,491,Inpatient Hematology/Oncology Smear
+60,51407,12,CD38
+61,51036,10,"Lipase, Body Fluid"
+62,51102,3704,"Total Protein, Urine"
+63,51230,179,HLA-DR
+64,50924,10456,Ferritin
+65,51280,20,Reptilase Time
+66,51531,1,STDYURINE
+67,51433,44,NRBC
+68,50942,2362,Hepatitis B Virus Core Antibody
+69,51031,9,"Cholesterol, Body Fluid"
+70,51234,222,Immunophenotyping
+71,50801,9399,Alveolar-arterial Gradient
+72,51458,1826,"WBC, Pleural"
+73,50803,7144,"Calculated Bicarbonate, Whole Blood"
+74,51489,252,NonSquamous Epithelial Cell
+75,50896,368,Calculated Thyroxine (T4) Index
+76,51133,692,Absolute Lymphocyte Count
+77,50939,642,"Hepatitis B Core Antibody, IgM"
+78,51073,49,"Amylase/Creatinine Ratio, Urine"
+79,50829,263,Fluid Type
+80,51286,17,Ristocetin
+81,51048,4,"Bicarbonate, Pleural"
+82,50901,33,Centromere
+83,50906,1340,"Cholesterol, LDL, Measured"
+84,51097,6336,"Potassium, Urine"
+85,51331,64,CD64
+86,51405,23,CD33
+87,51233,19948,Hypochromia
+88,50815,7054,O2 Flow
+89,51372,178,"Joint Crystals, Location"
+90,50852,9738,% Hemoglobin A1c
+91,51011,34,<Albumin>
+92,51517,263,WBC Casts
+93,51092,6785,"Opiate Screen, Urine"
+94,51077,750,"Calcium, Urine"
+95,51045,53,"Urea Nitrogen, Body Fluid"
+96,51309,70,CD14
+97,51304,4,CD103
+98,51442,129,Basophils
+99,51130,608,Absolute CD3 Count
+100,51315,191,CD20
+101,51519,27390,Yeast
+102,50937,1363,Hepatitis A Virus Antibody
+103,51085,533,"HCG, Urine, Qualitative"
+104,51412,320,CD5
+105,51065,91,"Sodium, Stool"
+106,51255,19331,Myelocytes
+107,51006,39361,Urea Nitrogen
+108,51425,433,Kappa
+109,50830,21,"pCO2, Body Fluid"
+110,50931,38801,Glucose
+111,51027,38,"Bicarbonate, Other Fluid"
+112,51268,17642,Polychromasia
+113,51439,1201,"WBC, Other Fluid"
+114,50854,2336,Absolute A1c
+115,51192,146,CD7
+116,50959,6,Macro Prolactin
+117,51100,12007,"Sodium, Urine"
+118,50842,718,"Glucose, Ascites"
+119,50965,2126,Parathyroid Hormone
+120,51300,692,WBC Count
+121,51156,66,CD13
+122,51487,27785,Nitrite
+123,51293,3,Sugar Water Test
+124,51218,2261,Granulocyte Count
+125,51344,241,Bands
+126,50848,45,"Sodium, Ascites"
+127,50932,623,Gray Top Hold (plasma)
+128,51416,229,CD7
+129,51314,144,CD2
+130,50969,377,"Phenytoin, Percent Free"
+131,51277,45286,RDW
+132,50856,6467,Acetaminophen
+133,51050,7,"Chloride, Pleural"
+134,51463,23321,Bacteria
+135,50886,167,Blood Culture Hold
+136,51411,511,CD45
+137,51332,146,CD7
+138,51252,19489,Microcytes
+139,51003,18080,Troponin T
+140,50949,1671,Immunoglobulin A
+141,51063,70,"Osmolality, Stool"
+142,51126,1,Promyelocytes
+143,50880,8555,Benzodiazepine Screen
+144,50929,1690,Gentamicin
+145,50966,277,Phenobarbital
+146,51393,20,CD138
+147,51302,122,Young Cells
+148,51021,10,"Creatinine, Joint Fluid"
+149,51208,52,Factor X
+150,51140,297,Antithrombin
+151,51224,264,Hemoglobin C
+152,51154,55,CD117
+153,51161,18,CD16
+154,51413,31,CD56
+155,51272,67,"Protein S, Antigen"
+156,51088,399,"Magnesium, Urine"
+157,51421,10,Glyco A
+158,51414,2,CD57
+159,50843,755,"Lactate Dehydrogenase, Ascites"
+160,51184,192,CD5
+161,51342,397,Wright Giemsa
+162,51202,29,Factor II
+163,50861,30211,Alanine Aminotransferase (ALT)
+164,51182,56,CD41
+165,51188,75,CD56
+166,51033,4,FetalFN
+167,51318,6,CD25
+168,51525,2,Billed
+169,51249,45292,MCHC
+170,51041,61,"Potassium, Body Fluid"
+171,51360,2840,Polys
+172,51289,69,Serum Viscosity
+173,51396,5,CD16
+174,51330,2,CD59
+175,51333,62,CD71
+176,51169,1,CD20 %
+177,51099,3054,Protein/Creatinine Ratio
+178,51427,1530,Lymphocytes
+179,51074,6788,"Barbiturate Screen, Urine"
+180,50840,7,"Cholesterol, Ascites"
+181,50890,909,C3
+182,51066,69,24 hr Calcium
+183,51189,14,CD57
+184,51187,36,CD55
+185,51238,190,Kappa
+186,51090,6769,"Methadone, Urine"
+187,51537,1,TDT
+188,51180,784,"CD4 Cells, Percent"
+189,51297,468,Thrombin
+190,51058,10,"Sodium, Pleural"
+191,51113,2,Blasts
+192,51478,28464,Glucose
+193,51216,1261,Fragmented Cells
+194,51555,1,SURFACTANT ALBUMIN RATIO
+195,51452,68,NRBC
+196,51226,264,Hemogloblin A
+197,50877,196,Anti-Thyroglobulin Antibodies
+198,50988,364,Testosterone
+199,51323,84,CD4
+200,51329,3,CD57
+201,51457,1738,"RBC, Pleural"
+202,51178,68,CD34
+203,51477,2,Free Fat
+204,51437,3,Promyelocytes
+205,51449,10,Metamyelocytes
+206,50846,2,"Osmolality, Ascites"
+207,50995,4664,"Thyroxine (T4), Free"
+208,51227,264,Hemogloblin S
+209,50989,309,"Testosterone, Free"
+210,51499,340,Sperm
+211,51179,14,CD38
+212,50973,318,Prolactin
+213,51465,80,Bilirubin Crystals
+214,50851,13,"Urea Nitrogen, Ascites"
+215,51044,51,Triglycer
+216,51321,103,CD34
+217,51448,1183,Mesothelial Cells
+218,51076,806,"Bicarbonate, Urine"
+219,51143,19376,Atypical Lymphocytes
+220,50902,41203,Chloride
+221,51473,4,Cysteine Crystals
+222,51533,6,WBCP
+223,50964,5180,"Osmolality, Measured"
+224,51500,14,Sulfonamides
+225,50810,21698,"Hematocrit, Calculated"
+226,51215,134,FMC-7
+227,51064,91,"Potassium, Stool"
+228,50867,18363,Amylase
+229,50882,41185,Bicarbonate
+230,51456,5,Promyelocytes
+231,51040,12,"Phosphate, Body Fluid"
+232,50818,31424,pCO2
+233,51347,500,Eosinophils
+234,51020,15,"Amylase, Joint Fluid"
+235,50921,59,Estradiol
+236,51039,9,"Osmolality, Body Fluid"
+237,50938,680,Hepatitis A Virus IgM Antibody
+238,51068,165,24 hr Protein
+239,50835,809,"Albumin, Ascites"
+240,51221,45383,Hematocrit
+241,50879,8539,Barbiturate Screen
+242,51420,273,FMC-7
+243,51056,4,"Miscellaneous, Pleural"
+244,51173,10,CD25
+245,51128,1248,"WBC, Ascites"
+246,51385,68,Atypical Lymphocytes
+247,50910,24726,Creatine Kinase (CK)
+248,51535,1,CD55
+249,51194,699,"CD8 Cells, Percent"
+250,50809,24058,Glucose
+251,50827,12519,Ventilation Rate
+252,50999,8513,Tricyclic Antidepressant Screen
+253,50967,3895,Phenytoin
+254,50914,341,Cyclosporin
+255,51034,429,"Glucose, Body Fluid"
+256,51400,322,CD20
+257,51042,66,"Sodium, Body Fluid"
+258,51529,301,Estimated Actual Glucose
+259,50991,95,Thyroglobulin
+260,51325,231,CD45
+261,50953,10226,"Iron Binding Capacity, Total"
+262,51312,13,CD16/56
+263,51354,28,Metamyelocytes
+264,51163,6,CD16/56%
+265,50819,12630,PEEP
+266,51091,253,"Myoglobin, Urine"
+267,51291,25,Sickle Cells
+268,50806,18508,"Chloride, Whole Blood"
+269,51112,69,Basophils
+270,51258,3,Osmotic Fragility
+271,51115,131,"Hematocrit, Ascites"
+272,51373,437,"Joint Crystals, Number"
+273,51507,191,"Urine Casts, Other"
+274,51474,2508,Eosinophils
+275,51106,126,Urine Creatinine
+276,51023,10,"LD, Joint Fluid"
+277,51482,9431,Hyaline Casts
+278,51298,102,Von Willebrand Factor Activity
+279,51247,73,MacroOvalocytes
+280,50978,207,Rapamycin
+281,50926,241,Follicle Stimulating Hormone
+282,51441,115,Bands
+283,51356,11,Myelocytes
+284,50883,13171,"Bilirubin, Direct"
+285,50955,3329,Light Green Top Hold
+286,51375,468,Lymphocytes
+287,51345,99,Basophils
+288,51526,6,FRUCAMN+
+289,50933,12754,Green Top Hold (plasma)
+290,51368,73,Eosinophils
+291,50912,39351,Creatinine
+292,51239,189,Lambda
+293,51005,371,Uptake Ratio
+294,51165,1,CD19 %
+295,51349,1,Hypersegmented Neutrophils
+296,51536,1,CD59
+297,51071,6794,"Amphetamine Screen, Urine"
+298,51079,6817,"Cocaine, Urine"
+299,51114,376,Eosinophils
+300,51428,912,Macrophage
+301,51408,61,CD4
+302,51078,5810,"Chloride, Urine"
+303,51199,192,Eosinophil Count
+304,51435,10,Plasma
+305,51516,27044,WBC
+306,50963,4265,NTproBNP
+307,50946,646,Human Chorionic Gonadotropin
+308,51158,65,CD14
+309,51281,20,Reptilase Time Control
+310,51359,20,Plasma
+311,51270,47,"Protein C, Antigen"
+312,51055,1,"Lipase, Pleural"
+313,51069,1410,"Albumin, Urine"
+314,51122,45,Nucleated RBC
+315,51228,69,Heparin
+316,51470,20,Calcium Phosphate Crystals
+317,50956,18639,Lipase
+318,50820,32477,pH
+319,51479,4726,Granular Casts
+320,50996,416,"Tissue Transglutaminase Ab, IgA"
+321,51287,5417,Schistocytes
+322,51232,213,Hypersegmented Neutrophils
+323,51350,15,Immunophenotyping
+324,51197,1021,Elliptocytes
+325,51174,14,CD3 %
+326,51523,7790,GR HOLD
+327,51278,1731,Red Blood Cell Fragments
+328,51520,4,ANTI-MC
+329,50917,2508,Digoxin
+330,51002,3027,Troponin I
+331,51259,682,Other Cells
+332,51284,1390,"Reticulocyte Count, Manual"
+333,50960,38386,Magnesium
+334,51054,1761,"Lactate Dehydrogenase, Pleural"
+335,50990,132,Theophylline
+336,51220,37,Heinz Body Prep
+337,50908,7028,CK-MB Index
+338,51339,273,Iron Stain
+339,50869,11,Anti-DGP (IgA/IgG)
+340,51490,10,Oval Fat Body
+341,51265,45305,Platelet Count
+342,51512,8591,Urine Mucous
+343,51460,190,"Blood, Occult"
+344,51121,3,Myelocytes
+345,50922,6640,Ethanol
+346,50873,1684,Anti-Nuclear Antibody
+347,50881,183,Beta-2 Microglobulin
+348,51515,104,Waxy Casts
+349,50899,247,Carbamazepine
+350,51271,317,"Protein C, Functional"
+351,51391,23,CD11c
+352,51237,37799,INR(PT)
+353,51032,204,"Creatinine, Body Fluid"
+354,51467,25,Broad Casts
+355,50826,13738,Tidal Volume
+356,51511,36,Urine Fat Bodies
+357,51257,8705,Nucleated Red Cells
+358,50930,4553,Globulin
+359,51443,4,Blasts
+360,51135,15,ADP
+361,50825,16910,Temperature
+362,50893,37993,"Calcium, Total"
+363,51273,169,"Protein S, Functional"
+364,51035,399,"LD, Body Fluid"
+365,51513,939,Urine Specimen Type
+366,51004,5,"UE3, Maternal Screen"
+367,51308,5,CD138
+368,50894,5,Calculated Free Testosterone
+369,51007,4261,Uric Acid
+370,51009,10163,Vancomycin
+371,50871,363,Anti-Mitochondrial Antibody
+372,51025,395,"Albumin, Body Fluid"
+373,51380,12,NRBC
+374,51488,13,Non-squamous Epithelial Cells
+375,51370,178,"Joint Crystals, Birefringence"
+376,50821,31424,pO2
+377,51171,9,CD22
+378,51181,607,CD4/CD8 Ratio
+379,50920,13687,Estimated GFR (MDRD equation)
+380,51316,2,CD22
+381,50889,3610,C-Reactive Protein
+382,51406,118,CD34
+383,50947,7,I
+384,50958,186,Luteinizing Hormone
+385,51067,478,24 hr Creatinine
+386,51172,131,CD23
+387,51394,17,CD14
+388,51444,627,Eosinophils
+389,51086,654,"Immunofixation, Urine"
+390,50916,44,DHEA-Sulfate
+391,50834,1,"Sodium, Body Fluid"
+392,50847,38,"Potassium, Ascites"
+393,50813,28385,Lactate
+394,51000,12908,Triglycerides
+395,51429,408,Mesothelial cells
+396,51222,45298,Hemoglobin
+397,51070,1305,"Albumin/Creatinine, Urine"
+398,51299,98,Von Willebrand Factor Antigen
+399,50828,14220,Ventilator
+400,51125,1247,Polys
+401,51399,227,CD2
+402,51193,55,CD71
+403,51445,245,"Hematocrit, Pleural"
+404,51109,126,"Urine Volume, Total"
+405,51104,7661,"Urea Nitrogen, Urine"
+406,50865,23,Amikacin
+407,51046,952,"Albumin, Pleural"
+408,51019,1,"Albumin, Joint Fluid"
+409,51225,70,Hemoglobin F
+410,51210,14,Factor XII
+411,50863,30062,Alkaline Phosphatase
+412,51120,1247,Monocytes
+413,51335,130,FMC-7
+414,51081,126,"Creatinine, Serum"
+415,51098,1326,"Prot. Electrophoresis, Urine"
+416,51248,45292,MCH
+417,51301,45335,White Blood Cells
+418,51402,274,CD23
+419,51303,193,CD10
+420,50824,21664,"Sodium, Whole Blood"
+421,50948,718,Immunofixation
+422,51534,2,MYELOS
+423,51176,763,"CD3 Cells, Percent"
+424,50855,2336,Absolute Hemoglobin
+425,51095,869,"Phosphate, Urine"
+426,51311,5,CD16
+427,51392,37,CD13
+428,51361,4,Promyelocytes
+429,50833,2,Potassium
+430,50919,6051,EDTA Hold
+431,50892,325,CA-125
+432,50839,34,"Chloride, Ascites"
+433,51168,192,CD20
+434,51319,190,CD3
+435,51229,335,"Heparin, LMW"
+436,51326,187,CD5
+437,51292,1773,Spherocytes
+438,51403,5,CD25
+439,51219,402,H/O Smear
+440,51334,78,CD8
+441,51384,468,"WBC, Joint Fluid"
+442,51263,297,Plasma Cells
+443,51204,53,Factor V
+444,51422,251,"Hematocrit, Other Fluid"
+445,51528,2,STDY HOLD
+446,50895,371,Calculated TBG
+447,51343,268,Atypical Lymphocytes
+448,51242,4,LUC
+449,51185,8,CD5 %
+450,51376,192,Macrophage
+451,50884,12916,"Bilirubin, Indirect"
+452,50994,2248,Thyroxine (T4)
+453,51159,56,CD15
+454,51404,361,CD3
+455,51256,37761,Neutrophils
+456,51295,8,TdT
+457,51260,7065,Ovalocytes
+458,51294,3406,Target Cells
+459,51152,186,CD10
+460,50909,5439,Cortisol
+461,51266,15539,Platelet Smear
+462,51164,209,CD19
+463,50802,31427,Base Excess
+464,51129,2,Young
+465,50943,2898,Hepatitis C Virus Antibody
+466,51362,2826,"RBC, CSF"
+467,51186,8,CD5 Absolute Count
+468,51147,1079,Bite Cells
+469,50913,305,Cryoglobulin
+470,51223,79,Hemoglobin A2
+471,50934,6,H
+472,51365,16,Atypical Lymphocytes
+473,50860,7,"AFP, Maternal Screen"
+474,50904,10006,"Cholesterol, HDL"
+475,51231,409,Howell-Jolly Bodies
+476,51103,2979,Uhold
+477,51348,47,"Hematocrit, CSF"
+478,51276,254,Quantitative G6PD
+479,50822,25980,"Potassium, Whole Blood"
+480,51495,34,RBC Clumps
+481,51504,3,Tyrosine Crystals
+482,51493,27016,RBC
+483,50981,6264,Salicylate
+484,51355,2840,Monocytes
+485,51022,47,"Glucose, Joint Fluid"
+486,51481,138,Hemosiderin
+487,51472,5,Cholesterol Crystals
+488,51492,29937,Protein
+489,51207,9,Factor VIII Inhibitor
+490,51262,242,Pencil Cells
+491,50900,1381,Carcinoembyronic Antigen (CEA)
+492,51177,66,CD33
+493,50836,705,"Amylase, Ascites"
+494,51480,5,Hematocrit
+495,50974,1883,Prostate Specific Antigen
+496,50992,152,Thyroid Peroxidase Antibodies
+497,51062,50,"Chloride, Stool"
+498,51245,693,"Lymphocytes, Percent"
+499,51211,15,Factor XIII
+500,51093,9589,"Osmolality, Urine"
+501,51052,268,"Creatinine, Pleural"
+502,51461,17,Ammonium Biurate
+503,50862,28059,Albumin
+504,51269,1228,Promyelocytes
+505,51264,454,Platelet Clumps
+506,51357,124,NRBC
+507,51340,195,Kappa
+508,50986,678,tacroFK
+509,51196,2823,D-Dimer
+510,51250,45292,MCV
+511,50925,6649,Folate
+512,51305,78,CD117
+513,51138,429,Anticardiolipin Antibody IgG
+514,50977,6,Quinidine
+515,50905,9445,"Cholesterol, LDL, Calculated"
+516,51491,32433,pH
+517,51018,2784,"Total Protein, CSF"
+518,51364,10,Young
+519,50997,278,Tobramycin
+520,51190,36,CD59
+521,51503,283,Triple Phosphate Crystals
+522,51127,1224,"RBC, Ascites"
+523,51310,72,CD15
+524,51251,19338,Metamyelocytes
+525,51296,4357,Teardrop Cells
+526,50950,1878,Immunoglobulin G
+527,51430,13,Metamyelocytes
+528,51060,184,"Triglycerides, Pleural"
+529,51096,29,Porphobilinogen Screen
+530,51446,1826,Lymphocytes
+531,50915,849,D-Dimer
+532,51401,8,CD22
+533,51328,68,CD56
+534,51469,1155,Calcium Oxalate Crystals
+535,51386,107,Bands
+536,51142,16,Arachadonic Acid
+537,51061,38,"Bicarbonate, Stool"
+538,51134,1803,Acanthocytes
+539,51235,149,Inhibitor Screen
+540,51317,131,CD23
+541,51313,213,CD19
+542,50918,194,Double Stranded DNA
+543,51398,498,CD19
+544,51028,216,"Bilirubin, Total, Body Fluid"
+545,51341,195,Lambda
+546,51137,19543,Anisocytosis
+547,51275,37703,PTT
+548,51476,26799,Epithelial Cells
+549,51201,15,Epinepherine
+550,51508,28112,Urine Color
+551,51261,732,Pappenheimer Bodies
+552,51191,54,CD64
+553,51501,4052,Transitional Epithelial Cells
+554,51118,882,Mesothelial Cell
+555,51322,9,CD38
+556,50872,674,Anti-Neutrophil Cytoplasmic Antibody
+557,50844,10,"Lipase, Ascites"
+558,51101,126,Total Collection Time
+559,50857,941,Acetone
+560,50970,37913,Phosphate
+561,50907,10480,"Cholesterol, Total"
+562,50980,747,Rheumatoid Factor
+563,51241,56,Leukocyte Alkaline Phosphatase
+564,51043,456,"Total Protein, Body Fluid"
+565,51254,37761,Monocytes
+566,51116,1247,Lymphocytes
+567,51195,15,Collagen
+568,51012,3,"Bilirubin, Total, CSF"
+569,50891,953,C4
+570,51378,1,Metamyelocytes
+571,51395,20,CD15
+572,50982,10,Sex Hormone Binding Globulin
+573,51505,897,Uric Acid Crystals
+574,51151,5837,Burr Cells
+575,51485,2,Leucine Crystals
+576,50911,22980,"Creatine Kinase, MB Isoenzyme"
+577,50972,57,Procainamide
+578,50817,20485,Oxygen Saturation
+579,51279,45292,Red Blood Cells
+580,51424,438,Immunophenotyping
+581,51206,243,Factor VIII
+582,51057,9,"Potassium, Pleural"
+583,50811,21698,Hemoglobin
+584,51423,285,HLA-DR
+585,50979,11649,Red Top Hold
+586,51150,280,Blood Parasite Smear
+587,51108,846,Urine Volume
+588,51024,28,"Total Protein, Joint Fluid"
+589,51136,4,Alpha Antiplasmin
+590,50993,14168,Thyroid Stimulating Hormone
+591,51418,59,CD8
+592,50859,12,"Acid Phosphatase, Non-Prostatic"
+593,51170,1,CD20 Absolute Count
+594,50866,2164,Ammonia
+595,51080,125,Creatinine Clearance
+596,50941,2912,Hepatitis B Surface Antigen
+597,51038,42,"Miscellaneous, Body Fluid"
+598,50940,2828,Hepatitis B Surface Antibody
+599,51111,109,Bands
+600,51253,4,Monocyte Count
+601,51285,6,"Reticulocyte, Cellular Hemoglobin"
+602,51440,150,Atypical Lymphocytes
+603,51388,321,CD10
+604,51167,143,CD2
+605,50971,41210,Potassium
+606,50849,922,"Total Protein, Ascites"
+607,51083,18,"Ethanol, Urine"
+608,50875,16,Anti-Parietal Cell Antibody
+609,51532,2,PLASMGN
+610,51367,10,Basophils
+611,51397,31,CD16/56
+612,51288,4468,Sedimentation Rate
+613,51351,2840,Lymphs
+614,50898,145,Cancer Antigen 27.29
+615,50805,1822,Carboxyhemoglobin
+616,51431,1530,Monos
+617,51243,493,Lupus Anticoagulant
+618,51432,6,Myelocytes
+619,51352,869,Macrophage
+620,51198,377,Envelope Cells
+621,51382,468,Polys
+622,50841,356,"Creatinine, Ascites"
+623,51389,3,CD103
+624,50962,57,N-Acetylprocainamide (NAPA)
+625,51014,2746,"Glucose, CSF"
+626,50976,6710,"Protein, Total"
+627,51026,582,"Amylase, Body Fluid"
+628,51153,7,CD103
+629,51419,516,Eosinophils
+630,50814,1703,Methemoglobin
+631,51160,48,CD16/56
+632,51374,178,"Joint Crystals, Shape"
+633,50961,35,Methotrexate
+634,50812,20765,Intubated
+635,51274,37793,PT
+636,51346,10,Blasts
+637,50885,35677,"Bilirubin, Total"
+638,50951,1580,Immunoglobulin M
+639,51030,49,"Chloride, Body Fluid"
+640,51008,620,Valproic Acid
+641,51217,54,Glyco A
+642,50850,84,"Triglycerides, Ascites"
+643,51148,400,Blasts
+644,51464,27784,Bilirubin
+645,51498,32349,Specific Gravity
+646,51450,1826,Monos
+647,50975,2101,Protein Electrophoresis
+648,50808,24928,Free Calcium
+649,51338,234,Immunophenotyping
+650,51451,9,Myelocytes
+651,51530,1,AF-AFP
+652,51514,28765,Urobilinogen
+653,51059,1785,"Total Protein, Pleural"
+654,51320,80,CD33
+655,50823,9402,Required O2
+656,51415,18,CD64
+657,51369,75,"Hematocrit, Joint Fluid"
+658,51358,233,Other
+659,51417,11,CD71
+660,51483,1,Hyphenated Yeast
+661,50944,1425,HIV Antibody
+662,50952,10542,Iron
+663,50945,677,Homocysteine
+664,51434,490,Other Cell
+665,51290,25,Sickle Cell Preparation
+666,51454,81,Plasma Cells
+667,50927,1666,Gamma Glutamyltransferase
+668,51390,24,CD117
+669,50845,7,"Miscellaneous, Ascites"
+670,51377,24,Mesothelial Cells
+671,51017,169,"PEP, CSF"
+672,50838,509,"Bilirubin, Total, Ascites"
+673,51267,19262,Poikilocytosis
+674,51471,142,Cellular Cast
+675,51049,72,"Bilirubin, Total, Pleural"
+676,51162,6,CD16/56 Absolute Count
+677,51166,1,CD19 Absolute Count
+678,51203,38,Factor IX
+679,51484,28809,Ketone
+680,51047,610,"Amylase, Pleural"
+681,51521,7,"ACID PHOSPHATASE, PROSTATIC"
+682,51082,12916,"Creatinine, Urine"
+683,51475,4,Epithelial Casts
+684,51205,58,Factor VII
+685,51459,1,Young Cells
+686,50878,30124,Asparate Aminotransferase (AST)
+687,51244,37761,Lymphocytes
+688,50837,31,"Bicarbonate, Ascites"
+689,51213,2676,Fibrin Degradation Products
+690,51494,50,RBC Casts
+691,51144,23119,Bands
+692,51283,6475,"Reticulocyte Count, Automated"
+693,50831,1130,pH
+694,51001,1512,Triiodothyronine (T3)
+695,50876,365,Anti-Smooth Muscle Antibody
+696,51072,49,"Amylase, Urine"
+697,51123,326,Other
+698,50804,31427,Calculated Total CO2
+699,50858,12,Acid Phosphatase
+700,51246,19641,Macrocytes
+701,51094,838,pH
+702,51087,16278,Length of Urine Collection
+703,51051,277,"Cholesterol, Pleural"
+704,51149,49,Bleeding Time
+705,51336,59,Glyco A
+706,50887,11198,Blue Top Hold
+707,51409,7,CD4/CD8 Ratio
+708,51139,429,Anticardiolipin Antibody IgM
+709,51510,154,"Urine Crystals, Other"
+710,51214,15688,"Fibrinogen, Functional"
+711,51141,2,APT Test
+712,51117,928,Macrophage
+713,51324,62,CD41
+714,50870,15,"Anti-Gliadin Antibody, IgA"
+715,51200,37760,Eosinophils
+716,51497,1838,Renal Epithelial Cells
+717,51145,2259,Basophilic Stippling
+718,51455,1826,Polys
+719,51015,470,"Lactate Dehydrogenase, CSF"
+720,50928,78,Gastrin
+721,50888,6,Blue Top Hold Frozen
+722,51410,11,CD41
+723,51016,39,"Miscellaneous, CSF"
+724,51089,193,Marijuana
+725,51447,1188,Macrophages
