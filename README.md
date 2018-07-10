@@ -17,4 +17,4 @@ https://mimic.physionet.org/
 
 To properly run the project from the included files, a local postgres SQL server must be installed and the MIMIC-III database must be set up as described in https://github.com/MIT-LCP/mimic-code/tree/master/buildmimic.
 
-An SQL materialized view was extracted from the database as defined in [feature_preprocessing.ipynb](data/feature_preprocessing.ipynb).
+The data set for prediction was extracted from the database as defined in [feature_preprocessing.ipynb](data/feature_preprocessing.ipynb).
