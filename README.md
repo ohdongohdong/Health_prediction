@@ -1,6 +1,6 @@
 # Health_prediction
 
-***Currently, only the 2017 code and results are uploaded.***
+***Currently, only the 2017 code and results are uploaded (old_code and old_data).***
 
 
 This project is that predict next health data using electronic medica record
