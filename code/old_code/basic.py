@@ -3,6 +3,8 @@ Created on Fri Nov 3 16:07 2017
 
 Prediction health values of next years using RNN
 
+only using train data
+
 @author: Donghoon
 """
 import numpy as np

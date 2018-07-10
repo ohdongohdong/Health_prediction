@@ -27,9 +27,9 @@ import time
 import csv
 
 from data_processing import *
-from ensemble_m1 import LSTM_Model
-from ensemble_m2 import LSTM_Model2
-from ensemble_final import Pred_Model
+from model/ensemble_m1 import LSTM_Model
+from model/ensemble_m2 import LSTM_Model2
+from model/ensemble_final import Pred_Model
 
 # load data
 data, tag = LoadData()
