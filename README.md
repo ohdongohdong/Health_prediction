@@ -1,7 +1,6 @@
 # Health_prediction
 
-***Currently, only the 2017 code and results are uploaded (old_code and old_data).***
-
+***The 2017 code and results are uploaded (in old_code and old_data).***
 
 This project is that predict next health data using electronic medica record
 Discription can be found in [health_prediction_poster.pdf](health_prediction_poster.pdf) and [health_prediction_abstract.pdf](health_prediction_abstract.pdf).
