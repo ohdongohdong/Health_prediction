@@ -34,6 +34,7 @@ def csv2npy(data_select):
 #
 #target feature : input feature without age, gender
 #
+#
 #input : [time_step, dim_input_feature]
 #target : [dim_target_feature]
 
