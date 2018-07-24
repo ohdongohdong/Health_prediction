@@ -14,63 +14,110 @@ import tensorflow as tf
 
 import time
 
-def lstm_cell(i,config):
-    cell = tf.contrib.rnn.BasicLSTMCell(config.num_hidden, state_is_tuple=True)
+def rnn_cell(args):
+    if args.model == 'A':
+        cell = tf.contrib.rnn.BasicLSTMCell(args.hidden_size, state_is_tuple=True)
+    elif args.model == 'B':
+        cell = tf.contrib.rnn.BasicRNNCell(args.hidden_size)
+    elif args.model == 'C':
+        cell = tf.contrib.rnn.UGRNNCell(args.hidden_size)
+    else:
+        raise TypeError('model should be A, B or C.')
     return cell
 
+def build_BRNN(args, input, seq_len):
+    
+    output = input
+    for i in range(args.num_layer):
+        scope = 'BLSTM_' + str(i+1)
+        fw_cell = rnn_cell(args)
+        bw_cell = rnn_cell(args)
+
+        _initial_state_fw = fw_cell.zero_state(args.batch_size, tf.float32)
+        _initial_state_bw = bw_cell.zero_state(args.batch_size, tf.float32)
+
+        # tensor = [batch_size, time_step, input_feature]
+        outputs, output_states =\
+                        tf.nn.bidirectional_dynamic_rnn(fw_cell, bw_cell,
+                                                        inputs=output,
+                                                        sequence_length=seq_len,
+                                                        initial_state_fw = _initial_state_fw,
+                                                        initial_state_bw = _initial_state_bw,
+                                                        scope=scope)
+        
+        output_fw, output_bw = outputs 
+
+        if i == args.num_layer-1:
+            output_fw = tf.transpose(output_fw, [1,0,2])
+            output_bw = tf.transpose(output_bw, [1,0,2])
+            output = tf.concat([output_fw[-1], output_bw[-1]], axis=1)
+        else:
+            output = tf.concat([output_fw, output_bw], 2)
+    
+    return output        
+
+def fc_bn(args, inputs, dim_targets):
+
+    if args.mode == 'train':
+        is_training = True
+    elif args.mode == 'test':
+        is_training = False
+    else:
+        raise TypeError('model should be train or test')
+
+    bn = tf.contrib.layers.batch_norm(inputs, is_training=is_training)
+    fc = tf.contrib.layers.fully_connected(bn, dim_targets,
+                    activation_fn=None)
+    return fc
+    
 # LSTM model
-class LSTM_Model():
+class Model():
 
-    def __init__(self, sess, name, config):
-        self.sess = sess
-        self.name = name
-        self._build_net(config)
+    def __init__(self, args, num_steps, dim_inputs, dim_targets):
+        self.args = args
+        self.num_steps = num_steps
+        self.dim_inputs = dim_inputs
+        self.dim_targets = dim_targets
+        self.build_graph(args, num_steps, dim_inputs, dim_targets)
 
-    def _build_net(self, config):
-        # for variables of each models
-        with tf.variable_scope(self.name):
-            self.training = tf.placeholder(tf.bool)
-
-            # input and target place holders
-            self.X = tf.placeholder(tf.float32, 
-                [None, config.num_steps, config.dim_inputs])
-            self.Y = tf.placeholder(tf.float32, 
-                [None, config.dim_targets])
+    def build_graph(self, args, num_steps, dim_inputs, dim_targets):
+        self.graph = tf.Graph()
+        with self.graph.as_default():
             
-            shape = tf.shape(self.X)
-            batch_s, seq_length = shape[0], shape[1]
+            # input = [batch, num_steps, dim_inputs]
+            self.inputs = tf.placeholder(tf.float32,
+                            shape=(args.batch_size, num_steps, dim_inputs))
+           
+            # target = [batch, dim_targets]
+            self.targets = tf.placeholder(tf.float32,
+                                shape=(args.batch_size, dim_targets))
+            self.seq_len = tf.placeholder(tf.int32, shape=(args.batch_size))
+ 
+            self.config = {'num_layer': args.num_layer,
+                            'hidden_size': args.hidden_size,
+                            'learning_rate': args.learning_rate,
+                            'keep_prob': args.keep_prob}
+ 
+            self.outputs = build_BRNN(self.args, self.inputs, self.seq_len)
+
+            self.predict = fc_bn(self.args, self.outputs, dim_targets)
             
-            fw_stack_cell = tf.contrib.rnn.MultiRNNCell(
-                            [lstm_cell(i, config) for i in range(config.num_layers)])
+#            weight = tf.Variable(tf.truncated_normal([args.hidden_size*2, dim_targets]))
+#            bias = tf.Variable(tf.constant(0.1, shape=[dim_targets]))
+#            self.predict = tf.matmul(self.outputs, weight) + bias 
+
+            self.loss = tf.reduce_mean(tf.square(self.predict- self.targets))
+            self.optimizer = tf.train.AdamOptimizer(args.learning_rate).minimize(self.loss)
+
+            self.rmse = tf.sqrt(tf.reduce_mean(tf.square(self.predict - self.targets)))
+          
+            # for counting parameters of model
+            self.var_op = tf.global_variables()
+            self.var_trainable_op = tf.trainable_variables()
             
-            bw_stack_cell = tf.contrib.rnn.MultiRNNCell(
-                            [lstm_cell(i, config) for i in range(config.num_layers)])
-
-
-            outputs, self.states = tf.nn.bidirectional_dynamic_rnn(fw_stack_cell, bw_stack_cell, self.X, dtype=tf.float32)
-            self.outputs = tf.concat(outputs, 2)
-
-            self.Y_pred = tf.contrib.layers.fully_connected(self.outputs[:, -1], config.dim_targets,
-                            activation_fn=None)
-
-        self.loss = tf.reduce_mean(tf.square(self.Y_pred - self.Y))
-        optimizer = tf.train.AdamOptimizer(config.learning_rate)
-        self.train = optimizer.minimize(self.loss)
-
-        self.rmse = tf.sqrt(tf.reduce_mean(tf.square(self.Y_pred - self.Y)))
-
-    def output_state(self, feed):
-        feed_dict = {self.X: feed[0], self.Y: feed[1]}
-        return self.sess.run(self.states, feed_dict=feed_dict)
-
-    def predict(self, feed):
-        feed_dict = {self.X: feed[0]}
-        return self.sess.run(self.Y_pred, feed_dict=feed_dict)
-
-    def all_rmse(self, feed):
-        feed_dict = {self.X: feed[0], self.Y: feed[1]}
-        return self.sess.run([self.rmse], feed_dict=feed_dict)
-
-    def learning(self, feed):
-        feed_dict = {self.X: feed[0], self.Y: feed[1]}
-        return self.sess.run([self.loss, self.train, self.rmse], feed_dict=feed_dict)
+            # initialization
+            self.initial_op = tf.global_variables_initializer()
+            
+            # save variables of model
+            self.saver = tf.train.Saver(tf.global_variables())
+             

@@ -62,6 +62,7 @@ def csv2npy(data_select):
     print('shape input : {}'.format(input_set.shape))
     print('shape target : {}'.format(target_set.shape))
 
+    # make npy type data sets
     np.save(os.path.join(data_dir,(data_select+'_input')), input_set)
     np.save(os.path.join(data_dir,(data_select+'_target')), target_set)
  
@@ -105,23 +106,53 @@ def padding(data_set):
     return pad_data_set, seq_len
 
 # split train and test set
-def split_data(input_set, target_set, seq_len):
+# split train set to each of models train set
+def split_data(input_set, target_set, seq_len, model):
 
     print('split train and test set')
     input_train, input_test, target_train, target_test, seq_train, seq_test = train_test_split(
-            input_set, target_set, seq_len, test_size=0.2, random_state=42)
-
+            input_set, target_set, seq_len, test_size=0.1, random_state=42)
+    
     print('shape of input train : {}'.format(input_train.shape))
     print('shape of target train : {}'.format(target_train.shape))
     print('shape of input test : {}'.format(input_test.shape))
     print('shape of target test : {}'.format(target_test.shape))
 
+    if not model == 'ensemble':
+
+        # num of models of hospital : 3
+        split_flag = int(len(input_train)/3)
+        print(split_flag)
+
+        if model=='A':
+            input_train = input_train[:split_flag]
+            target_train = target_train[:split_flag]
+            seq_train = seq_train[:split_flag]
+
+        elif model=='B':
+            input_train = input_train[split_flag:split_flag*2]
+            target_train = target_train[split_flag:split_flag*2]
+            seq_train = seq_train[split_flag:split_flag*2]
+
+        elif model=='C':
+            input_train = input_train[split_flag*2:]
+            target_train = target_train[split_flag*2:]
+            seq_train = seq_train[split_flag*2:]
+     
+        # make npy type data sets
+        #np.save(os.path.join(data_dir,(data_select+'_input')), input_set)
+        #np.save(os.path.join(data_dir,(data_select+'_target')), target_set)
+        
+        print('model data set') 
+        print('shape of input train : {}'.format(input_train.shape))
+        print('shape of target train : {}'.format(target_train.shape))
+    
     return input_train, input_test, target_train, target_test, seq_train, seq_test
 
 '''
-#csv2npy('fill')
+csv2npy('fill')
 input_set, target_set = read_data('fill')
 pad_input_set, seq_len = padding(input_set)
 
-input_train, input_test, target_train, target_test, seq_train, seq_test = split_data(pad_input_set, target_set, seq_len)
+input_train, input_test, target_train, target_test, seq_train, seq_test = split_data(pad_input_set, target_set, seq_len,'A')
 '''
