@@ -71,7 +71,7 @@ def fc_bn(args, inputs, dim_targets):
     return fc
     
 # LSTM model
-class Model():
+class TSL_model():
 
     def __init__(self, args, num_steps, dim_inputs, dim_targets):
         self.args = args
@@ -102,10 +102,6 @@ class Model():
 
             self.predict = fc_bn(self.args, self.outputs, dim_targets)
             
-#            weight = tf.Variable(tf.truncated_normal([args.hidden_size*2, dim_targets]))
-#            bias = tf.Variable(tf.constant(0.1, shape=[dim_targets]))
-#            self.predict = tf.matmul(self.outputs, weight) + bias 
-
             self.loss = tf.reduce_mean(tf.square(self.predict- self.targets))
             self.optimizer = tf.train.AdamOptimizer(args.learning_rate).minimize(self.loss)
 

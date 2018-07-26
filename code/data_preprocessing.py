@@ -143,9 +143,6 @@ def split_data(input_set, target_set, seq_len, model):
         #np.save(os.path.join(data_dir,(data_select+'_input')), input_set)
         #np.save(os.path.join(data_dir,(data_select+'_target')), target_set)
         
-        print('model data set') 
-        print('shape of input train : {}'.format(input_train.shape))
-        print('shape of target train : {}'.format(target_train.shape))
     
     return input_train, input_test, target_train, target_test, seq_train, seq_test
 
