@@ -24,6 +24,7 @@ from data_preprocessing import read_data, padding, split_data
 from utils import *
 from model.tsl import TSL_model
 from model.mel_hierarchy import MEL_hierarchical_model
+from model.mel_retain import MEL_retain_model
 
 # flags
 from tensorflow.python.platform import flags
@@ -243,8 +244,7 @@ class Runner(object):
                             model.inputs_C:batch_inputs_C,
                             model.targets:batch_targets}
 
-                    fa, ha, l, p, t = sess.run([model.fa, model.hosp_attention,
-                                        model.loss,
+                    l, p, t = sess.run([model.loss,
                                         model.predict,model.targets],
                                         feed_dict=feed)
                     batch_loss[b] = l
@@ -330,8 +330,11 @@ class Runner(object):
 
         # step 3
         # load MEL model
-        args.model = model 
-        mel_model = MEL_hierarchical_model(args, dim_feature)
+        args.model = model
+        if model == 'hierarchy':
+            mel_model = MEL_hierarchical_model(args, dim_feature)
+        elif model == 'retain':
+            mel_model = MEL_retain_model(args, dim_feature)
 
         # count the num of parameters
         num_params = count_params(mel_model, mode='trainable')
