@@ -29,21 +29,34 @@ import time
 
 # network
 def feature_net(args, inputs, dim_feature):
-     
-    bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-    fc = tf.contrib.layers.fully_connected(bn, dim_feature,
-                    activation_fn=None)
+    
+    for i in range(args.num_layer):
+        bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
+        if i == args.num_layer-1:  
+            fc = tf.contrib.layers.fully_connected(bn, dim_feature,
+                            activation_fn=None)
+        else:
+            fc = tf.contrib.layers.fully_connected(bn, args.hidden_size,
+                            activation_fn=None)
+            inputs = tf.nn.dropout(fc, args.keep_prob)
 
     # feature attention vector = [batch, dim_feature]
     feat_attention = tf.nn.softmax(fc) 
     return feat_attention
 
 def hospital_net(args, inputs, num_tsl, dim_feature):
-    
-    # hospital attention vector = [batch, num_tsl]
-    bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-    fc = tf.contrib.layers.fully_connected(bn, num_tsl,
-                    activation_fn=None)
+     
+    for i in range(args.num_layer): 
+        # hospital attention vector = [batch, num_tsl]
+        bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
+        if i == args.num_layer-1: 
+            fc = tf.contrib.layers.fully_connected(bn, num_tsl,
+                            activation_fn=None)
+            
+        else:
+            fc = tf.contrib.layers.fully_connected(bn, args.hidden_size,
+                            activation_fn=None)
+            inputs = tf.nn.dropout(fc, args.keep_prob)
 
     hosp_attention = tf.nn.softmax(fc) 
     return hosp_attention
@@ -67,13 +80,20 @@ def final_net(args, inputs_A, inputs_B, inputs_C, num_tsl, dim_feature):
     # reshape 3D inputs to 2D
     inputs = tf.reshape(inputs, [args.batch_size, -1])
      
-    bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-    outputs = tf.contrib.layers.fully_connected(bn, dim_feature,
-                    activation_fn=None)
+    for i in range(args.num_layer): 
+        bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
+        if i == args.num_layer-1: 
+            outputs = tf.contrib.layers.fully_connected(bn, dim_feature,
+                            activation_fn=None)
+        else:
+            fc = tf.contrib.layers.fully_connected(bn, args.hidden_size,
+                            activation_fn=None)
+            inputs = tf.nn.dropout(fc, args.keep_prob)
+    
     return outputs
 
 # attention model
-def feat_attention_model(args, inputs_A, inputs_B, inputs_C, dim_feature):
+def feat_attention_model(args, inputs_list, dim_feature):
     '''
     input : predicted feature vector of hospital model
     output : feature attention matrix
@@ -81,11 +101,11 @@ def feat_attention_model(args, inputs_A, inputs_B, inputs_C, dim_feature):
     feedforward network (MLP)
     '''
     # feature attention net
-    beta_A = feature_net(args, inputs_A, dim_feature)
-    beta_B = feature_net(args, inputs_B, dim_feature)
-    beta_C = feature_net(args, inputs_C, dim_feature)
+    beta_list = []
+    for inputs in inputs_list:
+        beta_list.append(feature_net(args, inputs, dim_feature))
 
-    return beta_A, beta_B, beta_C
+    return beta_list
 
 def hosp_attention_model(args, inputs_A, inputs_B, inputs_C, dim_feature):
     '''
@@ -128,7 +148,8 @@ class MEL_hierarchical_model():
     def build_graph(self, args, dim_feature):
         self.graph = tf.Graph()
         with self.graph.as_default():
-           
+            
+            num_tsl=3
             # input by tsl  = [batch, dim_feature]
             self.inputs_A = tf.placeholder(tf.float32,
                             shape=(args.batch_size, dim_feature))
@@ -138,7 +159,7 @@ class MEL_hierarchical_model():
             
             self.inputs_C = tf.placeholder(tf.float32,
                             shape=(args.batch_size, dim_feature))
-            
+         
             # target = [batch, dim_feature]
             self.targets = tf.placeholder(tf.float32,
                                 shape=(args.batch_size, dim_feature))
@@ -156,11 +177,13 @@ class MEL_hierarchical_model():
             # 1. feature attention model
             # feature attention matrix (beta)
             fa_A, fa_B, fa_C = feat_attention_model(self.args,
-                                                self.inputs_A,
+                                                [self.inputs_A,
                                                 self.inputs_B,
-                                                self.inputs_C,
+                                                self.inputs_C],
                                                 dim_feature)
-            
+           
+            self.fa = fa_A
+
             # v' = beta * inputs = [batch, dim_feature]
             feat_inputs_A = tf.multiply(fa_A, self.inputs_A)
             feat_inputs_B = tf.multiply(fa_B, self.inputs_B)
@@ -169,12 +192,12 @@ class MEL_hierarchical_model():
             
             # 2. hospital attention model
             # hospital attention vector (alpha)
-            ha = hosp_attention_model(self.args,
-                                                feat_inputs_A,
+            ha = hosp_attention_model(self.args,feat_inputs_A,
                                                 feat_inputs_B,
                                                 feat_inputs_C,
                                                 dim_feature) 
             
+            self.hosp_attention = ha 
             # v'' = alpha * v'
             hosp_inputs_A = tf.multiply(tf.reshape(ha[:,0], [-1,1]), feat_inputs_A)
             hosp_inputs_B = tf.multiply(tf.reshape(ha[:,1], [-1,1]), feat_inputs_B)

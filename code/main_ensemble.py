@@ -34,6 +34,7 @@ flags.DEFINE_integer('batch_size', 256, 'set the batch size')
 flags.DEFINE_integer('hidden_size', 512, 'set the hidden size of rnn cell')
 flags.DEFINE_integer('epoch', 100, 'set the number of epochs')
 flags.DEFINE_float('learning_rate', 0.001, 'set the learning rate')
+flags.DEFINE_float('keep_prob', 0.5, 'set the dropout ')
 flags.DEFINE_string('log_dir', '../log', 'set the log directory')
 
 FLAGS = flags.FLAGS
@@ -47,8 +48,10 @@ hidden_size = FLAGS.hidden_size
 learning_rate = FLAGS.learning_rate
 if mode == 'test':
     epoch = 1
+    keep_prob = 1.0
 else:
     epoch = FLAGS.epoch
+    keep_prob = FLAGS.keep_prob
 
 # set path of log directory
 log_dir = FLAGS.log_dir
@@ -73,6 +76,7 @@ class Runner(object):
                 'batch_size': batch_size,
                 'hidden_size': hidden_size,
                 'learning_rate': learning_rate,
+                'keep_prob': keep_prob
                 }
 
     def load_data(self):
@@ -114,7 +118,7 @@ class Runner(object):
             # load check point
             model.saver.restore(sess, tsl_checkpoint_path)
          
-            print('[load tsl model {}]'.format(args.model))
+            print('\n[load tsl model {}]'.format(args.model))
             print('predicting data')
             for each_epoch in range(epoch):
                 # mini batch 
@@ -145,7 +149,7 @@ class Runner(object):
                 print('prediction shape : {}'.format(prediction.shape))
                 print('target shape : {}'.format(target_list.shape))
    
-        print('finish loadng tsl model {}'.format(args.model))
+        print('finish loadng tsl model {}\n'.format(args.model))
         return prediction, target_list 
 
     # train
@@ -239,7 +243,8 @@ class Runner(object):
                             model.inputs_C:batch_inputs_C,
                             model.targets:batch_targets}
 
-                    l, p, t = sess.run([model.loss,
+                    fa, ha, l, p, t = sess.run([model.fa, model.hosp_attention,
+                                        model.loss,
                                         model.predict,model.targets],
                                         feed_dict=feed)
                     batch_loss[b] = l
@@ -253,7 +258,8 @@ class Runner(object):
                     if b%10 == 0:
                         print('batch: {}/{}, loss={:.4f}, rmse={:.4f}'.format(b+1, batch_epoch, l,r))
                         logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
-                    
+                #print(fa)
+                #print(ha)
                 loss = np.sum(batch_loss)/batch_epoch 
                 rmse = np.asarray(rmse_list).mean(axis=0)
                 rmse_mean = mean_rmse(rmse) 
