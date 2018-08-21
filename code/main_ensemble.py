@@ -20,20 +20,23 @@ import tensorflow as tf
 import time
 import datetime
 
-from data_preprocessing import read_data, padding, split_data
+from data_preprocessing import read_data, padding, split_data, feature_normalization
 from utils import *
 from model.tsl import TSL_model
 from model.mel_hierarchy import MEL_hierarchical_model
 from model.mel_retain import MEL_retain_model
+from model.mel_base import MEL_base_model
+from model.mel_max_attention import MEL_max_attention_model
 
 # flags
 from tensorflow.python.platform import flags
 flags.DEFINE_string('mode', 'train', 'select train or test')
-flags.DEFINE_string('model', 'hierarchy', 'select hospital model hierarchy, retain')
+flags.DEFINE_string('model', 'hierarchy', 'select  model hierarchy, retain, max_attention or baseline, ')
+flags.DEFINE_string('rnn_type', 'bi', 'select uni-directional or bi-directional')
 flags.DEFINE_integer('num_layer', 3, 'set the layers of rnn')
 flags.DEFINE_integer('batch_size', 256, 'set the batch size')
 flags.DEFINE_integer('hidden_size', 512, 'set the hidden size of rnn cell')
-flags.DEFINE_integer('epoch', 100, 'set the number of epochs')
+flags.DEFINE_integer('epoch', 50, 'set the number of epochs')
 flags.DEFINE_float('learning_rate', 0.001, 'set the learning rate')
 flags.DEFINE_float('keep_prob', 0.5, 'set the dropout ')
 flags.DEFINE_string('log_dir', '../log', 'set the log directory')
@@ -43,6 +46,7 @@ FLAGS = flags.FLAGS
 # set arguments
 mode = FLAGS.mode
 model = FLAGS.model
+rnn_type = FLAGS.rnn_type
 num_layer = FLAGS.num_layer
 batch_size = FLAGS.batch_size
 hidden_size = FLAGS.hidden_size
@@ -73,9 +77,11 @@ class Runner(object):
     def _default_configs(self):
         return {'mode' : mode,
                 'model' : model,
+                'rnn_type' : rnn_type,
                 'num_layer' : num_layer,
                 'batch_size': batch_size,
                 'hidden_size': hidden_size,
+                'epoch' : epoch, 
                 'learning_rate': learning_rate,
                 'keep_prob': keep_prob
                 }
@@ -89,11 +95,11 @@ class Runner(object):
         
         # read the data set
         input_set, target_set = read_data('fill')
+        #input_set = feature_normalization(input_set)
         # padding 
         pad_input_set, seq_len = padding(input_set)
        
-        if model == 'hierarchy' or model == 'retain':
-            tsl_model_type = 'ensemble'
+        tsl_model_type = 'ensemble'
 
         # split data set for model
         input_train, input_test, target_train, target_test, seq_train, seq_test = split_data(
@@ -124,6 +130,7 @@ class Runner(object):
             for each_epoch in range(epoch):
                 # mini batch 
                 batch_epoch = int(input_set.shape[0]/batch_size) 
+                nrmse_list = []
                 prediction = []
                 target_list = []
                 for b in range(batch_epoch):
@@ -139,18 +146,25 @@ class Runner(object):
                     p, t = sess.run([model.predict,model.targets],
                                         feed_dict=feed)
 
+                    batch_nrmse = RMSE(p, batch_targets, 'NRMSE')
                     prediction.extend(p)
                     target_list.extend(batch_targets)
                  
+                    nr = mean_rmse(batch_nrmse)
+                    nrmse_list.append(batch_nrmse)
+                    
                     if b%10 == 0:
-                        print('batch data: {}/{}'.format(b+1, batch_epoch))
+                        print('batch: {}/{}, nrmse={:.4f}'.format(b+1, batch_epoch, nr))
                 prediction = np.asarray(prediction)
                 target_list = np.asarray(target_list)
+                nrmse = np.asarray(nrmse_list).mean(axis=0)
         
+                print('normalize rmse : ')
+                print(nrmse)
                 print('prediction shape : {}'.format(prediction.shape))
                 print('target shape : {}'.format(target_list.shape))
    
-        print('finish loadng tsl model {}\n'.format(args.model))
+        print('finish loading tsl model {}\n'.format(args.model))
         return prediction, target_list 
 
     # train
@@ -191,7 +205,7 @@ class Runner(object):
                     r = mean_rmse(batch_rmse)
                     rmse_list.append(batch_rmse)
                     if b%50 == 0:
-                        print('batch: {}/{}, loss={:.4f}, rmse={:.4f}'.format(b+1, batch_epoch, l,r))
+                        print('batch: {}/{}, loss={:.3f}, rmse={:.3f}'.format(b+1, batch_epoch, l,r))
                         logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
                 
                 loss = np.sum(batch_loss)/batch_epoch
@@ -213,15 +227,14 @@ class Runner(object):
 
     def test(self, args, model,
             input_test_A, input_test_B, input_test_C, target_test):
-
         with tf.Session(graph=model.graph, config=get_tf_config()) as sess: 
             # initialization 
             sess.run(model.initial_op)
-            epoch = 1
             
             # load check point
+            print('ensemble cp : {}'.format(checkpoint_path)) 
             model.saver.restore(sess, checkpoint_path)
-         
+                     
             for each_epoch in range(epoch):
                 start = time.time()
                 print('\n[Epoch :{}]\n'.format(each_epoch+1))
@@ -258,8 +271,7 @@ class Runner(object):
                     if b%10 == 0:
                         print('batch: {}/{}, loss={:.4f}, rmse={:.4f}'.format(b+1, batch_epoch, l,r))
                         logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
-                #print(fa)
-                #print(ha)
+                
                 loss = np.sum(batch_loss)/batch_epoch 
                 rmse = np.asarray(rmse_list).mean(axis=0)
                 rmse_mean = mean_rmse(rmse) 
@@ -328,13 +340,23 @@ class Runner(object):
         # data parameters
         dim_feature = target_set.shape[1]
 
+        # data normalization
+        input_A = feature_normalization(input_A)
+        input_B = feature_normalization(input_B)
+        input_C = feature_normalization(input_C)
+        
         # step 3
         # load MEL model
         args.model = model
+        args.num_layer = 1
         if model == 'hierarchy':
             mel_model = MEL_hierarchical_model(args, dim_feature)
         elif model == 'retain':
             mel_model = MEL_retain_model(args, dim_feature)
+        elif model == 'baseline':
+            mel_model = MEL_base_model(args, dim_feature)
+        elif model == 'max_attention':
+            mel_model = MEL_max_attention_model(args, dim_feature)
 
         # count the num of parameters
         num_params = count_params(mel_model, mode='trainable')

@@ -20,34 +20,39 @@ import tensorflow as tf
 import time
 import datetime
 
-from data_preprocessing import read_data, padding, split_data
+from data_preprocessing import read_data, padding, split_data, feature_normalization
 from utils import *
 from model.tsl import TSL_model
+
 
 # flags
 from tensorflow.python.platform import flags
 flags.DEFINE_string('mode', 'train', 'select train or test')
 flags.DEFINE_string('model', 'A', 'select hospital model A, B, C')
+flags.DEFINE_string('rnn_type', 'bi', 'select bi-directional or uni-directional')
 flags.DEFINE_integer('num_layer', 3, 'set the layers of rnn')
 flags.DEFINE_integer('batch_size', 256, 'set the batch size')
 flags.DEFINE_integer('hidden_size', 512, 'set the hidden size of rnn cell')
 flags.DEFINE_integer('epoch', 30, 'set the number of epochs')
 flags.DEFINE_float('learning_rate', 0.001, 'set the learning rate')
 flags.DEFINE_string('log_dir', '../log/tsl', 'set the log directory')
-
+flags.DEFINE_float('keep_prob', 0.5, 'set the dropout')
 FLAGS = flags.FLAGS
 
 # set arguments
 mode = FLAGS.mode
 model = FLAGS.model
+rnn_type = FLAGS.rnn_type
 num_layer = FLAGS.num_layer
 batch_size = FLAGS.batch_size
 hidden_size = FLAGS.hidden_size
 learning_rate = FLAGS.learning_rate
 if mode == 'test':
     epoch = 1
+    keep_prob = 1.0
 else:
     epoch = FLAGS.epoch
+    keep_prob = FLAGS.keep_prob
 
 # set path of log directory
 log_dir = FLAGS.log_dir
@@ -61,16 +66,20 @@ checkpoint_path = os.path.join(save_dir, 'tsl.ckpt')
 logfile = os.path.join(logging_dir, str(datetime.datetime.strftime(datetime.datetime.now(),
     '%Y-%m-%d_%H:%M:%S') + '_'+mode+'_tsl_'+model+'.txt').replace(' ', '').replace('/', ''))
 
+
 # Train
 class Runner(object):
     # set configs
     def _default_configs(self):
         return {'mode' : mode,
                 'model' : model,
+                'rnn_type' : rnn_type,
                 'num_layer' : num_layer,
                 'batch_size': batch_size,
                 'hidden_size': hidden_size,
+                'epoch' : epoch,
                 'learning_rate': learning_rate,
+                'keep_prob' : keep_prob
                 }
 
     def load_data(self):
@@ -82,9 +91,11 @@ class Runner(object):
         
         # read the data set
         input_set, target_set = read_data('fill')
+        input_set = feature_normalization(input_set) 
         # padding 
         pad_input_set, seq_len = padding(input_set)
-        
+      
+        print(pad_input_set[0])
         # split data set for model
         input_train, input_test, target_train, target_test, seq_train, seq_test = split_data(
                                                     pad_input_set, target_set, seq_len, model)
@@ -120,8 +131,8 @@ class Runner(object):
                             model.targets:batch_targets,
                             model.seq_len:batch_seq_len}
 
-                    _, l, r, p = sess.run([model.optimizer,model.loss, model.rmse,
-                                        model.predict],
+                    _, l, r, p, lr = sess.run([model.optimizer,model.loss, model.rmse,
+                                        model.predict, model.learning_rate],
                                         feed_dict=feed)
 
                     batch_loss[b] = l
@@ -129,7 +140,7 @@ class Runner(object):
                     r = mean_rmse(batch_rmse)
                     rmse_list.append(batch_rmse)
                     if b%10 == 0:
-                        print('batch: {}/{}, loss={:.4f}, rmse={:.4f}'.format(b+1, batch_epoch, l,r))
+                        print('batch: {}/{}, loss={:.3f}, rmse={:.3f}, lr={:.6f}'.format(b+1, batch_epoch, l,r, lr))
                         logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
                 
                 loss = np.sum(batch_loss)/batch_epoch

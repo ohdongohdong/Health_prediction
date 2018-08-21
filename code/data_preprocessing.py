@@ -15,6 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import normalize
 
 data_dir = '../data/'
 
@@ -82,6 +83,24 @@ def read_data(data_select):
     print('shape target : {}'.format(target_data_set.shape))
    
     return input_data_set, target_data_set
+
+def feature_normalization(data_set):
+    
+    if len(data_set.shape) == 2:
+        # for ensemble inputs
+        # [num_data, dim_feature]
+        data_set = normalize(data_set, axis=0)
+    
+    else:
+        #for tsl inputs (time series) 
+        # [num_data, time_step, dim_feature]
+        for i in range(len(data_set)):
+            data_set[i] = normalize(data_set[i], axis=0)
+
+    normalized_data_set = data_set
+    print('normalized data set : {}'.format(normalized_data_set.shape))
+    
+    return normalized_data_set
 
 # zero padding and get real sequence length
 def padding(data_set):
