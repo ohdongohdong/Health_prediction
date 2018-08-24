@@ -30,15 +30,9 @@ import time
 # network
 def feature_net(args, inputs, dim_feature):
     
-    for i in range(args.num_layer):
-        bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-        if i == args.num_layer-1:  
-            fc = tf.contrib.layers.fully_connected(bn, dim_feature,
-                            activation_fn=None)
-        else:
-            fc = tf.contrib.layers.fully_connected(bn, args.hidden_size,
-                            activation_fn=None)
-            inputs = tf.nn.dropout(fc, args.keep_prob)
+    bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
+    fc = tf.contrib.layers.fully_connected(bn, dim_feature,
+                        activation_fn=None)
 
     # feature attention vector = [batch, dim_feature]
     feat_attention = tf.nn.softmax(fc) 
@@ -46,17 +40,11 @@ def feature_net(args, inputs, dim_feature):
 
 def hospital_net(args, inputs, num_tsl, dim_feature):
      
-    for i in range(args.num_layer): 
-        # hospital attention vector = [batch, num_tsl]
-        bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-        if i == args.num_layer-1: 
-            fc = tf.contrib.layers.fully_connected(bn, num_tsl,
-                            activation_fn=None)
+    # hospital attention vector = [batch, num_tsl]
+    bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
+    fc = tf.contrib.layers.fully_connected(bn, num_tsl,
+                        activation_fn=None)
             
-        else:
-            fc = tf.contrib.layers.fully_connected(bn, args.hidden_size,
-                            activation_fn=None)
-            inputs = tf.nn.dropout(fc, args.keep_prob)
 
     hosp_attention = tf.nn.softmax(fc) 
     return hosp_attention
@@ -80,15 +68,9 @@ def final_net(args, inputs_A, inputs_B, inputs_C, num_tsl, dim_feature):
     # reshape 3D inputs to 2D
     inputs = tf.reshape(inputs, [args.batch_size, -1])
      
-    for i in range(args.num_layer): 
-        bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-        if i == args.num_layer-1: 
-            outputs = tf.contrib.layers.fully_connected(bn, dim_feature,
-                            activation_fn=None)
-        else:
-            fc = tf.contrib.layers.fully_connected(bn, args.hidden_size,
-                            activation_fn=None)
-            inputs = tf.nn.dropout(fc, args.keep_prob)
+    bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
+    outputs = tf.contrib.layers.fully_connected(bn, dim_feature,
+                        activation_fn=None)
     
     return outputs
 
@@ -152,17 +134,17 @@ class MEL_hierarchical_model():
             num_tsl=3
             # input by tsl  = [batch, dim_feature]
             self.inputs_A = tf.placeholder(tf.float32,
-                            shape=(args.batch_size, dim_feature))
+                            shape=(None, dim_feature))
            
             self.inputs_B = tf.placeholder(tf.float32,
-                            shape=(args.batch_size, dim_feature))
+                            shape=(None, dim_feature))
             
             self.inputs_C = tf.placeholder(tf.float32,
-                            shape=(args.batch_size, dim_feature))
+                            shape=(None, dim_feature))
          
             # target = [batch, dim_feature]
             self.targets = tf.placeholder(tf.float32,
-                                shape=(args.batch_size, dim_feature))
+                                shape=(None, dim_feature))
  
             self.config = {'num_layer': args.num_layer,
                             'hidden_size': args.hidden_size,
@@ -172,7 +154,7 @@ class MEL_hierarchical_model():
             if args.mode == 'train':
                 args.is_training = True
             elif args.mode == 'test':
-                args.is_training = False
+                args.is_training = True
             
             # 1. feature attention model
             # feature attention matrix (beta)

@@ -35,14 +35,14 @@ def input_concat(args, inputs_list, get_2d=False):
     return inputs_concat
 
 # concatenate 
-def concat(inputs, outputs):
-    return tf.concat([inputs, outputs], axis=1)
+def concat(a, b):
+    return tf.concat([a, b], axis=1)
 
 # network
 def attention_net(args, inputs, dim_state):
     
     bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-    fc = tf.contrib.layers.fully_connected(inputs, dim_state,
+    fc = tf.contrib.layers.fully_connected(bn, dim_state,
                         activation_fn=None)
 
     # feature attention vector = [batch, dim_state]

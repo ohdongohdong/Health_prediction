@@ -36,7 +36,7 @@ def input_concat(args, inputs_list, get_2d=False):
 def attention_net(args, inputs, dim_state):
     
     bn = tf.contrib.layers.batch_norm(inputs, is_training=args.is_training)
-    fc = tf.contrib.layers.fully_connected(inputs, dim_state,
+    fc = tf.contrib.layers.fully_connected(bn, dim_state,
                         activation_fn=None)
 
     # feature attention vector = [batch, dim_state]
