@@ -15,28 +15,29 @@
 ###########################
 
 import os
+os.environ["CUDA_VISIBLE_DEVICES"]='1'
 import numpy as np
 import tensorflow as tf
 import time
 import datetime
 
-from data_preprocessing import read_data, padding, split_data, feature_normalization
+from data_preprocessing import read_data, padding, split_data, feature_scaling
 from utils import *
-from model.tsl import TSL_model
+from model.tsl.tsl import TSL_model
 
 
 # flags
 from tensorflow.python.platform import flags
 flags.DEFINE_string('mode', 'train', 'select train or test')
 flags.DEFINE_string('model', 'A', 'select hospital model A, B, C')
-flags.DEFINE_string('rnn_type', 'bi', 'select bi-directional or uni-directional')
+flags.DEFINE_string('rnn_type', 'uni', 'select bi-directional or uni-directional')
 flags.DEFINE_integer('num_layer', 3, 'set the layers of rnn')
 flags.DEFINE_integer('batch_size', 256, 'set the batch size')
 flags.DEFINE_integer('hidden_size', 512, 'set the hidden size of rnn cell')
 flags.DEFINE_integer('epoch', 30, 'set the number of epochs')
 flags.DEFINE_float('learning_rate', 0.001, 'set the learning rate')
 flags.DEFINE_string('log_dir', '../log/tsl', 'set the log directory')
-flags.DEFINE_float('keep_prob', 0.5, 'set the dropout')
+flags.DEFINE_float('keep_prob', 0.8, 'set the dropout')
 FLAGS = flags.FLAGS
 
 # set arguments
@@ -55,7 +56,7 @@ else:
     keep_prob = FLAGS.keep_prob
 
 # set path of log directory
-log_dir = FLAGS.log_dir
+log_dir = os.path.join(FLAGS.log_dir, rnn_type)
 save_dir = os.path.join(log_dir, model,'save')
 result_dir = os.path.join(log_dir, model, 'result')
 logging_dir = os.path.join(log_dir, model, 'logging')
@@ -91,7 +92,7 @@ class Runner(object):
         
         # read the data set
         input_set, target_set = read_data('fill')
-        input_set = feature_normalization(input_set) 
+
         # padding 
         pad_input_set, seq_len = padding(input_set)
       
@@ -131,8 +132,8 @@ class Runner(object):
                             model.targets:batch_targets,
                             model.seq_len:batch_seq_len}
 
-                    _, l, r, p, lr = sess.run([model.optimizer,model.loss, model.rmse,
-                                        model.predict, model.learning_rate],
+                    _, l, r, p = sess.run([model.optimizer,model.loss, model.rmse,
+                                        model.predict],
                                         feed_dict=feed)
 
                     batch_loss[b] = l
@@ -140,7 +141,7 @@ class Runner(object):
                     r = mean_rmse(batch_rmse)
                     rmse_list.append(batch_rmse)
                     if b%10 == 0:
-                        print('batch: {}/{}, loss={:.3f}, rmse={:.3f}, lr={:.6f}'.format(b+1, batch_epoch, l,r, lr))
+                        print('batch: {}/{}, loss={:.3f}, rmse={:.3f}'.format(b+1, batch_epoch, l,r))
                         logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
                 
                 loss = np.sum(batch_loss)/batch_epoch
@@ -156,9 +157,9 @@ class Runner(object):
                 # save model by epoch
                 model.saver.save(sess, checkpoint_path) 
                 print('Prediction : ') 
-                print(p[0])
+                print(p[0:2])
                 print('target : ') 
-                print(batch_targets[0])
+                print(batch_targets[0:2])
 
     def test(self, args, model, input_test, target_test, seq_test):
 
@@ -185,7 +186,6 @@ class Runner(object):
                     
                     batch_inputs, batch_targets, batch_seq_len = next_batch(
                                     batch_size, [input_test, target_test, seq_test])  
-                    
                     feed = {model.inputs:batch_inputs,
                             model.targets:batch_targets,
                             model.seq_len:batch_seq_len}
@@ -200,11 +200,10 @@ class Runner(object):
                     nr = mean_rmse(batch_nrmse)
                     rmse_list.append(batch_rmse)
                     nrmse_list.append(batch_nrmse)
-
                     if b%10 == 0:
                         print('batch: {}/{}, loss={:.4f}, rmse={:.4f}'.format(b+1, batch_epoch, l,r))
                         logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
-                    
+                      
                 loss = np.sum(batch_loss)/batch_epoch 
                 rmse = np.asarray(rmse_list).mean(axis=0)
                 rmse_mean = mean_rmse(rmse) 
@@ -234,9 +233,7 @@ class Runner(object):
                 print(nrmse)
                 # save model by epoch
                 print('Prediction : ') 
-                print(p[0])
                 print('target : ') 
-                print(batch_targets[0])
     # main
     def run(self):
         # set args

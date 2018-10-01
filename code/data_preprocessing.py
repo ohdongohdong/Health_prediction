@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import normalize
+from sklearn.preprocessing import normalize, scale, maxabs_scale, robust_scale,StandardScaler, MaxAbsScaler, MinMaxScaler, RobustScaler
 
 data_dir = '../data/'
 
@@ -38,6 +38,10 @@ def csv2npy(data_select):
 #input : [time_step, dim_input_feature]
 #target : [dim_target_feature]
 
+    input_feat = list(range(2,13))
+    target_feat = list(range(2,13))
+    #print(select_feat)
+
 # select data set 
     if data_select == 'dropna':
         data_path = dropna_data_path
@@ -54,8 +58,8 @@ def csv2npy(data_select):
             print('{}/{}'.format(i, len(os.listdir(data_path))))
         data = np.genfromtxt(os.path.join(data_path,f), delimiter=',', skip_header=1, filling_values=-1)[:,3:]
         if not len(data) > 201: # set max time step
-            input_set.append(data[:-1])
-            target_set.append(data[-1,2:])
+            input_set.append(data[:-1, input_feat])
+            target_set.append(data[-1, target_feat])
 
     input_set = np.asarray(input_set)
     target_set = np.asarray(target_set)
@@ -84,12 +88,14 @@ def read_data(data_select):
    
     return input_data_set, target_data_set
 
-def feature_normalization(data_set):
+def feature_normalize(data_set):
     
     if len(data_set.shape) == 2:
         # for ensemble inputs
         # [num_data, dim_feature]
-        data_set = normalize(data_set, axis=0)
+        #data_set = scale(data_set, axis=0)
+        data_set = normalize(data_set)
+        #data_set = robust_scale(data_set, axis=0)
     
     else:
         #for tsl inputs (time series) 
@@ -101,6 +107,42 @@ def feature_normalization(data_set):
     print('normalized data set : {}'.format(normalized_data_set.shape))
     
     return normalized_data_set
+
+def feature_scaling(data_set):
+    
+    if len(data_set.shape) == 2:
+        # for ensemble inputs
+        # [num_data, dim_feature]
+        #data_set = scale(data_set, axis=0)
+        data_set = maxabs_scale(data_set, axis=0)
+        #data_set = robust_scale(data_set, axis=0)
+    
+    else:
+        #for tsl inputs (time series) 
+        # [num_data, time_step, dim_feature]
+        for i in range(len(data_set)):
+            data_set[i] = maxabs_scale(data_set[i], axis=0)
+
+    normalized_data_set = data_set
+    
+    return normalized_data_set
+
+def feature_scaler(args, data_set, scaler_path):
+
+    # for ensemble inputs
+    # [num_data, dim_feature]
+
+    if args.mode == 'train':
+        scaler = StandardScaler().fit(data_set)
+        #scaler = MaxAbsScaler().fit(data_set)
+        #scaler = MinMaxScaler().fit(data_set) 
+        #scaler = RobustScaler().fit(data_set) 
+        joblib.dump(scaler, scaler_path)
+    elif args.mode == 'test':
+        scaler = joblib.load(scaler_path)
+    
+    scaled_data = scaler.transform(data_set)
+    return scaled_data
 
 # zero padding and get real sequence length
 def padding(data_set):
