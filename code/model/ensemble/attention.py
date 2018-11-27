@@ -18,7 +18,7 @@
 import os
 import numpy as np
 import tensorflow as tf
-from model_utils import *
+from model.ensemble.model_utils import *
 
 import time
 
@@ -62,6 +62,12 @@ class MEL_attention_model():
             self.targets = tf.placeholder(tf.float32,
                                 shape=(args.batch_size, dim_feature))
             
+            #weighted = tf.constant([13, 4, 5, 7, 5, 10, 29, 1, 7, 7, 8])
+            weighted = tf.constant([0.47, 0.13, 0.16, 0.23, 0.19, 0.34, 1.0, 0.04, 0.24, 0.24, 0.29])
+            multiply = tf.constant([args.batch_size])
+            self.loss_weight = tf.reshape(tf.tile(weighted, multiply), [multiply[0], dim_feature])
+            print(self.loss_weight)
+            
             if data_type == 'state':
                 inputs_A = self.state_A
                 inputs_B = self.state_B
@@ -95,6 +101,7 @@ class MEL_attention_model():
             
             # decay learning rate
             self.loss = tf.reduce_mean(tf.square(self.predict- self.targets))
+            #self.loss = tf.losses.mean_squared_error(self.targets, self.predict, weights=self.loss_weight)
             '''
             starter_learning_rate = args.learning_rate
             self.learning_rate = tf.train.exponential_decay(starter_learning_rate, args.epoch,
