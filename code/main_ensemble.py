@@ -15,7 +15,7 @@
 ###########################
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]='1'
+os.environ["CUDA_VISIBLE_DEVICES"]='0'
 
 import numpy as np
 import tensorflow as tf
@@ -23,7 +23,7 @@ import time
 import datetime
 from sklearn.externals import joblib
 
-from data_preprocessing import read_data, padding, split_data, feature_scaling, feature_scaler, feature_normalize
+from data_preprocessing import read_data, padding, split_data, feature_scaler, feature_normalize, feature_logscale
 from utils import *
 from model.tsl.tsl import TSL_model
 from model.ensemble.base import MEL_base_model
@@ -32,7 +32,7 @@ from model.ensemble.attention import MEL_attention_model
 from model.ensemble.concat_base import MEL_concat_base
 from model.ensemble.concat_attstate import MEL_concat_Attstate
 from model.ensemble.concat_attention import MEL_concat_attention
-from model.ensemble.autoencoder import AutoEncoder
+from model.ensemble.hierarchy import MEL_hierarchical_model
 
 # flags
 from tensorflow.python.platform import flags
@@ -73,7 +73,7 @@ else:
 
 # set path of log directory
 log_dir = FLAGS.log_dir
-ensemble_log_dir = os.path.join(log_dir, 'ensemble')
+ensemble_log_dir = os.path.join(log_dir, 'ensemble', 'logscale')
 save_dir = os.path.join(ensemble_log_dir, model,'save')
 result_dir = os.path.join(ensemble_log_dir, model, 'result')
 logging_dir = os.path.join(ensemble_log_dir, model, 'logging')
@@ -186,6 +186,78 @@ class Runner(object):
         print('finish loading tsl model {}\n'.format(args.model))
         return prediction, target_list, state_list 
 
+    # fine-tuning train
+    def fine_tuning(self, args, model,
+                value_train_A, value_train_B, value_train_C,
+                state_train_A, state_train_B, state_train_C,
+                target_train):
+        
+        with tf.Session(graph=model.graph, config=get_tf_config()) as sess:
+            # initialization 
+            sess.run(model.initial_op)
+            
+            # load check point
+            print('ensemble check point : {}'.format(checkpoint_path)) 
+            model.saver.restore(sess, checkpoint_path)
+            
+            for each_epoch in range(epoch):
+                start = time.time()
+                print('\n[Epoch :{}]\n'.format(each_epoch+1))
+                logging(model=model, logfile=logfile, each_epoch=each_epoch, mode='epoch')
+                
+                # mini batch 
+                batch_epoch = int(target_train.shape[0]/batch_size)
+                
+                batch_loss = np.zeros(batch_epoch)
+                rmse_list = []
+                for b in range(batch_epoch):
+                    
+                    batch_value_A, batch_value_B, batch_value_C,\
+                    batch_state_A, batch_state_B, batch_state_C,\
+                    batch_targets = next_batch(batch_size,
+                                           [value_train_A, value_train_B, value_train_C,
+                                            state_train_A, state_train_B, state_train_C,
+                                            target_train])
+
+                    feed = {model.value_A:batch_value_A,
+                            model.value_B:batch_value_B,
+                            model.value_C:batch_value_C,
+                            model.state_A:batch_state_A,
+                            model.state_B:batch_state_B,
+                            model.state_C:batch_state_C,
+                            model.targets:batch_targets}
+
+                    
+                    _, l, r, p = sess.run([model.optimizer,
+                                        model.loss, model.rmse,
+                                        model.predict],
+                                        feed_dict=feed)
+
+                    batch_loss[b] = l
+                    batch_nrmse = RMSE(p, batch_targets, 'NRMSE')
+                    r = mean_rmse(batch_nrmse)
+                    rmse_list.append(batch_nrmse)
+                    if b%50 == 0:
+                        print('batch: {}/{}, loss={:.3f}, rmse={:.3f}'.format(b+1, batch_epoch, l,r))
+                        logging(model, logfile, batch=b, batch_epoch=batch_epoch, loss=l, rmse=r, mode='batch')
+                
+                loss = np.sum(batch_loss)/batch_epoch
+                rmse = np.asarray(rmse_list).mean(axis=0)
+                rmse_mean = mean_rmse(rmse) 
+
+                delta_time = time.time()-start
+                print('\n==> Epoch: {}/{}, loss={:.4f}, rmse={:.4f}, epoch time : {}\n'\
+                                .format(each_epoch+1, epoch, loss, rmse_mean, delta_time))
+                logging(model, logfile, each_epoch, epoch,
+                            loss=loss, rmse=rmse_mean, delta_time=delta_time, mode='train')
+                
+                # save model by epoch
+                model.saver.save(sess, checkpoint_path) 
+                print('Prediction : ') 
+                print(p[0])
+                print('target : ') 
+                print(batch_targets[0])
+    
     # train
     def train(self, args, model,
                 value_train_A, value_train_B, value_train_C,
@@ -224,11 +296,10 @@ class Runner(object):
                             model.targets:batch_targets}
 
                     
-                    _, l, r, p = sess.run([model.optimizer,
+                    _, l, r, p= sess.run([model.optimizer,
                                         model.loss, model.rmse,
                                         model.predict],
                                         feed_dict=feed)
-
                     batch_loss[b] = l
                     batch_nrmse = RMSE(p, batch_targets, 'NRMSE')
                     r = mean_rmse(batch_nrmse)
@@ -365,7 +436,7 @@ class Runner(object):
         print('[model data set]') 
         print('shape of input : {}'.format(input_set.shape))
         print('shape of target : {}'.format(target_set.shape))
-        
+       
         # data parameters
         num_steps = input_set.shape[1]
         dim_inputs = input_set.shape[2]
@@ -391,20 +462,28 @@ class Runner(object):
         dim_state = state_A.shape[1]
         dim_feature = target_set.shape[1]
 
+        # log troponin
+        '''
+        value_A = feature_logscale(value_A, sequence = False)
+        value_B = feature_logscale(value_B, sequence = False)
+        value_C = feature_logscale(value_C, sequence = False)
+        '''
         # ensemble data scaling 
         if scaling == True:
+            
             state_A = feature_scaler(args, state_A, 
                                     os.path.join(save_dir, 'scaler_state_A.save')) 
             state_B = feature_scaler(args, state_B, 
                                     os.path.join(save_dir, 'scaler_state_B.save'))
             state_C = feature_scaler(args, state_C, 
                                     os.path.join(save_dir, 'scaler_state_C.save'))
-            value_A = feature_scaler(args, vale_A, 
+            value_A = feature_scaler(args,value_A, 
                                     os.path.join(save_dir, 'scaler_value_A.save')) 
-            value_B = feature_scaler(args, value_B, 
+            value_B = feature_scaler(args,value_B, 
                                     os.path.join(save_dir, 'scaler_value_B.save'))
-            value_C = feature_scaler(args, value_C, 
+            value_C = feature_scaler(args,value_C, 
                                     os.path.join(save_dir, 'scaler_value_C.save'))  
+        
         # step 3
         # load MEL model
         args.model = model
@@ -424,6 +503,8 @@ class Runner(object):
             mel_model = MEL_concat_attention(args, dim_feature, dim_state)
         elif model == 'autoencoder':
             mel_model = AutoEncoder(args, dim_feature, dim_state, data_type)
+        elif model == 'hierarchy':
+            mel_model = MEL_hierarchical_model(args, dim_feature, dim_state, data_type)
 
         # count the num of parameters
         num_params = count_params(mel_model, mode='trainable')

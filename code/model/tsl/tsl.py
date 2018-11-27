@@ -82,9 +82,11 @@ def build_RNN(args, inputs, seq_len):
         
         outputs = tf.transpose(outputs, [1,0,2])
         outputs = outputs[-1]
-            
+           
         if args.model=='A':
-            output_states = output_states[0]
+            output_states = output_states[-1][0]
+        else:
+            output_states = output_states[-1]
     
     return outputs, output_states 
 

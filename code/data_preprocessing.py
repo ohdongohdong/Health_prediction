@@ -13,6 +13,8 @@ by Donghoon Oh
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+import math
+import joblib
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import normalize, scale, maxabs_scale, robust_scale,StandardScaler, MaxAbsScaler, MinMaxScaler, RobustScaler
@@ -38,7 +40,7 @@ def csv2npy(data_select):
 #input : [time_step, dim_input_feature]
 #target : [dim_target_feature]
 
-    input_feat = list(range(2,13))
+    input_feat = list(range(0,12))
     target_feat = list(range(2,13))
     #print(select_feat)
 
@@ -58,8 +60,16 @@ def csv2npy(data_select):
             print('{}/{}'.format(i, len(os.listdir(data_path))))
         data = np.genfromtxt(os.path.join(data_path,f), delimiter=',', skip_header=1, filling_values=-1)[:,3:]
         if not len(data) > 201: # set max time step
-            input_set.append(data[:-1, input_feat])
-            target_set.append(data[-1, target_feat])
+            for x in range(len(data)):
+                for y in range(len(data[0])): 
+                    if data[x, y] <= 0.0:
+                        if y == 9:
+                            print(data[x])
+                            data[x,y] = 36.946
+                        else:
+                            data[x,y] = data[x-1, y]
+            input_set.append(data[:-1, :])
+            target_set.append(data[-1, 2:])
 
     input_set = np.asarray(input_set)
     target_set = np.asarray(target_set)
@@ -82,11 +92,36 @@ def read_data(data_select):
 
     input_data_set = np.load(input_data_path)
     target_data_set = np.load(target_data_path)
+
+    #input_data_set = feature_logscale(input_data_set)
+    #input_data_set = feature_scaling(input_data_set)
+    #target_data_set = feature_logscale(target_data_set, sequence=False)
     
     print('shape input : {}'.format(input_data_set.shape))
     print('shape target : {}'.format(target_data_set.shape))
    
     return input_data_set, target_data_set
+
+def feature_logscale(data_set, sequence=True):
+    with np.errstate(invalid='raise'):
+    #with np.errstate(divide='raise'):
+        if sequence == True: 
+            log_data_set = [] 
+             
+            for data in data_set:
+                log_data_set.append(np.hstack(\
+                            (data[:,0:8], np.reshape(np.log(data[:,8]),(-1,1)),\
+                                data[:,9:])))
+            log_data_set = np.array(log_data_set) 
+        else:
+            for d in data_set:
+                if d[6] <= 0:
+                    print(d)
+            log_data_set = np.hstack(\
+                        (data_set[:, 0:6], np.reshape(np.log(data_set[:,6]),(-1,1)),\
+                         data_set[:,7:]))
+
+    return log_data_set
 
 def feature_normalize(data_set):
     
@@ -109,23 +144,10 @@ def feature_normalize(data_set):
     return normalized_data_set
 
 def feature_scaling(data_set):
-    
-    if len(data_set.shape) == 2:
-        # for ensemble inputs
-        # [num_data, dim_feature]
-        #data_set = scale(data_set, axis=0)
-        data_set = maxabs_scale(data_set, axis=0)
-        #data_set = robust_scale(data_set, axis=0)
-    
-    else:
-        #for tsl inputs (time series) 
-        # [num_data, time_step, dim_feature]
-        for i in range(len(data_set)):
-            data_set[i] = maxabs_scale(data_set[i], axis=0)
+    for i in range(len(data_set)):
+        data_set[i] = scale(data_set[i], axis=0)
 
-    normalized_data_set = data_set
-    
-    return normalized_data_set
+    return data_set
 
 def feature_scaler(args, data_set, scaler_path):
 
@@ -207,6 +229,7 @@ def split_data(input_set, target_set, seq_len, model):
     
     return input_train, input_test, target_train, target_test, seq_train, seq_test
 
+#csv2npy('fill')
 '''
 csv2npy('fill')
 input_set, target_set = read_data('fill')

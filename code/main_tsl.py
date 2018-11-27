@@ -15,13 +15,13 @@
 ###########################
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]='1'
+os.environ["CUDA_VISIBLE_DEVICES"]='0'
 import numpy as np
 import tensorflow as tf
 import time
 import datetime
 
-from data_preprocessing import read_data, padding, split_data, feature_scaling
+from data_preprocessing import read_data, padding, split_data, feature_scaler
 from utils import *
 from model.tsl.tsl import TSL_model
 
@@ -184,8 +184,10 @@ class Runner(object):
                 nrmse_list = []
                 for b in range(batch_epoch):
                     
-                    batch_inputs, batch_targets, batch_seq_len = next_batch(
-                                    batch_size, [input_test, target_test, seq_test])  
+                    batch_inputs = input_test[b*batch_size : (b+1)*batch_size]
+                    batch_targets = target_test[b*batch_size : (b+1)*batch_size]
+                    batch_seq_len = seq_test[b*batch_size : (b+1)*batch_size]
+                    
                     feed = {model.inputs:batch_inputs,
                             model.targets:batch_targets,
                             model.seq_len:batch_seq_len}
